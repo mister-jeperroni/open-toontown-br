@@ -7,6 +7,7 @@ class ApiConnector:
         self.api_endpoints = {
             "validate_token": "auth/validate-token",
             "login": "auth/login",
+            "signup": "auth/signup",
         }
         if api_url:
             self.api_url = api_url
@@ -30,5 +31,16 @@ class ApiConnector:
             )
             response.raise_for_status()
             return {"success": True, "token": response.json().get("token")}
+        except requests.exceptions.RequestException as e:
+            return {"success": False, "error": str(e)}
+
+    def signup(self, email, username, password):
+        try:
+            response = requests.post(
+                self.api_url + self.api_endpoints["signup"],
+                json={"email": email, "username": username, "password": password},
+            )
+            response.raise_for_status()
+            return {"success": True}
         except requests.exceptions.RequestException as e:
             return {"success": False, "error": str(e)}
