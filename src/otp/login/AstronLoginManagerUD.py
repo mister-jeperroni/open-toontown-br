@@ -792,6 +792,18 @@ class LoadAvatarOperation(AvatarOperation):
         self.loginManager.air.send(datagram)
 
         self.loginManager.air.setOwner(self.avId, channel)
+        
+        friendsList = [friendId for friendId, _ in self.avatar['setFriendsList'][0]]
+        friendsManager = self.loginManager.air.toontownFriendsManager
+        friendsManager.comingOnline(self.avId, friendsList)
+
+        cleanupDatagram = friendsManager.dclass.aiFormatUpdate('goingOffline', friendsManager.doId, friendsManager.doId, self.loginManager.air.ourChannel, [self.avId])
+        datagram = PyDatagram()
+        datagram.addServerHeader(channel, self.loginManager.air.ourChannel, CLIENTAGENT_ADD_POST_REMOVE)
+        datagram.addUint16(cleanupDatagram.getLength())
+        datagram.appendData(cleanupDatagram.getMessage())
+        self.loginManager.air.send(datagram)
+
 
         self._handleDone()
 
@@ -808,6 +820,8 @@ class UnloadAvatarOperation(GameOperation):
 
     def __handleUnloadAvatar(self):
         channel = self.loginManager.GetAccountConnectionChannel(self.sender)
+        
+        self.loginManager.air.toontownFriendsManager.goingOffline(self.avId)
 
         datagram = PyDatagram()
         datagram.addServerHeader(channel, self.loginManager.air.ourChannel, CLIENTAGENT_CLEAR_POST_REMOVES)

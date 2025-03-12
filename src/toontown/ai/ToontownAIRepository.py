@@ -53,6 +53,8 @@ from toontown.toonbase import ToontownGlobals
 from toontown.tutorial.TutorialManagerAI import TutorialManagerAI
 from toontown.uberdog.DistributedInGameNewsMgrAI import DistributedInGameNewsMgrAI
 import os
+from otp.friends import FriendManagerAI
+from toontown.estate.EstateManagerAI import EstateManagerAI
 
 
 class ToontownAIRepository(ToontownInternalRepository):
@@ -100,6 +102,8 @@ class ToontownAIRepository(ToontownInternalRepository):
         self.hoods = []
         self.buildingManagers = {}
         self.suitPlanners = {}
+        self.friendManager = None
+        self.estateMgr = None
 
     def handleConnected(self):
         ToontownInternalRepository.handleConnected(self)
@@ -231,6 +235,20 @@ class ToontownAIRepository(ToontownInternalRepository):
         # Generate our party manager...
         self.partyManager = DistributedPartyManagerAI(self)
         self.partyManager.generateWithRequired(OTP_ZONE_ID_MANAGEMENT)
+        
+                # The Friend Manager
+        self.friendManager = self.generateGlobalObject(
+            OTP_DO_ID_FRIEND_MANAGER, "FriendManager"
+        )
+
+        # Generate our Toontown friends manager...
+        # TODO: Is this Astron specific?
+        self.toontownFriendsManager = self.generateGlobalObject(
+            OTP_DO_ID_TOONTOWN_FRIENDS_MANAGER, "ToontownFriendsManager"
+        )
+
+        self.estateMgr = EstateManagerAI(self)
+        self.estateMgr.generateWithRequired(OTP_ZONE_ID_MANAGEMENT)
 
     def generateHood(self, hoodConstructor, zoneId):
         # Bossbot HQ doesn't use DNA, so we skip over that.
@@ -502,6 +520,30 @@ class ToontownAIRepository(ToontownInternalRepository):
 
     def trueUniqueName(self, idString):
         return self.uniqueName(idString)
+    
+    def makeFriends(self, avatarAId, avatarBId, flags, context):
+        """
+        Requests to make a friendship between avatarA and avatarB with
+        the indicated flags (or upgrade an existing friendship with
+        the indicated flags).  The context is any arbitrary 32-bit
+        integer.  When the friendship is made, or the operation fails,
+        the "makeFriendsReply" event is generated, with two
+        parameters: an integer result code, and the supplied context.
+        """
+        self.toontownFriendsManager.sendMakeFriends(avatarAId, avatarBId, flags, context)
+
+    def requestSecret(self, requesterId):
+        """
+        Requests a "secret" from the friends manager.  This is a
+        unique string that will be associated with the indicated
+        requesterId, for the purposes of authenticating true-life
+        friends.
+        When the secret is ready, a "requestSecretReply" message will
+        be thrown with three parameters: the result code (0 or 1,
+        indicating failure or success), the generated secret, and the
+        requesterId again.
+        """
+        self.toontownFriendsManager.sendRequestSecret(requesterId)
 
     def setupFiles(self):
         if not os.path.exists(self.dataFolder):

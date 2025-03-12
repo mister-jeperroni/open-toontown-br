@@ -310,6 +310,7 @@ from toontown.cogdominium import DistCogdoFlyingGame/AI
 from toontown.cogdominium import DistCogdoCrane/AI
 from toontown.cogdominium import DistCogdoCraneMoneyBag/AI
 from toontown.cogdominium import DistCogdoCraneCog/AI
+from toontown.friends import ToontownFriendsManager/AI/UD
 
 struct GiftItem {
   blob Item;
@@ -3273,4 +3274,25 @@ dclass DistributedTrashcanZeroMgr : DistributedPhaseEventMgr {
 };
 
 dclass DistributedSillyMeterMgr : DistributedPhaseEventMgr {
+};
+
+struct Friend {
+  uint32 doId;
+  string name;
+  blob dnaString;
+  uint32 petId;
+};
+
+dclass ToontownFriendsManager : DistributedObject {
+  getFriendsListRequest() clsend;
+  getFriendsListResponse(bool success, Friend friends[]);
+  friendOnline(uint32 friendId, uint8 commonChatFlags, uint8 whitelistChatFlags);
+  friendOffline(uint32 friendId);
+  goingOffline(uint32 friendId);
+  getAvatarDetailsRequest(uint32 avId) clsend;
+  getAvatarDetailsResponse(blob avatarDetails);
+  makeFriends(uint32, uint32, uint8, uint32);
+  makeFriendsResponse(uint32, uint32, uint8, uint32) airecv;
+  removeFriend(uint32) clsend;
+  requestSecret(uint32);
 };

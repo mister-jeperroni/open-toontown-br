@@ -11,6 +11,14 @@ messagedirector:
     bind: 127.0.0.1:7199
 
 uberdogs:
+    - class: FriendManager
+      id: 4501
+      anonymous: false
+
+    - class: ToontownFriendsManager
+      id: 4707
+      anonymous: false
+
     - class: CentralLogger
       id: 4688
       anonymous: false
