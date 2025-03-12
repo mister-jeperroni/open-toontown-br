@@ -11,5 +11,5 @@ if "%PPYTHON_PATH%"=="" set PPYTHON_PATH=python
 
 set LOGIN_TOKEN=dev
 
-%PPYTHON_PATH% -m toontown.launcher.QuickStartLauncher
+%PPYTHON_PATH% main.py --token %LOGIN_TOKEN%
 pause
