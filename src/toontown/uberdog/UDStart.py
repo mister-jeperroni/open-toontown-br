@@ -10,8 +10,9 @@ parser.add_argument('--stateserver', help='The control channel of this UberDOG\'
 parser.add_argument('--messagedirector-ip',
                     help='The IP address of the Message Director that this UberDOG will connect to.')
 parser.add_argument('--eventlogger-ip', help='The IP address of the Astron Event Logger that this UberDOG will log to.')
-parser.add_argument('config', nargs='*', default=['config/Configrc.prc'],
+parser.add_argument('config', nargs='*', default=['../config/Configrc.prc'],
                     help='PRC file(s) that will be loaded on this UberDOG instance.')
+parser.add_argument('--auth-method', default='JWT', help='The authentication method to use, JWT or NO_AUTH. Default is JWT.')
 args = parser.parse_args()
 
 for prc in args.config:
@@ -28,6 +29,8 @@ if args.messagedirector_ip:
     localConfig += 'air-connect %s\n' % args.messagedirector_ip
 if args.eventlogger_ip:
     localConfig += 'eventlog-host %s\n' % args.eventlogger_ip
+if args.auth_method:
+    localConfig += 'auth-method %s\n' % args.auth_method
 
 loadPrcFileData('UberDOG Args Config', localConfig)
 

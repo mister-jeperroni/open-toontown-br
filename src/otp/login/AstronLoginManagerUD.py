@@ -18,7 +18,7 @@ from direct.distributed.MsgTypes import (
 )
 
 from otp.otpbase import OTPGlobals
-
+from otp.login.JWTAccountDB import JWTAccountDB
 from toontown.makeatoon.NameGenerator import NameGenerator
 from toontown.toon.ToonDNA import ToonDNA
 from toontown.toonbase import TTLocalizer
@@ -859,6 +859,8 @@ class AstronLoginManagerUD(DistributedObjectGlobalUD):
         self.accountDb = None
         self.sender2loginOperation = {}
         self.account2operation = {}
+        self.authMethod = config.GetString('auth-method', 'JWT')
+        self.notify.info('Using %s for authentication.' % self.authMethod)
 
     def announceGenerate(self):
         DistributedObjectGlobalUD.announceGenerate(self)
@@ -868,7 +870,10 @@ class AstronLoginManagerUD(DistributedObjectGlobalUD):
 
         # Instantiate the account database backend.
         # TODO: In the future, add more database interfaces & make this configurable.
-        self.accountDb = DeveloperAccountDB(self)
+        if self.authMethod == 'JWT':
+            self.accountDb = JWTAccountDB(self)
+        else:
+            self.accountDb = DeveloperAccountDB(self)
 
     def closeConnection(self, connectionId, reason='', forOperations=False, isAccount=False):
         if forOperations:

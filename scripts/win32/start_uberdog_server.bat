@@ -12,5 +12,6 @@ if "%PPYTHON_PATH%"=="" set PPYTHON_PATH=python
 %PPYTHON_PATH% -m toontown.uberdog.UDStart --base-channel 1000000 ^
                --max-channels 999999 --stateserver 4002 ^
                --messagedirector-ip 127.0.0.1:7199 ^
-               --eventlogger-ip 127.0.0.1:7197
+               --eventlogger-ip 127.0.0.1:7197 ^
+               --auth-method NO_AUTH 
 pause
