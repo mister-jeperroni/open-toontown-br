@@ -2,14 +2,14 @@ import requests
 
 
 class ApiConnector:
-    def __init__(self, api_url=None):
+    def __init__(self, api_url=''):
         self.api_url = "http://127.0.0.1:3000/api/"
         self.api_endpoints = {
             "validate_token": "auth/validate-token",
             "login": "auth/login",
             "signup": "auth/signup",
         }
-        if api_url:
+        if api_url != '':
             self.api_url = api_url
 
     def validate_token(self, playToken):
