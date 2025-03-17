@@ -1,0 +1,60 @@
+services:
+  mongodb:
+    image: mongo:latest
+    volumes:
+      - mongodb_data:/data/db
+    networks:
+      - toontown-net
+    healthcheck:
+      test: ["CMD", "mongosh", "--eval", "db.adminCommand('ping')"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 30s
+
+  astron:
+    build:
+      context: ../
+      dockerfile: docker/astron/Dockerfile
+    ports:
+      - "7198:7198"
+    depends_on:
+      mongodb:
+        condition: service_healthy
+    volumes:
+      - astron_logs:/opt/astron/logs
+    networks:
+      - toontown-net
+
+  uberdog:
+    build: 
+      context: ../
+      dockerfile: docker/uberdog/Dockerfile
+    depends_on:
+      - astron
+    networks:
+      - toontown-net
+    volumes:
+      - ../src:/opt/toontown/src:ro
+    env_file: ".env"
+
+
+  ai-server:
+    build:
+      context: ../
+      dockerfile: docker/ai-server/Dockerfile
+    depends_on:
+      - uberdog
+    networks:
+      - toontown-net
+    volumes:
+      - ../src:/opt/toontown/src:ro
+    env_file: ".env"
+
+volumes:
+  mongodb_data:
+  astron_logs:
+
+networks:
+  toontown-net:
+    driver: bridge
