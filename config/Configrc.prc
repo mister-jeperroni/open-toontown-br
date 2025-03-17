@@ -20,7 +20,7 @@ default-model-extension .bam
 vfs-case-sensitive 0
 
 # Server Settings
-server-version sv1.0.47.38
+server-version sv1.4.47.34
 server-failover 80 443
 tt-specific-login 1
 # If true, individual TCP packets are not sent immediately, but rather they are collected together and accumulated to be sent periodically as one larger TCP packet.  This cuts down on overhead from the TCP/IP protocol, especially if many small packets need to be sent on the same connection, but it introduces additional latency (since packets must be held before they can be sent).
@@ -31,8 +31,8 @@ want-dev 0
 schellgames-dev 0
 
 # DC Files
-dc-file ../config/toon.dc
-dc-file ../config/otp.dc
+dc-file etc/toon.dc
+dc-file etc/otp.dc
 
 # HTTP/Downloading
 verify-ssl 0
