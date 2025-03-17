@@ -1,5 +1,5 @@
 @echo off
-title Open Toontown - Game Client
+title Toontown_BR QA - Game Client
 cd ..
 cd ..
 cd src
@@ -11,5 +11,5 @@ if "%PPYTHON_PATH%"=="" set PPYTHON_PATH=python
 
 set LOGIN_TOKEN=dev
 
-%PPYTHON_PATH% -m toontown.launcher.QuickStartLauncher
+%PPYTHON_PATH% -m toontown.launcher.StartToontownLauncher
 pause
