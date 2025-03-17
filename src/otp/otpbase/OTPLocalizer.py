@@ -1,6 +1,6 @@
 from panda3d.core import *
 
-language = ConfigVariableString('language', 'english').value
+language = ConfigVariableString('language', 'portuguese').value
 checkLanguage = ConfigVariableBool('check-language', 0).value
 
 def getLanguage():
@@ -14,11 +14,11 @@ else:
     checkLanguage = 1
     _languageModule = 'otp.otpbase.OTPLocalizer_' + language
 print('from ' + _languageModule + ' import *')
-from otp.otpbase.OTPLocalizerEnglish import *
+from otp.otpbase.OTPLocalizer_portuguese import *
 if checkLanguage:
     l = {}
     g = {}
-    englishModule = __import__('otp.otpbase.OTPLocalizerEnglish', g, l)
+    englishModule = __import__('otp.otpbase.OTPLocalizer_portuguese', g, l)
     foreignModule = __import__(_languageModule, g, l)
     for key, val in list(englishModule.__dict__.items()):
         if key not in foreignModule.__dict__:
