@@ -1,5 +1,5 @@
 daemon:
-    name: Open Toontown Astron Cluster
+    name: Toontown_BR QA Astron Cluster
 
 general:
     eventlogger: 0.0.0.0:7197
