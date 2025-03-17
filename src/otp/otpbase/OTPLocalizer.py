@@ -1,6 +1,6 @@
 from panda3d.core import *
 
-language = ConfigVariableString('language', 'english').value
+language = ConfigVariableString('language', 'portuguese').value
 checkLanguage = ConfigVariableBool('check-language', 0).value
 
 def getLanguage():
