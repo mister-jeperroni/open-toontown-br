@@ -115,7 +115,7 @@ grey = TextProperties()
 grey.setTextColor(0.5, 0.5, 0.5, 1)
 TextPropertiesManager.getGlobalPtr().setProperties('cinza', grey)
 ActivateChat = 'O recurso Amigos Secretos permite que um membro converse com outro membro apenas por meio de um c\xc3\xb3digo secreto que deve ser comunicado fora do jogo. O recurso Amigos Secretos n\xc3\xa3o \xc3\xa9 moderado ou supervisionado.\n\nPor favor, escolha uma das op\xc3\xa7\xc3\xb5es do recurso Amigos Secretos de Toontown:\n\n      \x01shadow\x01Sem O recurso Amigos Secretos\x02 - Capacidade para fazer o recurso Amigos Secretos \xc3\xa9 desativado.\n      Isso oferece o mais alto n\xc3\xadvel de controle.\n      \x01shadow\x01O recurso Amigos Secretos restritos\x02 - Requer a senha de pais para fazer\n      cada novo recurso Amigo Secreto.\n\n      \x01shadow\x01O sistema Amigos Secretos irrestritos\x02 - Depois de habilitado com a senha de pais,\n      n\xc3\xa3o \xc3\xa9 necess\xc3\xa1rio fornecer a senha de pais para fazer cada novo\n      o recurso Amigos Secretos . \x01red\x01Esta op\xc3\xa7\xc3\xa3o n\xc3\xa3o \xc3\xa9 recomendada para menores de 13 anos.\x02\n\n\n\n\n\n\nAo ativar o recurso Amigos secretos, voc\xc3\xaa reconhece que, apesar de haver alguns riscos inerentes a ele, voc\xc3\xaa foi informado de todos os riscos mencionados aqui, concordando em aceit\xc3\xa1-los.'
-ActivateChatYes = 'Atualizar       '
+ActivateChatYes = 'Atualizar'
 ActivateChatNo = lCancel
 ActivateChatMoreInfo = 'Mais informa\xc3\xa7\xc3\xb5es'
 ActivateChatPrivacyPolicy = 'Pol\xc3\xadtica de Privacidade'
@@ -1885,27 +1885,27 @@ SpeedChatStaticTextToontown = {100: 'Oi!',
  30359: 'Gosto do bal\xc3\xa3o do Cog coberto de sorvete!',
  30360: 'Gosto do cog ondulado que bate os bra\xc3\xa7os!',
  30361: 'Eu pulei na cara de um Cog!',
- 30400: 'Os Robôs Vendedores est\xc3\xa3o invadindo!',
- 30401: 'O sênior VP estava louco com a Operação: Storm Sellbot ...',
- 30402: 'Ele está enviando os Robôs Vendedores para invadir Toontown!',
- 30403: 'Vamos lutar contra alguns Robôs Vendedores!',
- 30404: 'Há um novo tipo de construção em Toontown!',
- 30405: 'Você viu os escritórios de campo dos Agitadores?',
- 30406: 'O sênior VP os criou como uma recompensa para os Agitadores.',
- 30407: 'Vamos derrotar um Escritório de Campo!',
- 30408: 'Recebi um cart\xc3\xa3o SOS por derrotar um Escritório de Campo!',
+ 30400: 'Os Rob\xc3\xb4s Vendedores est\xc3\xa3o invadindo!',
+ 30401: 'O s\xc3\xaanior VP estava louco com a Opera\xc3\xa7\xc3\xa3o: Tempestade de Rob\xc3\xa4s Vendedores...',
+ 30402: 'Ele est\xc3\xa1 enviando os Rob\xc3\xb4s Vendedores para invadir Toontown!',
+ 30403: 'Vamos lutar contra alguns Rob\xc3\xb4s Vendedores!',
+ 30404: 'H\xc3\xa1 um novo tipo de constru\xc3\xa7\xc3\xa3o em Toontown!',
+ 30405: 'Voc\xc3\xaa viu os escrit\xc3\xb3rios de campo dos Agitadores?',
+ 30406: 'O s\xc3\xaanior VP os criou como uma recompensa para os Agitadores.',
+ 30407: 'Vamos derrotar um Escrit\xc3\xb3rio de Campo!',
+ 30408: 'Recebi um cart\xc3\xa3o SOS por derrotar um Escrit\xc3\xb3rio de Campo!',
  30409: 'Limpe o mapa explorando o labirinto.',
- 30410: 'Destrua os cogs acertando-as com balões de água!',
- 30411: 'Agitadores levam dois balões para destruir.',
+ 30410: 'Destrua os cogs acertando-as com bal\xc3\xb5es de \xc3\xa1gua!',
+ 30411: 'Agitadores levam dois bal\xc3\xb5es para destruir.',
  30412: 'Cuidado com a queda de objetos!',
  30413: 'Cuidado com as cogs!',
  30414: 'Colete piadas para obter um Toonar no final!',
- 30415: 'Quando a sala treme, um Agitador está por perto.',
- 30416: 'Derrote todos os quatros Agitadores para abrir a saída!',
- 30417: 'A saída está aberta!',
- 30418: 'É o chefe!',
- 30450: 'É fácil ser verde!',
- 30451: 'Visite Jeans Feijão Verde e você também pode ser verde!',
+ 30415: 'Quando a sala treme, um Agitador est\xc3\xa1 por perto.',
+ 30416: 'Derrote todos os quatros Agitadores para abrir a sa\xc3\xadda!',
+ 30417: 'A sa\xc3\xadda est\xc3\xa1 aberta!',
+ 30418: '\xc3\x89 o chefe!',
+ 30450: '\xc3\x89 f\xc3\xa1cil ser verde!',
+ 30451: 'Visite Jeans Feij\xc3\xa3o Verde e voc\xc3\xaa tamb\xc3\x89m pode ser verde!',
  30452: 'Fica na Rua dos Carvalhos nos Jardins da Margarida.'}
 SpeedChatStaticTextPirates: {50001: 'Sim',
  50002: 'N\xc3\xa3o',
@@ -2173,6 +2173,7 @@ SpeedChatStaticTextPirates: {50001: 'Sim',
  65000: 'Sim',
  65001: 'N\xc3\xa3o',
  60909: 'Verifique a m\xc3\xa3o'}
+SpeedChatStaticText = SpeedChatStaticTextCommon
 Emotes_Root = 'EMO\xc3\x87\xc3\x95ES'
 Emotes_Dances = 'Dan\xc3\xa7as'
 Emotes_General = 'Geral'
