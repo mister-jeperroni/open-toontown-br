@@ -7,6 +7,7 @@ from direct.distributed.MsgTypes import (
 )
 
 from otp.otpbase import OTPGlobals
+from panda3d.direct import DCPacker
 
 
 class FriendsOperation:
