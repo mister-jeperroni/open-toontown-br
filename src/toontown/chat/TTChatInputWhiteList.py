@@ -5,6 +5,7 @@ from otp.otpbase import OTPGlobals
 import sys
 from direct.gui.DirectGui import *
 from panda3d.core import *
+from panda3d.otp import *
 from otp.otpbase import OTPLocalizer
 from direct.directnotify import DirectNotifyGlobal
 from toontown.toonbase import ToontownGlobals
@@ -112,6 +113,7 @@ class TTChatInputWhiteList(ChatInputWhiteListFrame):
 
         elif not self.receiverId:
             base.talkAssistant.sendOpenTalk(text)
+            base.localAvatar.setChatAbsolute(text, CFSpeech | CFTimeout)
         elif self.receiverId and not self.toPlayer:
             base.talkAssistant.sendWhisperTalk(text, self.receiverId)
         elif self.receiverId and self.toPlayer:
