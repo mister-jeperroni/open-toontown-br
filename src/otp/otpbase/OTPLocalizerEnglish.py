@@ -1,124 +1,124 @@
 import string
-from otp.otpbase.OTPLocalizerEnglishProperty import *
-lTheBrrrgh = 'The Brrrgh'
-lDaisyGardens = 'Daisy Gardens'
-lDonaldsDock = "Donald's Dock"
-lDonaldsDreamland = "Donald's Dreamland"
-lMinniesMelodyland = "Minnie's Melodyland"
-lToontownCentral = 'Toontown Central'
-lGoofySpeedway = 'Goofy Speedway'
-lOutdoorZone = "Chip 'n Dale's Acorn Acres"
-lGolfZone = "Chip 'n Dale's MiniGolf"
-lCancel = 'Cancel'
-lClose = 'Close'
+from otp.otpbase.OTPLocalizer_portuguese_Property import *
+lTheBrrrgh = 'O Brrrgh'
+lDaisyGardens = 'Jardim da Margarida'
+lDonaldsDock = 'Porto do Donald'
+lDonaldsDreamland = 'Sonhol\xc3\xa2ndia do Donald'
+lMinniesMelodyland = 'Melodil\xc3\xa2ndia da Minnie'
+lToontownCentral = 'Centro de Toontown'
+lGoofySpeedway = 'Aut\xc3\xb3dromo do Pateta'
+lOutdoorZone = 'Bosque de Bolotas de Tico e Teco'
+lGolfZone = 'Minigolfe de Tico e Teco'
+lCancel = 'Cancelar'
+lClose = 'Fechar'
 lOK = 'OK'
-lNext = 'Next'
-lNo = 'No'
-lQuit = 'Quit'
-lYes = 'Yes'
+lNext = 'Pr\xc3\xb3ximo'
+lNo = 'N\xc3\xa3o'
+lQuit = 'Sair'
+lYes = 'Sim'
 Cog = 'Cog'
 Cogs = 'Cogs'
 DialogOK = lOK
 DialogCancel = lCancel
 DialogYes = lYes
 DialogNo = lNo
-DialogDoNotShowAgain = 'Do Not\nShow Again'
-WhisperNoLongerFriend = '%s left your friends list.'
-WhisperNowSpecialFriend = '%s is now your True Friend!'
-WhisperComingToVisit = '%s is coming to visit you.'
-WhisperFailedVisit = '%s tried to visit you.'
-WhisperTargetLeftVisit = '%s has gone somewhere else. Try again!'
-WhisperGiveupVisit = "%s couldn't find you because you're moving around!"
-WhisperIgnored = '%s is ignoring you!'
-TeleportGreeting = 'Hi, %s.'
-WhisperFriendComingOnline = '%s is coming online!'
-WhisperFriendLoggedOut = '%s has logged out.'
-WhisperPlayerOnline = '%s logged into %s'
-WhisperPlayerOffline = '%s is offline.'
-WhisperUnavailable = 'That player is no longer available for whispers.'
+DialogDoNotShowAgain = 'N\xc3\xa3o\nExibir de Novo'
+WhisperNoLongerFriend = '%s saiu da sua lista de amigos.'
+WhisperNowSpecialFriend = '%s agora \xc3\xa9 seu amigo secreto!'
+WhisperComingToVisit = '%s est\xc3\xa1 vindo visitar voc\xc3\xaa.'
+WhisperFailedVisit = '%s tentou visitar voc\xc3\xaa.'
+WhisperTargetLeftVisit = '%s foi para algum outro lugar. Tente novamente!'
+WhisperGiveupVisit = '%s n\xc3\xa3o conseguiu encontr\xc3\xa1-lo porque voc\xc3\xaa est\xc3\xa1 se movendo!'
+WhisperIgnored = '%s est\xc3\xa1 ignorando voc\xc3\xaa!'
+TeleportGreeting = 'Oi, %s.'
+WhisperFriendComingOnline = '%s est\xc3\xa1 entrando on-line!'
+WhisperFriendLoggedOut = '%s fez logout.'
+WhisperPlayerOnline = '%s on-line em %s'
+WhisperPlayerOffline = '%s est\xc3\xa1 off-line.'
+WhisperUnavailable = 'Aquele jogador j\xc3\xa1 n\xc3\xa3o est\xc3\xa1 dispon\xc3\xadvel para cochichos.'
 DialogSpecial = 'ooo'
 DialogExclamation = '!'
 DialogQuestion = '?'
-ChatInputNormalSayIt = 'Say It'
+ChatInputNormalSayIt = 'Dizer'
 ChatInputNormalCancel = lCancel
-ChatInputNormalWhisper = 'Whisper'
-ChatInputWhisperLabel = 'To %s'
-SCEmoteNoAccessMsg = 'You do not have access\nto this emotion yet.'
+ChatInputNormalWhisper = 'Cochichar'
+ChatInputWhisperLabel = 'Com %s'
+SCEmoteNoAccessMsg = 'Voc\xc3\xaa n\xc3\xa3o tem acesso\na esta emo\xc3\xa7\xc3\xa3o ainda.'
 SCEmoteNoAccessOK = lOK
-ParentLogin = 'Parent Login'
-ParentPassword = 'Parent Account Password'
-ChatGarblerDefault = ['blah']
+ParentLogin = 'Login de Pais'
+ParentPassword = 'Senha de pais'
+ChatGarblerDefault = ['bl\xc3\xa1']
 ChatManagerChat = 'Chat'
-ChatManagerWhisperTo = 'Whisper to:'
-ChatManagerWhisperToName = 'Whisper To:\n%s'
+ChatManagerWhisperTo = 'Cochichar com:'
+ChatManagerWhisperToName = 'Cochichar com:\n%s'
 ChatManagerCancel = lCancel
-ChatManagerWhisperOffline = '%s is offline.'
-OpenChatWarning = 'To become True Friends with somebody, click on them, and select "True Friends" from the detail panel.\n\nSpeedChat Plus can also be enabled, which allow users to chat by typing words found in the Disney SpeedChat Plus dictionary.\n\nTo activate these features or to learn more, exit Toontown and then click on Membership and select Manage Account.  Log in to edit your "Community Settings."\n\nIf you are under 18, you need a Parent Account to manage these settings.'
+ChatManagerWhisperOffline = '%s est\xc3\xa1 off-line.'
+OpenChatWarning = 'Voc\xc3\xaa ainda n\xc3\xa3o tem nenhum "Secretos"! Voc\xc3\xaa n\xc3\xa3o pode conversar com outros Toons a menos que eles sejam seus Amigos secretos.\n\nPara se tornar Amigo secreto de algu\xc3\xa9m, clique na pessoa e selecione "Segredos" no painel de detalhes. \xc3\x89 claro que voc\xc3\xaa sempre poder\xc3\xa1 conversar com algu\xc3\xa9m pelo Chat r\xc3\xa1pido.'
 OpenChatWarningOK = lOK
-UnpaidChatWarning = 'Once you have subscribed, you can use this button to chat with your friends using the keyboard.  Until then, you should chat with other Toons using SpeedChat.'
-UnpaidChatWarningPay = 'Subscribe'
-UnpaidChatWarningContinue = 'Continue Free Trial'
-PaidNoParentPasswordWarning = 'Use this button to chat with your friends by using the keyboard, enable it through your Account Manager on the Toontown Web site. Until then, you can chat by using SpeedChat.'
-UnpaidNoParentPasswordWarning = 'This is for SpeedChat Plus, which allows users to chat by typing words found in the Disney SpeedChat Plus dictionary. To activate this feature, exit Toontown and click on Membership. Select Manage Account and log in to edit your "Community Settings." If you are under 18, you need a Parent Account to manage these settings.'
-PaidNoParentPasswordWarningSet = 'Update Chat Settings'
-PaidNoParentPasswordWarningContinue = 'Continue Playing Game'
-PaidParentPasswordUKWarning = 'Once you have Enabled Chat, you can enable this button to chat with your friends using the keyboard. Until then, you should chat with other Toons using SpeedChat.'
-PaidParentPasswordUKWarningSet = 'Enable Chat Now!'
-PaidParentPasswordUKWarningContinue = 'Continue Playing Game'
-NoSecretChatWarningTitle = 'Parental Controls'
-NoSecretChatWarning = 'To chat with a friend, the True Friends feature must first be enabled.  Kids, have your parent visit the Toontown Web site to learn about True Friends.'
-RestrictedSecretChatWarning = 'To get or enter a True Friend Code, log in with the Parent Account. You can disable this prompt by changing your True Friends options.'
+UnpaidChatWarning = 'Depois que voc\xc3\xaa assinar o servi\xc3\xa7o, poder\xc3\xa1 ativar este bot\xc3\xa3o para conversar com seus amigos usando o teclado. At\xc3\xa9 l\xc3\xa1, voc\xc3\xaa deve conversar com os outros Toons usando o Chat r\xc3\xa1pido.'
+UnpaidChatWarningPay = 'Assine j\xc3\xa1!'
+UnpaidChatWarningContinue = 'Continuar avalia\xc3\xa7\xc3\xa3o gratuita'
+PaidNoParentPasswordWarning = 'Depois que voc\xc3\xaa definir a sua senha de pais, poder\xc3\xa1 ativar este bot\xc3\xa3o para conversar com seus amigos usando o teclado. At\xc3\xa9 l\xc3\xa1, voc\xc3\xaa deve conversar com os outros Toons usando o Chat r\xc3\xa1pido.'
+UnpaidNoParentPasswordWarning = 'Depois de definir a senha de pais, voc\xc3\xaa pode ativar este bot\xc3\xa3o para conversar com seus amigos usando o teclado. Para definir a senha de pais, saia do Toontown e clique em "Prefer\xc3\xaancias" em Servi\xc3\xa7os para membros na p\xc3\xa1gina da web de Toontown. At\xc3\xa9 l\xc3\xa1, voc\xc3\xaa deve conversar com outros Toons usando o Chat R\xc3\xa1pido.'
+PaidNoParentPasswordWarningSet = 'Definir senha de pais agora!'
+PaidNoParentPasswordWarningContinue = 'Continuar jogando'
+PaidParentPasswordUKWarning = 'Depois que o Chat estiver ativado, voc\xc3\xaa poder\xc3\xa1 usar este bot\xc3\xa3o para conversar com seus amigos usando o teclado. At\xc3\xa9 l\xc3\xa1, voc\xc3\xaa deve conversar com os outros Toons usando o Chat r\xc3\xa1pido.'
+PaidParentPasswordUKWarningSet = 'Ativar Chat agora!'
+PaidParentPasswordUKWarningContinue = 'Continuar jogando'
+NoSecretChatWarningTitle = 'Controles dispon\xc3\xadveis aos pais'
+NoSecretChatWarning = 'Para conversar com um amigo, o recurso Amigos secretos deve estar ativado. As crian\xc3\xa7as precisam que seus pais fa\xc3\xa7am login e insiram a senha de pais para conhecer o recurso Amigos secretos.'
+RestrictedSecretChatWarning = 'Para pegar ou digitar um segredo, voc\xc3\xaa deve inserir a Senha de pais. Voc\xc3\xaa pode desativar esta solicita\xc3\xa7\xc3\xa3o alterando as suas op\xc3\xa7\xc3\xb5es de Amigos secretos.'
 NoSecretChatWarningOK = lOK
 NoSecretChatWarningCancel = lCancel
-NoSecretChatWarningWrongPassword = "That's not the correct Parent Account.  Please log in with the Parent Account that is linked to this account."
-NoSecretChatAtAllTitle = 'Open Chat With True Friends'
-NoSecretChatAtAll = 'Open Chat with True Friends allows real-life friends to chat openly with each other by means of a True Friend Code that must be shared outside of the game.\n\nTo activate these features or to learn more, exit Toontown and then click on Membership and select Manage Account. Log in to edit your "Community Settings." If you are under 18, you need a Parent Account to manage these settings.'
-NoSecretChatAtAllAndNoWhitelistTitle = 'Chat button'
-NoSecretChatAtAllAndNoWhitelist = 'You can use the blue Chat button to communicate with other Toons by using Speechat Plus or Open Chat with True Friends.\n\nSpeedchat Plus is a form of type chat that allows users to communicate by using the Disney SpeedChat Plus dictionary.\n\nOpen Chat with True Friends allows real-life friends to chat openly with each other by means of a True Friend Code that must be shared outside of the game.\n\nTo activate these features or to learn more, exit Toontown and then click on Membership and select Manage Account.  Log in to edit your "Community Settings." If you are under 18, you need a Parent Account to manage these settings.'
+NoSecretChatWarningWrongPassword = 'Esta n\xc3\xa3o \xc3\xa9 a conta de pais. Fa\xc3\xa7a login com a conta de pais que \xc3\xa9 vinculada para esta conta.'
+NoSecretChatAtAllTitle = 'Chat de Amigos Secretos'
+NoSecretChatAtAll = 'Para conversar com um amigo, o recurso Amigos secretos deve estar ativado. O recurso Amigos secretos s\xc3\xb3 permite que um membro converse com outro mediante um c\xc3\xb3digo secreto que deve ser comunicado fora do jogo.\nPara ativar este recurso ou para aprender mais sobre ele, saia de Toontown e clique em "Op\xc3\xa7\xc3\xb5es da conta" na p\xc3\xa1gina da web de Toontown.'
+NoSecretChatAtAllAndNoWhitelistTitle = 'Bot\xc3\xa3o de Chat'
+NoSecretChatAtAllAndNoWhitelist = 'Voc\xc3\xaa pode usar o bot\xc3\xa3o azul de chat para se comunicar com outros Toons usando o recurso Chat R\xc3\xa1pido Plus ou o recurso Abrir Chat com Amigos Verdadeiros.\n\nO recurso Chat r\xc3\xa1pido Plus \xc3\xa9 uma forma de tipo de chat que permitem usu\xc3\xa1rios para comunicarem por usar o dicion\xc3\xa1rio Disney Chat R\xc3\xa1pido Plus.\n\nO recurso Abrir Chat com Amigos Verdadeiros \xc3\xa9 uma forma de tipo de chat que permite amigos da vida-real para conversar abertamente com uns aos outros por meio de um C\xc3\xb3digo de Amigo Verdadeiro que deve ser compartilhado fora do jogo.\n\nPara ativar estes recursos ou para aprender mais sobre ele, saia de Toontown e clique em "Op\xc3\xa7\xc3\xb5es da conta" na p\xc3\xa1gina da web de Toontown.'
 NoSecretChatAtAllOK = lOK
-ChangeSecretFriendsOptions = 'Change True Friends Options'
-ChangeSecretFriendsOptionsWarning = '\nPlease enter the Parent Account Password to change your True Friends options.'
-ActivateChatTitle = 'True Friends Options'
-WhisperToFormat = 'To %s %s'
-WhisperToFormatName = 'To %s'
-WhisperFromFormatName = '%s whispers'
-ThoughtOtherFormatName = '%s thinks'
-ThoughtSelfFormatName = 'You think'
+ChangeSecretFriendsOptions = 'Alterar op\xc3\xa7\xc3\xb5es de Amigos Secretos'
+ChangeSecretFriendsOptionsWarning = '\nInsira a senha de pais para alterar suas op\xc3\xa7\xc3\xb5es de Amigos secretos.'
+ActivateChatTitle = 'Op\xc3\xa7\xc3\xb5es de Amigos secretos'
+WhisperToFormat = 'Para %s %s'
+WhisperToFormatName = 'Para %s'
+WhisperFromFormatName = '%s cochichos'
+ThoughtOhterFormatName = '%s pensa'
+ThoughtSelfFormatName = 'Voc\xc3\xaa pensa'
 from panda3d.core import TextProperties
 from panda3d.core import TextPropertiesManager
 shadow = TextProperties()
 shadow.setShadow(-0.025, -0.025)
 shadow.setShadowColor(0, 0, 0, 1)
-TextPropertiesManager.getGlobalPtr().setProperties('shadow', shadow)
+TextPropertiesManager.getGlobalPtr().setProperties('sombra', shadow)
 red = TextProperties()
 red.setTextColor(1, 0, 0, 1)
-TextPropertiesManager.getGlobalPtr().setProperties('red', red)
+TextPropertiesManager.getGlobalPtr().setProperties('vermelho', red)
 green = TextProperties()
 green.setTextColor(0, 1, 0, 1)
-TextPropertiesManager.getGlobalPtr().setProperties('green', green)
+TextPropertiesManager.getGlobalPtr().setProperties('verde', green)
 yellow = TextProperties()
 yellow.setTextColor(1, 1, 0, 1)
-TextPropertiesManager.getGlobalPtr().setProperties('yellow', yellow)
+TextPropertiesManager.getGlobalPtr().setProperties('amarelo', yellow)
 midgreen = TextProperties()
 midgreen.setTextColor(0.2, 1, 0.2, 1)
-TextPropertiesManager.getGlobalPtr().setProperties('midgreen', midgreen)
+TextPropertiesManager.getGlobalPtr().setProperties('verde-\xc3\xa1gua', midgreen)
 blue = TextProperties()
 blue.setTextColor(0, 0, 1, 1)
-TextPropertiesManager.getGlobalPtr().setProperties('blue', blue)
+TextPropertiesManager.getGlobalPtr().setProperties('azul', blue)
 white = TextProperties()
 white.setTextColor(1, 1, 1, 1)
-TextPropertiesManager.getGlobalPtr().setProperties('white', white)
+TextPropertiesManager.getGlobalPtr().setProperties('branco', white)
 black = TextProperties()
 black.setTextColor(0, 0, 0, 1)
-TextPropertiesManager.getGlobalPtr().setProperties('black', black)
+TextPropertiesManager.getGlobalPtr().setProperties('preto', black)
 grey = TextProperties()
 grey.setTextColor(0.5, 0.5, 0.5, 1)
-TextPropertiesManager.getGlobalPtr().setProperties('grey', grey)
-ActivateChat = "True Friends allows one member to chat with another member only by means of a True Friend Code that must be communicated outside of the game. True Friends is not moderated or supervised.\n\nPlease choose one of Toontown's True Friends options:\n\n      \x01shadow\x01No True Friends\x02 - Ability to make True Friends is disabled.\n      This offers the highest level of control.\n\n      \x01shadow\x01Restricted True Friends\x02 - Requires the Parent Account Password to make\n      each new True Friend.\n\n      \x01shadow\x01Unrestricted True Friends\x02 - Once enabled with the Parent Account Password,\n      it is not required to supply the Parent Account Password to make each new\n      True Friend. \x01red\x01This option is not recommended for children under 13.\x02\n\n\n\n\n\n\nBy enabling the True Friends feature, you acknowledge that there are some risks inherent in the True Friends feature and that you have been informed of, and agree to accept, any such risks."
-ActivateChatYes = 'Update'
+TextPropertiesManager.getGlobalPtr().setProperties('cinza', grey)
+ActivateChat = 'O recurso Amigos Secretos permite que um membro converse com outro membro apenas por meio de um c\xc3\xb3digo secreto que deve ser comunicado fora do jogo. O recurso Amigos Secretos n\xc3\xa3o \xc3\xa9 moderado ou supervisionado.\n\nPor favor, escolha uma das op\xc3\xa7\xc3\xb5es do recurso Amigos Secretos de Toontown:\n\n      \x01shadow\x01Sem O recurso Amigos Secretos\x02 - Capacidade para fazer o recurso Amigos Secretos \xc3\xa9 desativado.\n      Isso oferece o mais alto n\xc3\xadvel de controle.\n      \x01shadow\x01O recurso Amigos Secretos restritos\x02 - Requer a senha de pais para fazer\n      cada novo recurso Amigo Secreto.\n\n      \x01shadow\x01O sistema Amigos Secretos irrestritos\x02 - Depois de habilitado com a senha de pais,\n      n\xc3\xa3o \xc3\xa9 necess\xc3\xa1rio fornecer a senha de pais para fazer cada novo\n      o recurso Amigos Secretos . \x01red\x01Esta op\xc3\xa7\xc3\xa3o n\xc3\xa3o \xc3\xa9 recomendada para menores de 13 anos.\x02\n\n\n\n\n\n\nAo ativar o recurso Amigos secretos, voc\xc3\xaa reconhece que, apesar de haver alguns riscos inerentes a ele, voc\xc3\xaa foi informado de todos os riscos mencionados aqui, concordando em aceit\xc3\xa1-los.'
+ActivateChatYes = 'Atualizar'
 ActivateChatNo = lCancel
-ActivateChatMoreInfo = 'More Info'
-ActivateChatPrivacyPolicy = 'Privacy Policy'
+ActivateChatMoreInfo = 'Mais informa\xc3\xa7\xc3\xb5es'
+ActivateChatPrivacyPolicy = 'Pol\xc3\xadtica de Privacidade'
 ActivateChatPrivacyPolicy_Button1A = 'Version 1'
 ActivateChatPrivacyPolicy_Button1K = 'Version 1'
 ActivateChatPrivacyPolicy_Button2A = 'Version 2'
@@ -131,284 +131,284 @@ PrivacyPolicyText_Intro = [' ']
 PrivacyPolicyClose = lClose
 SecretFriendsInfoPanelOk = lOK
 SecretFriendsInfoPanelClose = lClose
-SecretFriendsInfoPanelText = ['\nThe Open Chat with True Friends Feature\n\nThe Open Chat with True Friends feature enables a member to chat directly with another member within Disney\'s Toontown Online (the "Service") once the members establish a True Friends connection.  When your child attempts to use the Open Chat with True Friends feature, we will require that you indicate your consent to your child\'s use of this feature by entering your Parent Account Password.  Here is a detailed description of the process of creating an Open Chat with True Friends connection between members whom we will call "Sally" and "Mike."\n1. Sally\'s parent and Mike\'s parent each enable the Open Chat with True Friends feature by entering their respective Parent Account Passwords either (a) in the Account Options areas within the Service, or (b) when prompted within the game by a Parental Controls pop-up.\n2. Sally requests a True Friend Code (described below) from within the Service.\n',
- "\n3. Sally's True Friend Code is communicated to Mike outside of the Service. (Sally's True Friend Code may be communicated to Mike either directly by Sally, or indirectly through Sally's disclosure of the True Friend Code to another person.)\n4. Mike submits Sally's True Friend Code to the Service within 48 hours of the time that Sally requested the True Friend Code from the Service.\n5. The Service then notifies Mike that Sally has become Mike's True Friend.  The Service similarly notifies Sally that Mike has become Sally's True Friend.\n6. Sally and Mike can now open chat directly with each other until either one chooses to terminate the other as a True Friend, or until the Open Chat with True Friends feature is disabled for either Sally or Mike by their respective parent.  The True Friends connection can thus be disabled anytime by either: (a) a member removing the True Friend from his or her friends list (as described in the Service); or, (b) the parent of that member disabling the Open Chat with ",
- "\nTrue Friends feature by going to the Account Options area within the Service and following the steps set forth there.\n\nA True Friend Code is a computer-generated random code assigned to a particular member. The True Friend Code must be used to activate a True Friend connection within 48 hours of the time that the member requests the True Friend Code; otherwise, the True Friend Code expires and cannot be used.  Moreover, a single True Friend Code can only be used to establish one True Friend connection.  To make additional True Friend connections, a member must request an additional True Friend Code for each additional True Friend.\n\nTrue Friendships do not transfer.  For example, if Sally becomes a True Friend of Mike, and Mike becomes a True Friend of Jessica, Sally does not automatically become Jessica's True Friend.  In order for Sally and Jessica to\n",
- '\nbecome True Friends, one of them must request a new True Friend Code from the Service and communicate it to the other.\n\nTrue Friends communicate with one another in a free-form interactive open chat.  The content of this chat is directly entered by the participating member and is processed through the Service, which is operated by the Walt Disney Internet Group ("WDIG"), 500 S. Buena Vista St., Burbank, CA 91521-7691.  While we advise members not to exchange personal information such as first and last names, e-mail addresses, postal addresses, or phone numbers while using Open Chat with True Friends, we cannot guarantee that such exchanges of personal information will not happen. Although the True Friends chat is automatically filtered for most bad words, Open Chat with True Friends may be moderated, and Disney reserves the right to moderate any part of the Service that Disney,\n',
- "\nin its sole and absolute discretion, deems necessary. However, because Open Chat with True Friends will not always be moderated, if the Parent Account allows a child to use his or her account with the Open Chat with True Friends feature enabled, we strongly encourage parents to supervise their child or children while they play in the Service. By enabling the Open Chat with True Friends feature, the Parent Account acknowledges that there are some risks inherent in the Open Chat with True Friends feature and that the Parent Account has been informed of, and agrees to accept, any such risks, whether foreseeable or otherwise. \n\nWDIG does not use the content of True Friends chat for any purpose other than communicating that content to the member's true friend, and does not disclose that content to any third party except: (1) if required by law, for example, to comply with a court order or subpoena; (2) to enforce the Terms of Use\n",
- "\napplicable to the Service (which may be accessed on the home page of the Service); or, (3) to protect the safety and security of Members of the Service and the Service itself. In accordance with the Children's Online Privacy Protection Act, we are prohibited from conditioning, and do not condition, a child's participation in any activity (including Open Chat with True Friends) on the child's disclosing more personal information than is reasonably necessary to participate in such activity.\n\nIn addition, as noted above, we recognize the right of a parent to refuse to permit us to continue to allow a child to use the True Friends feature. By enabling the Open Chat with True Friends feature, you acknowledge that there are some risks inherent in the ability of members to open chat with one another through the Open Chat with True Friends feature, and that you have been informed of, and agree to accept, any such risks, whether foreseeable or otherwise.\n"]
-LeaveToPay = 'Click Purchase to exit the game and buy a Membership at toontown.com'
-LeaveToPayYes = 'Purchase'
+SecretFriendsInfoPanelText = ['\nO recurso Amigos secretos\n\nO recurso Amigos secretos permite que um membro converse diretamente com outro no Toontown On-line da Disney (o "Servi\xc3\xa7o") depois que os membros estabelecerem uma conex\xc3\xa3o de Amigos secretos. Quando o seu filho tentar usar o recurso Amigos secretos, solicitaremos que voc\xc3\xaa insira a sua Senha de pais para indicar seu consentimento para que a crian\xc3\xa7a use o recurso. Esta \xc3\xa9 uma descri\xc3\xa7\xc3\xa3o detalhada do processo de cria\xc3\xa7\xc3\xa3o de uma conex\xc3\xa3o de Amigos secretos entre os membros fict\xc3\xadcios chamados "Sandra" e "Marcos".\n1. O respons\xc3\xa1vel por Sandra e o respons\xc3\xa1vel por Marcos ativam o recurso Amigos secretos inserindo suas respectivas Senhas de pais (a) nas \xc3\xa1reas de Op\xc3\xa7\xc3\xb5es da conta do Servi\xc3\xa7o ou (b) quando for solicitado no jogo, em uma janela pop-up de Controles dispon\xc3\xadveis aos pais.\n2. Sandra pede um Segredo (descrito abaixo) no Servi\xc3\xa7o.\n',
+ '\n3. O Segredo de Sandra \xc3\xa9 comunicado a Marcos fora do Servi\xc3\xa7o. (O Segredo de Sandra pode ser comunicado a Marcos diretamente por Sandra ou indiretamente, se Sandra revelar o Segredo a outra pessoa.)\n4. Marcos envia o Segredo de Sandra ao Servi\xc3\xa7o dentro de 48 horas a partir da hora em que Sandra solicitou o Segredo ao Servi\xc3\xa7o.\n5. Em seguida, o Servi\xc3\xa7o notifica Marcos de que Sandra tornou-se sua Amiga secreta. Da mesma forma, o Servi\xc3\xa7o notifica Sandra de que Marcos tornou-se seu Amigo secreto.\n6. Sandra e Marcos podem agora conversar diretamente um com o outro at\xc3\xa9 um deles escolher cancelar o seu relacionamento como Amigo secreto, ou at\xc3\xa9 que o recurso de Amigos secretos seja desativado para Sandra ou Marcos por um dos respons\xc3\xa1veis por essas crian\xc3\xa7as. Ent\xc3\xa3o, a conex\xc3\xa3o de Amigos secretos pode ser desativada a qualquer momento: (a) por um membro, que remove o Amigo secreto de sua lista de amigos (conforme descrito no Servi\xc3\xa7o), ou (b) pelo respons\xc3\xa1vel pelo membro, que desativa o recurso Amigos secretos na \xc3\xa1rea Op\xc3\xa7\xc3\xb5es da conta do Servi\xc3\xa7o, seguindo as etapas definidas no recurso.\n',
+ '\nO Segredo \xc3\xa9 um c\xc3\xb3digo aleat\xc3\xb3rio, gerado por computador, que \xc3\xa9 atribu\xc3\xaddo a um membro espec\xc3\xadfico. O Segredo precisa ser usado para ativar a conex\xc3\xa3o de Amigo secreto dentro de 48 horas a partir da hora em que o membro solicitou o Segredo; caso contr\xc3\xa1rio, o Segredo expirar\xc3\xa1 e n\xc3\xa3o poder\xc3\xa1 ser usado. Al\xc3\xa9m disso, s\xc3\xb3 se pode usar um \xc3\xbanico Segredo para estabelecer uma conex\xc3\xa3o de Amigo secreto. Para fazer conex\xc3\xb5es adicionais de Amigos secretos, o membro precisar\xc3\xa1 solicitar mais segredos, um para cada Amigo secreto que quiser incluir. As Amizades secretas n\xc3\xa3o podem ser transferidas. Por exemplo, se Sandra se tornar Amiga secreta de Marcos, e Marcos se tornar Amigo secreto de J\xc3\xa9ssica, Sandra n\xc3\xa3o se tornar\xc3\xa1 automaticamente Amiga secreta de J\xc3\xa9ssica. Para que Sandra e J\xc3\xa9ssica se tornem Amigas secretas, uma delas ter\xc3\xa1 que solicitar um novo Segredo ao Servi\xc3\xa7o e comunicar \xc3\xa0 outra.\n',
+ '\nOs Amigos secretos se comunicam entre si por meio de uma conversa interativa em formato livre. O conte\xc3\xbado da conversa \xc3\xa9 inserido diretamente pelo membro participante e \xc3\xa9 processado pelo Servi\xc3\xa7o, cuja opera\xc3\xa7\xc3\xa3o \xc3\xa9 realizada pelo Walt Disney Internet Group ("WDIG"), 506 2nd Avenue, Suite 2100, Seattle, WA 98104, EUA (telefone +1 (509) 742-4698; e-mail ms_support@help.go.com). Apesar de recomendarmos aos membros n\xc3\xa3o trocarem com outros membros informa\xc3\xa7\xc3\xb5es pessoais como nome e sobrenome, e-mails, endere\xc3\xa7o postal ou n\xc3\xbameros de telefone ao usarem o recurso Amigos secretos, n\xc3\xa3o podemos garantir que os membros seguir\xc3\xa3o a recomenda\xc3\xa7\xc3\xa3o e que tais informa\xc3\xa7\xc3\xb5es sejam preservadas. Embora o chat Amigos secretos seja automaticamente filtrado para evitar o uso da maioria dos palavr\xc3\xb5es, n\xc3\xa3o h\xc3\xa1 modera\xc3\xa7\xc3\xa3o nem supervis\xc3\xa3o de nossa parte. Se os pais deixarem seus filhos usarem a conta com o recurso Amigos secretos ativado no Servi\xc3\xa7o, aconselhamos que eles mesmos supervisionem os filhos durante a brincadeira.\n',
+ "\nO WDIG n\xc3\xa3o usa o conte\xc3\xbado do chat Amigos secretos para nenhum fim que n\xc3\xa3o seja a comunica\xc3\xa7\xc3\xa3o do conte\xc3\xbado ao amigo secreto do membro, e n\xc3\xa3o revela tal conte\xc3\xbado a terceiros, exceto: (1) se exigido por lei; por exemplo, para cumprir uma ordem ou intima\xc3\xa7\xc3\xa3o judicial; (2) para fazer com que os Termos de Uso aplic\xc3\xa1veis ao Servi\xc3\xa7o (que podem ser acessados na p\xc3\xa1gina principal do Servi\xc3\xa7o) sejam respeitados; ou (3) para proteger a seguran\xc3\xa7a dos Membros do Servi\xc3\xa7o e o Servi\xc3\xa7o propriamente dito. Mediante solicita\xc3\xa7\xc3\xa3o ao WDIG, o respons\xc3\xa1vel por uma crian\xc3\xa7a-membro pode analisar e mandar apagar qualquer conte\xc3\xbado do recurso de chat Amigos secretos fornecidos pela crian\xc3\xa7a em quest\xc3\xa3o, desde que tal conte\xc3\xbado j\xc3\xa1 n\xc3\xa3o tenha sido exclu\xc3\xaddo dos registros pelo WDIG. Obedecendo \xc3\xa0 Children's Online Privacy Protection Act, uma lei americana de prote\xc3\xa7\xc3\xa3o \xc3\xa0 privacidade on-line para as crian\xc3\xa7as, estamos proibidos de condicionar a participa\xc3\xa7\xc3\xa3o da crian\xc3\xa7a em qualquer tipo de atividade (inclusive o recurso Amigos secretos) ao fornecimento, por parte da crian\xc3\xa7a, de mais informa\xc3\xa7\xc3\xb5es pessoais do que o estritamente necess\xc3\xa1rio para que ela participe de tais atividades.\n",
+ '\nAl\xc3\xa9m disso, conforme observado acima, reconhecemos o direito do respons\xc3\xa1vel pela crian\xc3\xa7a de n\xc3\xa3o permitir que continuemos a deixar que a crian\xc3\xa7a use o recurso Amigos secretos. Ao ativar o recurso Amigos secretos, voc\xc3\xaa reconhece que h\xc3\xa1 alguns riscos inerentes ao chat, no qual os membros podem conversar uns com os outros usando o recurso Amigos secretos, sendo que voc\xc3\xaa foi informado de todos os riscos mencionados aqui, concordando em aceit\xc3\xa1-los.\n']
+LeaveToPay = 'Para efetuar a compra, voc\xc3\xaa sair\xc3\xa1 do jogo e ser\xc3\xa1 direcionado para Toontown.com.br'
+LeaveToPayYes = 'Comprar'
 LeaveToPayNo = lCancel
-LeaveToSetParentPassword = 'In order to set parent account password, the game will exit to the Toontown website.'
-LeaveToSetParentPasswordYes = 'Set Password'
+LeaveToSetParentPassword = 'Para configurar a Senha de pais, o jogo sair\xc3\xa1 para Toontown.com.br'
+LeaveToSetParentPasswordYes = 'Definir senha'
 LeaveToSetParentPasswordNo = lCancel
-LeaveToEnableChatUK = 'In order to enable chat, the game will exit to the Toontown website.'
-LeaveToEnableChatUKYes = 'Enable Chat'
+LeaveToEnableChatUK = 'Para ativar o chat, o jogo sair\xc3\xa1 para o site Toontown.'
+LeaveToEnableChatUKYes = 'Ativar chat'
 LeaveToEnableChatUKNo = lCancel
 ChatMoreInfoOK = lOK
-SecretChatDeactivated = 'The "True Friends" feature has been disabled.'
-RestrictedSecretChatActivated = 'The "Restricted True Friends" feature has been enabled!'
-SecretChatActivated = 'The "Unrestricted True Friends" feature has been enabled!'
+SecretChatDeactivated = 'O recurso "Amigos secretos" foi desativado.'
+RestrictedSecretChatActivated = 'O recurso "Amigos secretos restritos" foi ativado!'
+SecretChatActivated = 'O sistema "Amigos secretos irrestritos" foi ativado!\n\nSe voc\xc3\xaa mudar de id\xc3\xa9ia e decidir desativar este recurso mais tarde, clique em "Op\xc3\xa7\xc3\xb5es da conta" na p\xc3\xa1gina da web de Toontown.'
 SecretChatActivatedOK = lOK
-SecretChatActivatedChange = 'Change Options'
-ProblemActivatingChat = 'Oops!  We were unable to activate the "True Friends" chat feature.\n\n%s\n\nPlease try again later.'
+SecretChatActivatedChange = 'Alterar Op\xc3\xa7\xc3\xb5es'
+ProblemActivatingChat = 'Ops! N\xc3\xa3o foi poss\xc3\xadvel ativar o recurso de chat "Amigos secretos".\n\n%s\n\nTente novamente mais tarde.'
 ProblemActivatingChatOK = lOK
 MultiPageTextFrameNext = lNext
-MultiPageTextFramePrev = 'Previous'
-MultiPageTextFramePage = 'Page %s/%s'
-GuiScreenToontownUnavailable = 'The server appears to be temporarily unavailable, still trying...'
+MultiPageTextFramePrev = 'Anterior'
+MultiPageTextFramePage = 'P\xc3\xa1gina %s/%s'
+GuiScreenToontownUnavailable = 'Toontown parece estar temporariamente indispon\xc3\xadvel, ainda tentando...'
 GuiScreenCancel = lCancel
-CreateAccountScreenUserName = 'Account Name'
-CreateAccountScreenPassword = 'Password'
-CreateAccountScreenConfirmPassword = 'Confirm Password'
+CreateAccountScreenUserName = 'Nome da conta'
+CreateAccountScreenPassword = 'Senha'
+CreateAccountScreenConfirmPassword = 'Confirmar senha'
 CreateAccountScreenCancel = lCancel
-CreateAccountScreenSubmit = 'Submit'
-CreateAccountScreenConnectionErrorSuffix = '.\n\nPlease try again later.'
-CreateAccountScreenNoAccountName = 'Please enter an account name.'
-CreateAccountScreenAccountNameTooShort = 'Your account name must be at least %s characters long. Please try again.'
-CreateAccountScreenPasswordTooShort = 'Your password must be at least %s characters long. Please try again.'
-CreateAccountScreenPasswordMismatch = 'The passwords you typed did not match. Please try again.'
-CreateAccountScreenUserNameTaken = 'That user name is already taken. Please try again.'
-CreateAccountScreenInvalidUserName = 'Invalid user name.\nPlease try again.'
-CreateAccountScreenUserNameNotFound = 'User name not found.\nPlease try again or create a new account.'
-CRConnecting = 'Connecting...'
-CRNoConnectTryAgain = 'Could not connect to %s:%s. Try again?'
-CRNoConnectProxyNoPort = 'Could not connect to %s:%s.\n\nYou are communicating to the internet via a proxy, but your proxy does not permit connections on port %s.\n\nYou must open up this port, or disable your proxy, in order to play.  If your proxy has been provided by your ISP, you must contact your ISP to request them to open up this port.'
-CRMissingGameRootObject = 'Missing some root game objects.  (May be a failed network connection).\n\nTry again?'
-CRNoDistrictsTryAgain = 'No Districts are available. Try again?'
-CRRejectRemoveAvatar = 'The avatar was not able to be deleted, try again another time.'
-CRLostConnection = 'Your internet connection to the servers has been unexpectedly broken.'
-CRBootedReasons = {1: 'An unexpected problem has occurred.  Your connection has been lost, but you should be able to connect again and go right back into the game.',
- 100: 'You have been disconnected because someone else just logged in using your account on another computer.',
- 120: 'You have been disconnected because of a problem with your authorization to use keyboard chat.',
- 122: 'There has been an unexpected problem logging you in.  Please contact customer support.',
- 125: 'Your installed files appear to be invalid.  Please use the Play button on the official website to run.',
- 126: 'You are not authorized to use administrator privileges.',
- 127: 'A problem has occurred with your Toon.  Please contact Member Services via phone or email and reference Error Code 127.  Thank you.',
- 151: 'You have been logged out by an administrator working on the servers.',
- 152: "There has been a reported violation of our Terms of Use connected to '%(name)s'. For more details, please review the message sent to the e-mail address associated with '%(name)s'.",
- 153: 'The district you were playing on has been reset.  Everyone who was playing on that district has been disconnected.  However, you should be able to connect again and go right back into the game.',
- 288: 'Sorry, you have used up all of your available minutes this month.',
- 349: 'Sorry, you have used up all of your available minutes this month.'}
-CRBootedReasonUnknownCode = 'An unexpected problem has occurred (error code %s).  Your connection has been lost, but you should be able to connect again and go right back into the game.'
-CRTryConnectAgain = '\n\nTry to connect again?'
-CRToontownUnavailable = 'The server appears to be temporarily unavailable, still trying...'
+CreateAccountScreenSubmit = 'Enviar'
+CreateAccountScreenConnectionErrorSuffix = '.\n\nTente novamente mais tarde.'
+CreateAccountScreenNoAccountName = 'Insira o nome da conta.'
+CreateAccountScreenAccountNameTooShort = 'O nome da conta deve ter, pelo menos, %s caracteres. Tente novamente.'
+CreateAccountScreenPasswordTooShort = 'A senha deve ter, pelo menos, %s caracteres. Tente novamente.'
+CreateAccountScreenPasswordMismatch = 'As senhas inseridas n\xc3\xa3o combinam. Tente novamente.'
+CreateAccountScreenUserNameTaken = 'Este nome de usu\xc3\xa1rio j\xc3\xa1 existe. Tente novamente.'
+CreateAccountScreenInvalidUserName = 'Nome de usu\xc3\xa1rio inv\xc3\xa1lido.\nTente novamente.'
+CreateAccountScreenUserNameNotFound = 'Nome de usu\xc3\xa1rio n\xc3\xa3o encontrado.\nTente novamente ou crie uma nova conta.'
+CRConnecting = 'Conectando...'
+CRNoConnectTryAgain = 'N\xc3\xa3o foi poss\xc3\xadvel conectar-se a %s:%s. Tentar novamente?'
+CRNoConnectProxyNoPort = 'N\xc3\xa3o foi poss\xc3\xadvel conectar-se a %s:%s.\n\nVoc\xc3\xaa est\xc3\xa1 se comunicando com a Internet por via proxy, mas o seu proxy n\xc3\xa3o permite conex\xc3\xb5es na porta %s.\n\nVoc\xc3\xaa deve abrir esta porta, ou desativar o proxy, para poder jogar na Toontown. Se o proxy foi fornecido pelo seu provedor, \xc3\xa9 preciso entrar em contato com ele para abrir esta porta.'
+CRMissingGameRootObject = 'H\xc3\xa1 alguns objetos do jogo raiz ausentes. (A causa pode ser uma conex\xc3\xa3o de rede com falhas). Saindo do jogo.'
+CRNoDistrictsTryAgain = 'N\xc3\xa3o h\xc3\xa1 Regi\xc3\xb5es de Toontown dispon\xc3\xadveis. Tentar novamente?'
+CRRejectRemoveAvatar = 'O Toon n\xc3\xa3o p\xc3\xb4de ser exclu\xc3\xaddo, tente novamente mais tarde.'
+CRLostConnection = 'A sua conex\xc3\xa3o de Internet \xc3\xa0 Toontown foi interrompida inesperadamente.'
+CRBootedReasons = {1: 'Houve um problema inesperado. A conex\xc3\xa3o falhou, mas voc\xc3\xaa ainda deve conseguir conectar-se novamente para voltar ao jogo.',
+ 100: 'Voc\xc3\xaa foi desconectado porque outra pessoa acabou de fazer login usando a sua conta em outro computador.',
+ 120: 'Voc\xc3\xaa foi desconectado porque houve um problema com sua autoriza\xc3\xa7\xc3\xa3o para usar o chat de teclado.',
+ 122: 'Houve um problema inesperado quando voc\xc3\xaa fez login na Toontown. Entre em contato com o Suporte ao Cliente da Toontown.',
+ 125: 'Os arquivos da Toontown que voc\xc3\xaa tem instalados parecem ser inv\xc3\xa1lidos. Use o bot\xc3\xa3o Jogar, no site da web oficial da Toontown, para executar a Toontown.',
+ 126: 'Voc\xc3\xaa n\xc3\xa3o est\xc3\xa1 autorizado a usar privil\xc3\xa9gios administrativos.',
+ 127: 'Ocorreu um problema com seu Toon. Entre em contato com o Atendimento aos Membros por telefone ou e-mail e indique o C\xc3\xb3digo de Erro 127. Obrigado.',
+ 151: 'O administrador respons\xc3\xa1vel pelos servidores de Toontown fez logout na sua conta.',
+ 152: "Foi relatada uma viola\xc3\xa7\xc3\xa3o dos nossos termos de uso, com rela\xc3\xa7\xc3\xa3o a '%(name)s'. Por seguran\xc3\xa7a, colocamos uma restri\xc3\xa7\xc3\xa3o tempor\xc3\xa1ria na conta. Para obter mais detalhes, leia a mensagem enviada ao endere\xc3\xa7o de e-mail associado a '%(name)s'.",
+ 153: 'A regi\xc3\xa3o de Toontown em que voc\xc3\xaa estava jogando foi reiniciada. Todas as pessoas que estavam jogando nesta regi\xc3\xa3o foram desconectadas. Entretanto, voc\xc3\xaa poder\xc3\xa1 conectar-se novamente e voltar direto ao jogo.',
+ 288: 'Sinto muito, mas voc\xc3\xaa usou todos os seus minutos dispon\xc3\xadveis deste m\xc3\xaas na Toontown.',
+ 349: 'Sinto muito, mas voc\xc3\xaa usou todos os seus minutos dispon\xc3\xadveis deste m\xc3\xaas na Toontown.'}
+CRBootedReasonUnknownCode = 'Houve um problema inesperado (c\xc3\xb3digo de erro %s). A conex\xc3\xa3o falhou, mas voc\xc3\xaa ainda deve conseguir conectar-se novamente para voltar ao jogo.'
+CRTryConnectAgain = '\n\nTentar conectar-se novamente?'
+CRToontownUnavailable = 'O servidor parece estar temporariamente indispon\xc3\xadvel, ainda tentando...'
 CRToontownUnavailableCancel = lCancel
-CRNameCongratulations = 'CONGRATULATIONS!!'
-CRNameAccepted = 'Your name has been\napproved by the Toon Council.\n\nFrom this day forth\nyou will be named\n"%s"'
-CRServerConstantsProxyNoPort = 'Unable to contact %s.\n\nYou are communicating to the internet via a proxy, but your proxy does not permit connections on port %s.\n\nYou must open up this port, or disable your proxy, in order to play.  If your proxy has been provided by your ISP, you must contact your ISP to request them to open up this port.'
-CRServerConstantsProxyNoCONNECT = 'Unable to contact %s.\n\nYou are communicating to the internet via a proxy, but your proxy does not support the CONNECT method.\n\nYou must enable this capability, or disable your proxy, in order to play.  If your proxy has been provided by your ISP, you must contact your ISP to request them to enable this capability.'
-CRServerConstantsTryAgain = 'Unable to contact %s.\n\nThe account server might be temporarily down, or there might be some problem with your internet connection.\n\nTry again?'
-CRServerDateTryAgain = 'Could not get server date from %s. Try again?'
-AfkForceAcknowledgeMessage = 'Your toon got sleepy and went to bed.'
-PeriodTimerWarning = 'Your available time is almost over!'
-PeriodForceAcknowledgeMessage = 'Sorry, you have used up all of your available time. Please exit to purchase more.'
-CREnteringToontown = 'Entering...'
-DownloadWatcherUpdate = 'Downloading %s'
-DownloadWatcherInitializing = 'Download Initializing...'
-LoginScreenUserName = 'Account Name'
-LoginScreenPassword = 'Password'
+CRNameCongratulations = 'PARAB\xc3\x89NS!!'
+CRNameAccepted = 'O seu nome foi\naprovado pelo Conselho de Toons.\n\nA partir de agora,\nvoc\xc3\xaa ter\xc3\xa1 o nome\n\'%s\''
+CRServerConstantsProxyNoPort = 'N\xc3\xa3o foi poss\xc3\xadvel contatar %s.\n\nVoc\xc3\xaa est\xc3\xa1 se comunicando com a Internet por via proxy, mas o seu proxy n\xc3\xa3o permite conex\xc3\xb5es na porta %s.\n\nVoc\xc3\xaa deve abrir esta porta, ou desativar o proxy, para poder jogar na Toontown. Se o proxy foi fornecido pelo seu provedor, \xc3\xa9 preciso entrar em contato com ele para abrir esta porta.'
+CRServerConstantsProxyNoCONNECT = 'N\xc3\xa3o foi poss\xc3\xadvel contatar %s.\n\nVoc\xc3\xaa est\xc3\xa1 se comunicando com a Internet por via proxy, mas o seu proxy n\xc3\xa3o permite o m\xc3\xa9todo CONECTAR.\n\nVoc\xc3\xaa deve ativar este recurso, ou desativar o proxy, para poder jogar na Toontown. Se o proxy foi fornecido pelo seu provedor, \xc3\xa9 preciso entrar em contato com ele para abrir esta porta.'
+CRServerConstantsTryAgain = 'N\xc3\xa3o foi poss\xc3\xadvel contatar %s.\n\nO servidor de contas da Toontown deve estar temporariamente fora do ar ou deve haver algum problema na conex\xc3\xa3o de Internet.\n\nTentar novamente?'
+CRServerDateTryAgain = 'N\xc3\xa3o foi poss\xc3\xadvel obter a data do servidor de %s. Tentar novamente?'
+AfkForceAcknowledgeMessage = 'O seu Toon ficou com sono e foi para a cama.'
+PeriodTimerWarning = 'O seu limite de tempo em Toontown neste m\xc3\xaas est\xc3\xa1 quase no fim!'
+PeriodForceAcknowledgeMessage = 'Voc\xc3\xaa usou todos os seus minutos dispon\xc3\xadveis em Toontown neste m\xc3\xaas. Volte e jogue mais no pr\xc3\xb3ximo m\xc3\xaas!'
+CREnteringToontown = 'Entrando...'
+DownloadWatcherUpdate = 'Fazendo o download de %s'
+DownloadWatcherInitializing = 'Inicializando Download...'
+LoginScreenUserName = 'Nome da Conta'
+LoginScreenPassword = 'Senha'
 LoginScreenLogin = 'Login'
-LoginScreenCreateAccount = 'Create Account'
+LoginScreenCreateAccount = 'Criar Conta'
 LoginScreenQuit = lQuit
-LoginScreenLoginPrompt = 'Please enter a user name and password.'
-LoginScreenBadPassword = 'Bad password.\nPlease try again.'
-LoginScreenInvalidUserName = 'Invalid user name.\nPlease try again.'
-LoginScreenUserNameNotFound = 'User name not found.\nPlease try again or create a new account.'
-LoginScreenPeriodTimeExpired = 'Sorry, you have used up all of your available time.'
-LoginScreenNoNewAccounts = 'Sorry, we are not accepting new accounts at this time.'
-LoginScreenTryAgain = 'Try Again'
+LoginScreenLoginPrompt = 'Por favor, digite um nome de usu\xc3\xa1rio e uma senha.'
+LoginScreenBadPassword = 'Senha errada.\nTente novamente.'
+LoginScreenInvalidUserName = 'Nome de usu\xc3\xa1rio inv\xc3\xa1lido.\nTente novamente.'
+LoginScreenUserNameNotFound = 'Nome de usu\xc3\xa1rio n\xc3\xa3o encontrado.\nTente novamente ou crie uma nova conta.'
+LoginScreenPeriodTimeExpired = 'Sinto muito, mas voc\xc3\xaa j\xc3\xa1 usou todos os seus minutos dispon\xc3\xadveis deste m\xc3\xaas. Volte no in\xc3\xadcio do pr\xc3\xb3ximo m\xc3\xaas.'
+LoginScreenNoNewAccounts = 'Sinto muito, no momento n\xc3\xa3o estamos aceitando novas contas.'
+LoginScreenTryAgain = 'Tente novamente'
 DialogSpecial = 'ooo'
 DialogExclamation = '!'
 DialogQuestion = '?'
 DialogLength1 = 6
 DialogLength2 = 12
 DialogLength3 = 20
-GlobalSpeedChatName = 'SpeedChat'
-SCMenuPromotion = 'PROMOTIONAL'
-SCMenuElection = 'ELECTION'
-SCMenuEmotions = 'EMOTIONS'
-SCMenuCustom = 'MY PHRASES'
-SCMenuResistance = 'UNITE!'
-SCMenuPets = 'PETS'
-SCMenuPetTricks = 'TRICKS'
-SCMenuCog = 'COG SPEAK'
-SCMenuHello = 'HELLO'
-SCMenuBye = 'GOODBYE'
-SCMenuHappy = 'HAPPY'
-SCMenuSad = 'SAD'
-SCMenuFriendly = 'FRIENDLY'
-SCMenuSorry = 'SORRY'
-SCMenuStinky = 'STINKY'
-SCMenuPlaces = 'PLACES'
-SCMenuToontasks = 'TOONTASKS'
-SCMenuBattle = 'BATTLE'
-SCMenuGagShop = 'GAG SHOP'
-SCMenuFactory = 'FACTORY'
-SCMenuKartRacing = 'RACING'
-SCMenuFactoryMeet = 'MEET'
-SCMenuCFOBattle = 'C.F.O.'
-SCMenuCFOBattleCranes = 'CRANES'
-SCMenuCFOBattleGoons = 'GOONS'
-SCMenuCJBattle = 'CHIEF JUSTICE'
-SCMenuCEOBattle = 'C.E.O.'
-SCMenuGolf = 'GOLF'
-SCMenuWhiteList = 'WHITELIST'
-SCMenuPlacesPlayground = 'PLAYGROUND'
-SCMenuPlacesEstate = 'ESTATE'
+GlobalSpeedChatName = 'Chat r\xc3\xa1pido'
+SCMenuPromotion = 'PROMOCIONAL'
+SCMenuElection = 'ESCOLHA'
+SCMenuEmotions = 'EMO\xc3\x87\xc3\x95ES'
+SCMenuCustom = 'MINHAS FRASES'
+SCMenuResistance = 'UNIR!'
+SCMenuPets = 'BICHINHOS'
+SCMenuPetTricks = 'TRUQUES'
+SCMenuCog = 'FALAS DE COGS'
+SCMenuHello = 'OL\xc3\x81'
+SCMenuBye = 'TCHAU'
+SCMenuHappy = 'FELIZ'
+SCMenuSad = 'TRISTE'
+SCMenuFriendly = 'AMIG\xc3\x81VEL'
+SCMenuSorry = 'DESCULPE'
+SCMenuStinky = 'FEDIDO'
+SCMenuPlaces = 'LUGARES'
+SCMenuToontasks = 'TAREFAS TOON'
+SCMenuBattle = 'BATALHA'
+SCMenuGagShop = 'LOJA DE PIADAS'
+SCMenuFactory = 'F\xc3\x81BRICA'
+SCMenuKartRacing = 'CORRIDA'
+SCMenuFactoryMeet = 'ENCONTRO'
+SCMenuCFOBattle = 'DIRETOR FINANCEIRO'
+SCMenuCFOBattleCranes = 'GUINDASTES'
+SCMenuCFOBattleGoons = 'BRUTAMONTES'
+SCMenuCJBattle = 'JUIZ-CHEFE'
+SCMenuCEOBattle = 'PRESIDENTE'
+SCMenuGolf = 'GOLFE'
+SCMenuWhiteList = 'LISTA DE PERMISS\xc3\x95ES'
+SCMenuPlacesPlayground = 'P\xc3\x81TIO'
+SCMenuPlacesEstate = 'PROPRIEDADE'
 SCMenuPlacesCogs = 'COGS'
-SCMenuPlacesWait = 'WAIT'
-SCMenuFriendlyYou = 'You...'
-SCMenuFriendlyILike = 'I like...'
-SCMenuPlacesLetsGo = "Let's go..."
-SCMenuToontasksMyTasks = 'MY TASKS'
-SCMenuToontasksYouShouldChoose = 'I think you should choose...'
-SCMenuToontasksINeedMore = 'I need more...'
-SCMenuBattleGags = 'GAGS'
-SCMenuBattleTaunts = 'TAUNTS'
-SCMenuBattleStrategy = 'STRATEGY'
-SCMenuBoardingGroup = 'BOARDING'
-SCMenuParties = 'PARTIES'
-SCMenuAprilToons = "APRIL TOONS'"
-SCMenuSingingGroup = 'SINGING'
-SCMenuCarol = 'CAROLING'
-SCMenuSillyHoliday = 'SILLY METER'
-SCMenuVictoryParties = 'VICTORY PARTIES'
-SCMenuSellbotNerf = 'STORM SELLBOT'
-SCMenuJellybeanJam = 'JELLYBEAN WEEK'
-SCMenuHalloween = 'HALLOWEEN'
-SCMenuWinter = 'WINTER'
-SCMenuSellbotInvasion = 'SELLBOT INVASION'
-SCMenuFieldOffice = 'FIELD OFFICES'
-SCMenuIdesOfMarch = 'GREEN'
-FriendSecretNeedsPasswordWarningTitle = 'Parental Controls'
-FriendSecretNeedsParentLoginWarning = 'To get or enter a True Friend Code, log in with the Parent Account.  You can disable this prompt by changing your True Friend options.'
-FriendSecretNeedsPasswordWarning = 'To get or enter a True Friend Code, you must enter the Parent Account Password.  You can disable this prompt by changing your True Friends options.'
+SCMenuPlacesWait = 'ESPERE'
+SCMenuFriendlyYou = 'Voc\xc3\xaa...'
+SCMenuFriendlyILike = 'Eu gosto de...'
+SCMenuPlacesLetsGo = 'Vamos...'
+SCMenuToontasksMyTasks = 'MINHAS TAREFAS'
+SCMenuToontasksYouShouldChoose = 'Eu acho que voc\xc3\xaa deveria escolher...'
+SCMenuToontasksINeedMore = 'Preciso de mais...'
+SCMenuBattleGags = 'PIADAS'
+SCMenuBattleTaunts = 'PROVOCA\xc3\x87\xc3\x95ES'
+SCMenuBattleStrategy = 'ESTRAT\xc3\x89GIA'
+SCMenuBoardingGroup = 'ABORDAGEM'
+SCMenuParties = 'FESTAS'
+SCMenuAprilToons = 'DIA DA MENTIRA TOONS'
+SCMenuSingingGroup = 'CANTANDO'
+SCMenuCarol = 'CAN\xc3\x87\xc3\x95ES NATALINAS'
+SCMenuSillyHoliday = 'Medidor de bobagens'
+SCMenuVictoryParties = 'FESTAS DA VIT\xc3\x93RIA'
+SCMenuSellbotNerf = 'Rob\xc3\xb4 Vendedor TEMPESTADE'
+SCMenuJellybeanJam = 'Dan\xc3\xa7a de Balinhas'
+SCMenuHalloween = 'DIA DAS BRUXAS'
+SCMenuWinter = 'INVERNO'
+SCMenuSellbotInvasion = 'Invas\xc3\xa3o De R\xc3\xb4bos Vendedores'
+SCMenuFieldOffice = 'Escrit\xc3\xb3rios de Campo'
+SCMenuIdesOfMarch = 'VERDE'
+FriendSecretNeedsPasswordWarningTitle = 'Controles dispon\xc3\xadveis aos pais'
+FriendSecretNeedsParentLoginWarning = 'Para conseguir ou digitar um C\xc3\xb3digo de Amigo Verdadeiro, um dos seus pais ou respons\xc3\xa1veis precisa fazer o login. Voc\xc3\xaa pode desativar esta pergunta alterando suas op\xc3\xa7\xc3\xb5es de Amigos Verdadeiros.'
+FriendSecretNeedsPasswordWarning = 'Para pegar ou digitar um Segredo, voc\xc3\xaa deve inserir a Senha de pais. Voc\xc3\xaa pode desativar esta solicita\xc3\xa7\xc3\xa3o alterando as suas op\xc3\xa7\xc3\xb5es de Amigos secretos.'
 FriendSecretNeedsPasswordWarningOK = lOK
 FriendSecretNeedsPasswordWarningCancel = lCancel
-FriendSecretNeedsPasswordWarningWrongUsername = "That's not the correct username.  Please enter the username of the parental account.  This is not the same username used to play the game."
-FriendSecretNeedsPasswordWarningWrongPassword = "That's not the correct password.  Please enter the password of the parental account.  This is not the same password used to play the game."
-FriendSecretIntro = "If you are playing Disney's Toontown Online with someone you know in the real world, you can become True Friends.  You can chat using the keyboard with your True Friends.  Other Toons won't understand what you're saying.\n\nYou do this by getting a True Friend Code.  Tell the True Friend Code to your friend, but not to anyone else.  When your friend types in your True Friend Code on his or her screen, you'll be True Friends in Toontown!"
-FriendSecretGetSecret = 'Get a True Friend Code'
-FriendSecretEnterSecret = 'If you have a True Friend Code from someone you know, type it here.'
+FriendSecretNeedsPasswordWarningWrongUsername = 'Esse n\xc3\xa3o \xc3\xa9 o nome de usu\xc3\xa1rio correto. Digite o nome de usu\xc3\xa1rio da conta de pais. Esse n\xc3\xa3o \xc3\xa9 o mesmo nome de usu\xc3\xa1rio que \xc3\xa9 usado para jogar.'''
+FriendSecretNeedsPasswordWarningWrongPassword = 'Esta n\xc3\xa3o \xc3\xa9 a senha correta. Insira a Senha de pais criada na compra desta conta. N\xc3\xa3o \xc3\xa9 a mesma senha usada para os jogos.'''
+FriendSecretIntro = 'Se voc\xc3\xaa estiver jogando Toontown Online da Disney com algu\xc3\xa9m que conhece no mundo real, poder\xc3\xa1 tornar-se Amigo secreto dessa pessoa. Voc\xc3\xaa pode conversar com seus Amigos secretos usando o teclado. Os outros Toons n\xc3\xa3o entender\xc3\xa3o o que voc\xc3\xaas estiverem falando.\n\nVoc\xc3\xaa pode conseguir isto obtendo um Segredo. Conte o Segredo s\xc3\xb3 ao seu amigo, e a mais ningu\xc3\xa9m. Quando o seu amigo digitar o seu Segredo na tela, voc\xc3\xaas dois ser\xc3\xa3o Amigos secretos em Toontown!'
+FriendSecretGetSecret = 'Obter um segredo'
+FriendSecretEnterSecret = 'Se voc\xc3\xaa tiver um Segredo de algu\xc3\xa9m conhecido, digite-o aqui.'
 FriendSecretOK = lOK
-FriendSecretEnter = 'Enter True Friend Code'
+FriendSecretEnter = 'Inserir Segredo'
 FriendSecretCancel = lCancel
-FriendSecretGettingSecret = 'Getting True Friend Code. . .'
-FriendSecretGotSecret = "Here is your new True Friend Code.  Be sure to write it down!\n\nYou may give this True Friend Code to one person only.  Once someone types in your True Friend Code, it will not work for anyone else.  If you want to give a True Friend Code to more than one person, get another True Friend Code.\n\nThe True Friend Code will only work for the next two days.  Your friend will have to type it in before it goes away, or it won't work.\n\nYour True Friend Code is:"
-FriendSecretTooMany = "Sorry, you can't have any more True Friend Codes today.  You've already had more than your fair share!\n\nTry again tomorrow."
-FriendSecretTryingSecret = 'Trying True Friend Code. . .'
-FriendSecretEnteredSecretSuccess = 'You are now True Friends with %s!'
-FriendSecretTimeOut = 'Sorry, secrets are not working right now.'
-FriendSecretEnteredSecretUnknown = "That's not anyone's True Friend Code.  Are you sure you spelled it correctly?\n\nIf you did type it correctly, it may have expired.  Ask your friend to get a new True Friend Code for you (or get a new one yourself and give it to your friend)."
-FriendSecretEnteredSecretFull = "You can't be friends with %s because one of you has too many friends on your friends list."
-FriendSecretEnteredSecretFullNoName = "You can't be friends because one of you has too many friends on your friends list."
-FriendSecretEnteredSecretSelf = 'You just typed in your own True Friend Code!  Now no one else can use that True Friend Code.'
-FriendSecretEnteredSecretWrongProduct = "You have entered the wrong type of True Friend Code.\nThis game uses codes that begin with '%s'."
-FriendSecretNowFriends = 'You are now True Friends with %s!'
-FriendSecretNowFriendsNoName = 'You are now True Friends!'
-FriendSecretDetermineSecret = 'What type of True Friend would you like to make?'
+FriendSecretGettingSecret = 'Obtendo Segredo. . .'
+FriendSecretGotSecret = 'Este \xc3\xa9 o seu novo Segredo. N\xc3\xa3o deixe de anot\xc3\xa1-lo em algum lugar!\n\nVoc\xc3\xaa s\xc3\xb3 pode dar este Segredo a uma pessoa. Depois que algu\xc3\xa9m digitar o seu Segredo, ele n\xc3\xa3o funcionar\xc3\xa1 para nenhuma outra pessoa. Se voc\xc3\xaa quiser dar um Segredo para mais de uma pessoa, obtenha outro.\n\nO Segredo s\xc3\xb3 funcionar\xc3\xa1 nos pr\xc3\xb3ximos dois dias. O seu amigo ter\xc3\xa1 que digit\xc3\xa1-lo antes que expire, caso contr\xc3\xa1rio, n\xc3\xa3o funcionar\xc3\xa1.\n\nO Segredo \xc3\xa9:'
+FriendSecretTooMany = 'Sinto muito, voc\xc3\xaa n\xc3\xa3o pode ter mais Segredo hoje. Voc\xc3\xaa j\xc3\xa1 obteve mais do que a parte que lhe cabia!\n\nTente novamente amanh\xc3\xa3.'
+FriendSecretTryingSecret = 'Tentando usar Segredo. . .'
+FriendSecretEnteredSecretSuccess = 'Agora, voc\xc3\xaa \xc3\xa9 Amigo secreto de %s!'
+FriendSecretTimeOut = 'Sinto muitos, segredos n\xc3\xa3o est\xc3\xa3o funcionando agora.'
+FriendSecretEnteredSecretUnknown = 'Este Segredo n\xc3\xa3o existe. Tem certeza de que digitou certo?\n\nSe voc\xc3\xaa tiver digitado certo, ele pode ter expirado. Pe\xc3\xa7a ao seu amigo para pegar outro Segredo para voc\xc3\xaa (ou pegue um novo voc\xc3\xaa mesmo e d\xc3\xaa ao seu amigo).'
+FriendSecretEnteredSecretFull = 'Voc\xc3\xaa n\xc3\xa3o pode fazer amizade com %s porque um de voc\xc3\xaas dois possui amigos demais na lista.'
+FriendSecretEnteredSecretFullNoName = 'Voc\xc3\xaas n\xc3\xa3o podem fazer amizade porque um de voc\xc3\xaas dois possui amigos demais na lista.'
+FriendSecretEnteredSecretSelf = 'Voc\xc3\xaa acabou de digitar seu pr\xc3\xb3prio Segredo! Agora, ningu\xc3\xa9m mais poder\xc3\xa1 usar este Segredo.'
+FriendSecretEnteredSecretWrongProduct = "Voc\xc3\xaa digitou o tipo errado de C\xc3\xb3digo de Amigo Verdadeiro.\nEste jogo utiliza c\xc3\xb3digos que come\xc3\xa7am com '%s'."
+FriendSecretNowFriends = 'Agora, voc\xc3\xaa \xc3\xa9 Amigo Secreto de %s!'
+FriendSecretNowFriendsNoName = 'Agora, voc\xc3\xaas s\xc3\xa3o Amigos secretos!'
+FriendSecretDetermineSecret = 'Que tipo de Amigo Secreto voc\xc3\xaa quer ter?'
 FriendSecretDetermineSecretAvatar = 'Avatar'
-FriendSecretDetermineSecretAvatarRollover = 'A friend only in this game'
-FriendSecretDetermineSecretAccount = 'Account'
-FriendSecretDetermineSecretAccountRollover = 'A friend across the Disney.com network'
-GuildMemberTitle = 'Member Options'
-GuildMemberPromote = 'Make Officer'
-GuildMemberPromoteInvite = 'Make Veteran'
-GuildMemberDemoteInvite = 'Demote to Veteran'
-GuildMemberGM = 'Make Guildmaster'
-GuildMemberGMConfirm = 'Confirm'
-GuildMemberDemote = 'Demote to Member'
-GuildMemberKick = 'Remove Member'
+FriendSecretDetermineSecretAvatarRollover = 'Um amigo somente neste jogo'
+FriendSecretDetermineSecretAccount = 'Conta'
+FriendSecretDetermineSecretAccountRollover = 'Um amigo em toda a rede Disney.com.br'
+GuildMemberTitle = 'Op\xc3\xa7\xc3\xb5es de Membros'
+GuildMemberPromote = 'Fazer Oficial'
+GuildMemberPromoteInvite = 'Fazer Veterano'
+GuildMemberDemoteInvite = 'Rebaixar para Veterano'
+GuildMemberGM = 'Fazer Mestre da Guilda'
+GuildMemberGMConfirm = 'Confirmar'
+GuildMemberDemote = 'Rebaixar para Membro'
+GuildMemberKick = 'Ejeitar Membro'
 GuildMemberCancel = lCancel
-GuildMemberOnline = 'has come online.'
-GuildMemberOffline = 'has gone offline.'
+GuildMemberOnline = 'tem entrado online.'
+GuildMemberOffline = 'tem indo off-line.'
 GuildPrefix = '(G):'
-GuildNewMember = 'New Guild Member'
-GuildMemberUnknown = 'Unknown'
-GuildMemberGMMessage = 'Warning! Would you like to give up leadership of your guild and make %s your guild master?\n\nYou will become an officer'
+GuildNewMember = 'Novo Membro da Guilda'
+GuildMemberUnknown = 'Desconhecido'
+GuildMemberGMMessage = 'Aviso! Voc\xc3\xaa gostaria de desistir da lideran\xc3\xa7a da sua guilda e tornar %s seu mestre da guilda?\n\nVoc\xc3\xaa se tornar\xc3\xa1 um oficial'
 GuildInviteeOK = lOK
 GuildInviteeNo = lNo
-GuildInviteeInvitation = '%s is inviting you to join %s.'
-GuildRedeemErrorInvalidToken = 'Sorry, that code is invalid. Please try again.'
-GuildRedeemErrorGuildFull = 'Sorry, this guild has too many members already.'
-FriendInviteeTooManyFriends = '%s would like to be your friend, but you already have too many friends on your list!'
-FriendInviteeInvitation = '%s would like to be your friend.'
-FriendInviteeInvitationPlayer = "%s's player would like to be your friend."
-FriendNotifictation = '%s is now your friend.'
+GuildInviteeInvitation = '%s est\xc3\xa1 convidando voc\xc3\xaa para se juntar a %s.'
+GuildRedeemErrorInvalidToken = 'Sinto muito, que o c\xc3\xb3digo est\xc3\xa1 invalido. Por Favor tente novamente.'
+GuildRedeemErrorGuildFull = 'Sinto muito, esta guilda j\xc3\xa1 tem muitos membros.'
+FriendInviteeTooManyFriends = '%s quer fazer amizade com voc\xc3\xaa, mas voc\xc3\xaa j\xc3\xa1 tem muitos amigos em sua lista!'
+FriendInviteeInvitation = '%s quer fazer amizade com voc\xc3\xaa.'
+FriendInviteeInvitationPlayer = "O jogador de %s gostaria de ser seu amigo."
+FriendNotifictation = '%s \xc3\xa9 agora seu amigo.'
 FriendInviteeOK = lOK
 FriendInviteeNo = lNo
-GuildInviterWentAway = '%s is no longer present.'
-GuildInviterAlready = '%s is already in a guild.'
-GuildInviterBusy = '%s is busy right now.'
-GuildInviterNotYet = 'Invite %s to join your guild?'
-GuildInviterCheckAvailability = 'Inviting %s to join your guild.'
+GuildInviterWentAway = '%s n\xc3\xa3o est\xc3\xa1 mais presente.'
+GuildInviterAlready = '%s j\xc3\xa1 est\xc3\xa1 em uma guilda.'
+GuildInviterBusy = '%s est\xc3\xa1 ocupado agora certo.'
+GuildInviterNotYet = 'Convidar %s para entrar na sua guilda?'
+GuildInviterCheckAvailability = 'Convidando %s para ingressar na sua guilda.'
 GuildInviterOK = lOK
 GuildInviterNo = lNo
 GuildInviterCancel = lCancel
 GuildInviterYes = lYes
-GuildInviterTooFull = 'Guild has reached maximum size.'
+GuildInviterTooFull = 'A guilda atingiu o tamanho m\xc3\xa1ximo.'
 GuildInviterNo = lNo
-GuildInviterClickToon = 'Click on the pirate you would like to invite.'
-GuildInviterTooMany = 'This is a bug'
-GuildInviterNotAvailable = '%s is busy right now; try again later.'
-GuildInviterGuildSaidNo = '%s has declined your guild invitation.'
-GuildInviterAlreadyInvited = '%s has already been invited.'
-GuildInviterEndGuildship = 'Remove %s from the guild?'
-GuildInviterFriendsNoMore = '%s has left the guild.'
-GuildInviterSelf = 'You are already in the guild!'
-GuildInviterIgnored = '%s is ignoring you.'
-GuildInviterAsking = 'Asking %s to join the guild.'
-GuildInviterGuildSaidYes = '%s has joined the guild!'
-GuildInviterFriendKickedOut = '%s has kicked out %s from the Guild.'
-GuildInviterFriendKickedOutP = '%s have kicked out %s from the Guild.'
-GuildInviterFriendInvited = '%s has invited %s to the Guild.'
-GuildInviterFriendInvitedP = '%s have invited %s to the Guild.'
-GuildInviterFriendPromoted = '%s has promoted %s to the rank of %s.'
-GuildInviterFriendPromotedP = '%s have promoted %s to the rank of %s.'
-GuildInviterFriendDemoted = '%s has demoted %s to the rank of %s.'
-GuildInviterFriendDemotedP = '%s have demoted %s to the rank of %s.'
-GuildInviterFriendPromotedGM = '%s has named %s as the new %s'
-GuildInviterFriendPromotedGMP = '%s have named %s as the new %s'
-GuildInviterFriendDemotedGM = '%s has been named by %s as the new GuildMaster who became the rank of %s'
-GuildInviterFriendDemotedGMP = '%s have been named by %s as the new GuildMaster who beaome the rank of %s'
-FriendOnline = 'has come online.'
-FriendOffline = 'has gone offline.'
+GuildInviterClickToon = 'Clique no pirata que voc\xc3\xaa deseja convidar.'
+GuildInviterTooMany = 'Isto \xc3\xa9 um bug'
+GuildInviterNotAvailable = '%s est\xc3\xa1 ocupado agora correto; tente novamente mais tarde.'
+GuildInviterGuildSaidNo = '%s n\xc3\xa3o deseja para se juntar.'
+GuildInviterAlreadyInvited = '%s j\xc3\xa1 foi convidado.'
+GuildInviterEndGuildship = 'Ejetar %s da guilda?'
+GuildInviterFriendsNoMore = '%s tenha sa\xc3\xaddo da guilda.'
+GuildInviterSelf = 'Voc\xc3\xaa j\xc3\xa1 est\xc3\xa1 na guilda!'
+GuildInviterIgnored = '%s est\xc3\xa1 ignorando voc\xc3\xaa.'
+GuildInviterAsking = 'Pedindo para %s entrar na guilda.'
+GuildInviterGuildSaidYes = '%s ir\xc3\xa1 participar!'
+GuildInviterFriendKickedOut = '%s tenha expulsado %s da Guilda.'
+GuildInviterFriendKickedOutP = '%s tenham expulsado %s da Guilda.'
+GuildInviterFriendInvited = '%s tenha convidando %s para a Guilda.'
+GuildInviterFriendInvitedP = '%s tenham convidados %s para a Guilda.'
+GuildInviterFriendPromoted = '%s tenha promovido o %s  para o ranque de %s.'
+GuildInviterFriendPromotedP = '%s tenham promovidos o %s para o ranque de %s.'
+GuildInviterFriendDemoted = '%s tenha rebaixado o %s para o rank de %s.'
+GuildInviterFriendDemotedP = '%s tenham rebaixado o %s para o rank de %s.'
+GuildInviterFriendPromotedGM = '%s tenha nomeado o %s como o novo %s'
+GuildInviterFriendPromotedGMP = '%s tenham nomearam o %s como o novo %s'
+GuildInviterFriendDemotedGM = '%s foi nomeado por %s como o novo Mestre da Guilda que se tornou o ranque de %s'
+GuildInviterFriendDemotedGMP = '%s foram nomeados por %s como o novo Mestre da Guilda que alcan\xc3\xa7ou o ranque de %s'
+FriendOnline = 'entrou on-line.'
+FriendOffline = 'saiu e est\xc3\xa1 off-line.'
 FriendInviterOK = lOK
 FriendInviterCancel = lCancel
-FriendInviterStopBeingFriends = 'Stop being friends'
-FriendInviterConfirmRemove = 'Remove'
+FriendInviterStopBeingFriends = 'Interromper amizade'
+FriendInviterConfirmRemove = 'Remover'
 FriendInviterYes = lYes
 FriendInviterNo = lNo
-FriendInviterClickToon = 'Click on the toon you would like to make friends with.'
-FriendInviterTooMany = 'You have too many friends on your list to add another one now. You will have to remove some friends if you want to make friends with %s.'
-FriendInviterToonTooMany = 'You have too many toon friends on your list to add another one now. You will have to remove some toon friends if you want to make friends with %s.'
-FriendInviterPlayerTooMany = 'You have too many player friends on your list to add another one now. You will have to remove some player friends if you want to make friends with %s.'
-FriendInviterNotYet = 'Would you like to make friends with %s?'
-FriendInviterCheckAvailability = 'Seeing if %s is available.'
-FriendInviterNotAvailable = '%s is busy right now; try again later.'
-FriendInviterCantSee = 'This only works if you can see %s.'
-FriendInviterNotOnline = 'This only works if %s is online'
-FriendInviterNotOpen = '%s does not have open chat, use secrets to make friends'
-FriendInviterWentAway = '%s went away.'
-FriendInviterAlready = '%s is already your friend.'
-FriendInviterAlreadyInvited = '%s has already been invited.'
-FriendInviterAskingCog = 'Asking %s to be your friend.'
-FriendInviterAskingPet = '%s jumps around, runs in circles and licks your face.'
-FriendInviterAskingMyPet = '%s is already your BEST friend.'
-FriendInviterEndFriendship = 'Are you sure you want to stop being friends with %s?'
-FriendInviterFriendsNoMore = '%s is no longer your friend.'
-FriendInviterSelf = "You are already 'friends' with yourself!"
-FriendInviterIgnored = '%s is ignoring you.'
-FriendInviterAsking = 'Asking %s to be your friend.'
-FriendInviterFriendSaidYes = 'You are now friends with %s!'
-FriendInviterPlayerFriendSaidYes = "You are now friends with %s's player, %s!"
-FriendInviterFriendSaidNo = '%s said no, thank you.'
-FriendInviterFriendSaidNoNewFriends = "%s isn't looking for new friends right now."
-FriendInviterOtherTooMany = '%s has too many friends already!'
-FriendInviterMaybe = '%s was unable to answer.'
-FriendInviterDown = 'Cannot make friends now.'
+FriendInviterClickToon = 'Clique no Toon com o qual deseja fazer amizade.'
+FriendInviterTooMany = 'Voc\xc3\xaa tem amigos demais na lista e n\xc3\xa3o pode adicionar mais nenhum agora. Voc\xc3\xaa ter\xc3\xa1 que remover alguns amigos se desejar fazer amizade com %s.'
+FriendInviterToonTooMany = 'Voc\xc3\xaa tem amigos Tonns demais em sua lista para poder acrescentar um agora. Remova alguns amigos Tonns se quiser fazer amizade com %s.'
+FriendInviterPlayerTooMany = 'Voc\xc3\xaa tem amigos jogadores demais em sua lista para poder acrescentar um agora. Remova alguns amigos jogadores se quiser fazer amizade com %s.'
+FriendInviterNotYet = 'Deseja fazer amizade com %s?'
+FriendInviterCheckAvailability = 'Verificando se %s est\xc3\xa1 dispon\xc3\xadvel.'
+FriendInviterNotAvailable = '%s est\xc3\xa1 ocupado(a) agora; tente novamente mais tarde.'
+FriendInviterCantSee = 'Isto s\xc3\xb3 funciona se voc\xc3\xaa puder ver %s.'
+FriendInviterNotOnline = 'Isto s\xc3\xb3 funciona se %s estiver online'
+FriendInviterNotOpen = '%s n\xc3\xa3o tem um bate-papo aberto, use segredos para fazer amigos'
+FriendInviterWentAway = '%s saiu.'
+FriendInviterAlready = '%s j\xc3\xa1 \xc3\xa9 seu(sua) amigo(a).'
+FriendInviterAlreadyInvited = '%s j\xc3\xa1 recebeu o convite.'
+FriendInviterAskingCog = 'Pedindo a %s para fazer amizade com voc\xc3\xaa.'
+FriendInviterAskingPet = '%s pula \xc3\xa0 sua volta, corre em c\xc3\xadrculos e lambe seu rosto.'
+FriendInviterAskingMyPet = '%s j\xc3\xa1 \xc3\xa9 seu(sua) MELHOR amigo(a).'
+FriendInviterEndFriendship = 'Tem certeza de que voc\xc3\xaa deseja interromper a amizade com %s?'
+FriendInviterFriendsNoMore = '%s n\xc3\xa3o \xc3\xa9 mais seu(sua) amigo(a).'
+FriendInviterSelf = 'Voc\xc3\xaa j\xc3\xa1 tem amizade com voc\xc3\xaa mesmo(a)!'
+FriendInviterIgnored = '%s est\xc3\xa1 ignorando voc\xc3\xaa.'
+FriendInviterAsking = 'Pedindo a %s para fazer amizade com voc\xc3\xaa.'
+FriendInviterFriendSaidYes = '%s disse sim!'
+FriendInviterPlayerFriendSaidYes = 'Agora, voc\xc3\xaa fez amizade com o jogador de %s, %s!'
+FriendInviterFriendSaidNo = '%s agradece, mas disse n\xc3\xa3o.'
+FriendInviterFriendSaidNoNewFriends = '%s n\xc3\xa3o est\xc3\xa1 procurando novos amigos no momento.'
+FriendInviterOtherTooMany = '%s j\xc3\xa1 tem amigos demais!'
+FriendInviterMaybe = '%s n\xc3\xa3o conseguiu responder.'
+FriendInviterDown = 'N\xc3\xa3o foi poss\xc3\xadvel fazer amizade agora.'
 TalkGuild = 'G'
 TalkParty = 'P'
 TalkPVP = 'PVP'
@@ -417,62 +417,62 @@ IgnoreConfirmOK = lOK
 IgnoreConfirmCancel = lCancel
 IgnoreConfirmYes = lYes
 IgnoreConfirmNo = lNo
-IgnoreConfirmNotYet = 'Would you like to Ignore %s?'
-IgnoreConfirmAlready = 'You are already ignoring %s.'
-IgnoreConfirmSelf = 'You cannot ignore yourself!'
-IgnoreConfirmNewIgnore = 'You are ignoring %s.'
-IgnoreConfirmEndIgnore = 'You are no longer ignoring %s.'
-IgnoreConfirmRemoveIgnore = 'Stop ignoring %s?'
-EmoteList = ['Wave',
- 'Happy',
- 'Sad',
- 'Angry',
- 'Sleepy',
- 'Shrug',
- 'Dance',
- 'Think',
- 'Bored',
- 'Applause',
- 'Cringe',
- 'Confused',
- 'Belly Flop',
- 'Bow',
- 'Banana Peel',
- 'Resistance Salute',
- 'Laugh',
+IgnoreConfirmNotYet = 'Deseja continuar a Ignorar %s?'
+IgnoreConfirmAlready = 'Voc\xc3\xaa j\xc3\xa1 est\xc3\xa1 ignorando %s.'
+IgnoreConfirmSelf = 'Voc\xc3\xaa n\xc3\xa3o pode ignorar a si mesmo(a)!'
+IgnoreConfirmNewIgnore = 'Voc\xc3\xaa est\xc3\xa1 ignorando %s.'
+IgnoreConfirmEndIgnore = 'Voc\xc3\xaa n\xc3\xa3o est\xc3\xa1 mais ignorando %s.'
+IgnoreConfirmRemoveIgnore = 'Parar de ignorar %s?'
+EmoteList = ['Aceno',
+ 'Feliz',
+ 'Triste',
+ 'Raivoso',
+ 'Sonolento',
+ 'Dar de ombros',
+ 'Dan\xc3\xa7ante',
+ 'Piscar',
+ 'Entediado',
+ 'Palmas',
+ 'Surpreso',
+ 'Confuso',
+ 'Casca de Banana',
+ 'Saudar',
+ 'Muito triste',
+ 'Sorris\xc3\xa3o',
+ 'Risada',
  lYes,
  lNo,
  lOK,
- 'Surprise',
- 'Cry',
- 'Delighted',
- 'Furious',
- 'Laugh']
-EmoteWhispers = ['%s waves.',
- '%s is happy.',
- '%s is sad.',
- '%s is angry.',
- '%s is sleepy.',
- '%s shrugs.',
- '%s dances.',
- '%s thinks.',
- '%s is bored.',
- '%s applauds.',
- '%s cringes.',
- '%s is confused.',
- '%s does a belly flop.',
- '%s bows to you.',
- '%s slips on a banana peel.',
- '%s gives the resistance salute.',
- '%s laughs.',
- "%s says '" + lYes + "'.",
- "%s says '" + lNo + "'.",
- "%s says '" + lOK + "'.",
- '%s is surprised.',
- '%s is crying.',
- '%s is delighted.',
- '%s is furious.',
- '%s is laughing.']
+ 'Surpresa',
+ 'Choro',
+ 'Alegre',
+ 'Raiva',
+ 'Risada']
+EmoteWhispers = ['%s acena.',
+ '%s est\xc3\xa1 feliz.',
+ '%s est\xc3\xa1 triste.',
+ '%s est\xc3\xa1 furioso.',
+ '%s est\xc3\xa1 sonolento.',
+ '%s d\xc3\xa1 de ombros.',
+ '%s dan\xc3\xa7a.',
+ '%s pisca.',
+ '%s est\xc3\xa1 entediado.',
+ '%s aplaude.',
+ '%s est\xc3\xa1 surpreso.',
+ '%s est\xc3\xa1 confuso.',
+ '%s escorregou numa casca de banana.',
+ '%s sa\xc3\xbada voc\xc3\xaa.',
+ '%s est\xc3\xa1 muito triste.',
+ '%s sorriu.',
+ '%s d\xc3\xa1 risada.',
+ "%s diz '" + lYes + "'.",
+ "%s diz '" + lNo + "'.",
+ "%s diz '" + lOK + "'.",
+ '%s se surpreende.',
+ '%s est\xc3\xa1 chorando.',
+ '%s est\xc3\xa1 alegre.',
+ '%s est\xc3\xa1 com raiva.',
+ '%s est\xc3\xa1 rindo.']
 EmoteFuncDict = {'Wave': 0,
  'Happy': 1,
  'Sad': 2,
@@ -506,895 +506,895 @@ EmoteFuncDict = {'Wave': 0,
  'Sing Note E': 30,
  'Sing Note F': 31,
  'Sing Note G2': 32}
-SuitBrushOffs = {'f': ["I'm late for a meeting."],
- 'p': ['Push off.'],
- 'ym': ['Yes Man says NO.'],
- None: ["It's my day off.",
-        "I believe you're in the wrong office.",
-        'Have your people call my people.',
-        "You're in no position to meet with me.",
-        'Talk to my assistant.']}
-SuitFaceoffTaunts = {'b': ['Do you have a donation for me?',
-       "I'm going to make you a sore loser.",
-       "I'm going to leave you high and dry.",
-       'I\'m "A Positive" I\'m going to win.',
-       '"O" don\'t be so "Negative".',
-       "I'm surprised you found me, I'm very mobile.",
-       "I'm going to need to do a quick count on you.",
-       "You're soon going to need a cookie and some juice.",
-       "When I'm through you'll need to lie down.",
-       'This will only hurt for a second.',
-       "I'm going to make you dizzy.",
-       "Good timing, I'm a pint low."],
- 'm': ["You don't know who you're mingling with.",
-       'Ever mingle with the likes of me?',
-       'Good, it takes two to mingle.',
-       "Let's mingle.",
-       'This looks like a good place to mingle.',
-       "Well,isn't this cozy?",
-       "You're mingling with defeat.",
-       "I'm going to mingle in your business.",
-       "Are you sure you're ready to mingle?"],
- 'ms': ['Get ready for a shake down.',
-        'You had better move out of the way.',
-        'Move it or lose it.',
-        "I believe it's my move.",
-        'This should shake you up.',
-        'Prepare to be moved.',
-        "I'm ready to make my move.",
-        "Watch out toon, you're on shaky ground.",
-        'This should be a moving moment.',
-        'I feel moved to defeat you.',
-        'Are you shaking yet?'],
- 'hh': ["I'm way ahead of you.",
-        "You're headed for big trouble.",
-        "You'll wish this was all in your head.",
-        "Oh good, I've been hunting for you.",
-        "I'll have your head for this.",
-        'Heads up!',
-        "Looks like you've got a head for trouble.",
-        'Headed my way?',
-        'A perfect trophy for my collection.',
-        'You are going to have such a headache.',
-        "Don't lose your head over me."],
- 'tbc': ["Watch out, I'm gouda getcha.",
-         'You can call me Jack.',
-         'Are you sure?  I can be such a Muenster at times.',
-         'Well finally, I was afraid you were stringing me along.',
-         "I'm going to cream you.",
-         "Don't you think I've aged well?",
-         "I'm going to make mozzarella outta ya.",
-         "I've been told I'm very strong.",
-         'Careful, I know your expiration date.',
-         "Watch out, I'm a whiz at this game.",
-         'Beating you will be a brieeze.'],
- 'cr': ['RAID!',
-        "You don't fit in my corporation.",
-        'Prepare to be raided.',
-        "Looks like you're primed for a take-over.",
-        'That is not proper corporate attire.',
-        "You're looking rather vulnerable.",
-        'Time to sign over your assets.',
-        "I'm on a toon removal crusade.",
-        'You are defenseless against my ideas.',
-        "Relax, you'll find this is for the best."],
- 'mh': ['Are you ready for my take?',
-        'Lights, camera, action!',
-        "Let's start rolling.",
-        'Today the role of defeated toon, will be played by - YOU!',
-        'This scene will go on the cutting room floor.',
-        'I already know my motivation for this scene.',
-        'Are you ready for your final scene?',
-        "I'm ready to roll your end credits.",
-        'I told you not to call me.',
-        "Let's get on with the show.",
-        "There's no business like it!",
-        "I hope you don't forget your lines."],
- 'nc': ['Looks like your number is up.',
-        'I hope you prefer extra crunchy.',
-        "Now you're really in a crunch.",
-        'Is it time for crunch already?',
-        "Let's do crunch.",
-        'Where would you like to have your crunch today?',
-        "You've given me something to crunch on.",
-        'This will not be smooth.',
-        'Go ahead, try and take a number.',
-        'I could do with a nice crunch about now.'],
- 'ls': ["It's time to collect on your loan.",
-        "You've been on borrowed time.",
-        'Your loan is now due.',
-        'Time to pay up.',
-        'Well you asked for an advance and you got it.',
-        "You're going to pay for this.",
-        "It's pay back time.",
-        'Can you lend me an ear?',
-        "Good thing you're here,  I'm in a frenzy.",
-        'Shall we have a quick bite?',
-        'Let me take a bite at it.'],
- 'mb': ['Time to bring in the big bags.',
-        'I can bag this.',
-        'Paper or plastic?',
-        'Do you have your baggage claim?',
-        "Remember, money won't make you happy.",
-        'Careful, I have some serious baggage.',
-        "You're about to have money trouble.",
-        'Money will make your world go around.',
-        "I'm too rich for your blood.",
-        'You can never have too much money!'],
- 'rb': ["You've been robbed.",
-        "I'll rob you of this victory.",
-        "I'm a royal pain!",
-        'Hope you can grin and baron.',
-        "You'll need to report this robbery.",
-        "Stick 'em up.",
-        "I'm a noble adversary.",
-        "I'm going to take everything you have.",
-        'You could call this neighborhood robbery.',
-        'You should know not to talk to strangers.'],
- 'bs': ['Never turn your back on me.',
-        "You won't be coming back.",
-        'Take that back or else!',
-        "I'm good at cutting costs.",
-        'I have lots of back up.',
-        "There's no backing down now.",
-        "I'm the best and I can back that up.",
-        'Whoa, back up there toon.',
-        'Let me get your back.',
-        "You're going to have a stabbing headache soon.",
-        'I have perfect puncture.'],
- 'bw': ["Don't brush me aside.",
-        'You make my hair curl.',
-        'I can make this permanent if you want.',
-        "It looks like you're going to have some split ends.",
-        "You can't handle the truth.",
-        "I think it's your turn to be dyed.",
-        "I'm so glad you're on time for your cut.",
-        "You're in big trouble.",
-        "I'm going to wig out on you.",
-        "I'm a big deal little toon."],
- 'le': ["Careful, my legal isn't very tender.",
-        'I soar, then I score.',
-        "I'm bringing down the law on you.",
-        'You should know, I have some killer instincts.',
-        "I'm going to give you legal nightmares.",
-        "You won't win this battle.",
-        'This is so much fun it should be illegal.',
-        "Legally, you're too small to fight me.",
-        'There is no limit to my talons.',
-        "I call this a citizen's arrest."],
- 'sd': ["You'll never know when I'll stop.",
-        'Let me take you for a spin.',
-        'The doctor will see you now.',
-        "I'm going to put you into a spin.",
-        'You look like you need a doctor.',
-        'The doctor is in, the Toon is out.',
-        "You won't like my spin on this.",
-        'You are going to spin out of control.',
-        'Care to take a few turns with me?',
-        'I have my own special spin on the subject.'],
- 'f': ["I'm gonna tell the boss about you!",
-       "I may be just a flunky - But I'm real spunky.",
-       "I'm using you to step up the corporate ladder.",
-       "You're not going to like the way I work.",
-       'The boss is counting on me to stop you.',
-       "You're going to look good on my resume.",
-       "You'll have to go through me first.",
-       "Let's see how you rate my job performance.",
-       'I excel at Toon disposal.',
-       "You're never going to meet my boss.",
-       "I'm sending you back to the Playground."],
- 'p': ["I'm gonna rub you out!",
-       "Hey, you can't push me around.",
-       "I'm No.2!",
-       "I'm going to scratch you out.",
-       "I'll have to make my point more clear.",
-       'Let me get right to the point.',
-       "Let's hurry, I bore easily.",
-       'I hate it when things get dull.',
-       'So you want to push your luck?',
-       'Did you pencil me in?',
-       'Careful, I may leave a mark.'],
- 'ym': ["I'm positive you're not going to like this.",
-        "I don't know the meaning of no.",
-        'Want to meet?  I say yes, anytime.',
-        'You need some positive enforcement.',
-        "I'm going to make a positive impression.",
-        "I haven't been wrong yet.",
-        "Yes, I'm ready for you.",
-        'Are you positive you want to do this?',
-        "I'll be sure to end this on a positive note.",
-        "I'm confirming our meeting time.",
-        "I won't take no for an answer."],
- 'mm': ["I'm going to get into your business!",
-        'Sometimes big hurts come in small packages.',
-        'No job is too small for me.',
-        "I want the job done right, so I'll do it myself.",
-        'You need someone to manage your assets.',
-        'Oh good, a project.',
-        "Well, you've managed to find me.",
-        'I think you need some managing.',
-        "I'll take care of you in no time.",
-        "I'm watching every move you make.",
-        'Are you sure you want to do this?',
-        "We're going to do this my way.",
-        "I'm going to be breathing down your neck.",
-        'I can be very intimidating.'],
- 'ds': ["You're going down!",
-        'Your options are shrinking.',
-        'Expect diminishing returns.',
-        "You've just become expendable.",
-        "Don't ask me to lay off.",
-        'I might have to make a few cutbacks.',
-        'Things are looking down for you.',
-        'Why do you look so down?'],
- 'cc': ['Surprised to hear from me?',
-        'You rang?',
-        'Are you ready to accept my charges?',
-        'This caller always collects.',
-        "I'm one smooth operator.",
-        "Hold the phone -- I'm here.",
-        'Have you been waiting for my call?',
-        "I was hoping you'd answer my call.",
-        "I'm going to cause a ringing sensation.",
-        'I always make my calls direct.',
-        'Boy, did you get your wires crossed.',
-        'This call is going to cost you.',
-        "You've got big trouble on the line."],
- 'tm': ['I plan on making this inconvenient for you.',
-        'Can I interest you in an insurance plan?',
-        'You should have missed my call.',
-        "You won't be able to get rid of me now.",
-        'This a bad time?  Good.',
-        'I was planning on running into you.',
-        'I will be reversing the charges for this call.',
-        'I have some costly items for you today.',
-        'Too bad for you - I make house calls.',
-        "I'm prepared to close this deal quickly.",
-        "I'm going to use up a lot of your resources."],
- 'nd': ['In my opinion, your name is mud.',
-        "I hope you don't mind if I drop your name.",
-        "Haven't we met before?",
-        "Let's hurry, I'm having lunch with 'Mr. Hollywood.'",
-        "Have I mentioned I know 'The Mingler?'",
-        "You'll never forget me.",
-        'I know all the right people to bring you down.',
-        "I think I'll just drop in.",
-        "I'm in the mood to drop some Toons.",
-        "You name it, I've dropped it."],
- 'gh': ['Put it there, Toon.',
-        "Let's shake on it.",
-        "I'm going to enjoy this.",
-        "You'll notice I have a very firm grip.",
-        "Let's seal the deal.",
-        "Let's get right to the business at hand.",
-        "Off handedly I'd say, you're in trouble.",
-        "You'll find I'm a handful.",
-        'I can be quite handy.',
-        "I'm a very hands-on kinda guy.",
-        'Would you like some hand-me-downs?',
-        'Let me show you some of my handiwork.',
-        'I think the handwriting is on the wall.'],
- 'sc': ['I will make short work of you.',
-        "You're about to have money trouble.",
-        "You're about to be overcharged.",
-        'This will be a short-term assignment.',
-        "I'll be done with you in short order.",
-        "You'll soon experience a shortfall.",
-        "Let's make this a short stop.",
-        "I think you've come up short.",
-        'I have a short temper for Toons.',
-        "I'll be with you shortly.",
-        "You're about to be shorted."],
- 'pp': ['This is going to sting a little.',
-        "I'm going to give you a pinch for luck.",
-        "You don't want to press your luck with me.",
-        "I'm going to put a crimp in your smile.",
-        'Perfect, I have an opening for you.',
-        'Let me add my two cents.',
-        "I've been asked to pinch-hit.",
-        "I'll prove you're not dreaming.",
-        'Heads you lose, tails I win.',
-        'A Penny for your gags.'],
- 'tw': ['Things are about to get very tight.',
-        "That's Mr. Tightwad to you.",
-        "I'm going to cut off your funding.",
-        'Is this the best deal you can offer?',
-        "Let's get going - time is money.",
-        "You'll find I'm very tightfisted.",
-        "You're in a tight spot.",
-        'Prepare to walk a tight rope.',
-        'I hope you can afford this.',
-        "I'm going to make this a tight squeeze.",
-        "I'm going to make a big dent in your budget."],
- 'bc': ['I enjoy subtracting Toons.',
-        'You can count on me to make you pay.',
-        'Bean there, done that.',
-        'I can hurt you where it counts.',
-        'I make every bean count.',
-        'Your expense report is overdue.',
-        'Time for an audit.',
-        "Let's step into my office.",
-        'Where have you bean?',
-        "I've bean waiting for you.",
-        "I'm going to bean you."],
- 'bf': ["Looks like you've hit rock bottom.",
-        "I'm ready to feast.",
-        "I'm a sucker for Toons.",
-        'Oh goody, lunch time.',
-        'Perfect timing, I need a quick bite.',
-        "I'd like some feedback on my performance.",
-        "Let's talk about the bottom line.",
-        "You'll find my talents are bottomless.",
-        'Good, I need a little pick-me-up.',
-        "I'd love to have you for lunch."],
- 'tf': ["It's time to face-off!",
-        'You had better face up to defeat.',
-        'Prepare to face your worst nightmare!',
-        "Face it, I'm better than you.",
-        'Two heads are better than one.',
-        'It takes two to tango, you wanna tango?',
-        "You're in for two times the trouble.",
-        'Which face would you like to defeat you?',
-        "I'm 'two' much for you.",
-        "You don't know who you're facing.",
-        'Are you ready to face your doom?'],
- 'dt': ["I'm gonna give you double the trouble.",
-        'See if you can stop my double cross.',
-        'I serve a mean double-\x04DECKER.',
-        "It's time to do some double-dealing.",
-        'I plan to do some double DIPPING.',
-        "You're not going to like my double play.",
-        'You may want to double think this.',
-        'Get ready for a double TAKE.',
-        'You may want to double up against me.',
-        'Doubles anyone??'],
- 'ac': ["I'm going to chase you out of town!",
-        'Do you hear a siren?',
-        "I'm going to enjoy this.",
-        'I love the thrill of the chase.',
-        'Let me give you the run down.',
-        'Do you have insurance?',
-        'I hope you brought a stretcher with you.',
-        'I doubt you can keep up with me.',
-        "It's all uphill from here.",
-        "You're going to need some urgent care soon.",
-        'This is no laughing matter.',
-        "I'm going to give you the business."]}
+SuitBrushOffs = {'f': ['Estou atrasado para uma reuni\xc3\xa3o.'],
+ 'p': ['Sai fora.'],
+ 'ym': ['As vaquinhas de pres\xc3\xa9pio dizem N\xc3\x83O.'],
+ None: ['\xc3\x89 o meu dia de folga.',
+        'Acho que voc\xc3\xaa est\xc3\xa1 no escrit\xc3\xb3rio errado.',
+        'Fale para o seu pessoal falar com o meu.',
+        'Voc\xc3\xaa n\xc3\xa3o tem cacife para se encontrar comigo.',
+        'Fale com o meu assistente.']}
+SuitFaceoffTaunts = {'b': ['Voc\xc3\xaa tem uma doa\xc3\xa7\xc3\xa3o para mim?',
+       'Voc\xc3\xaa vai detestar perder a parada.',
+       'Voc\xc3\xaa n\xc3\xa3o vai ter salva\xc3\xa7\xc3\xa3o.',
+       'Sou "A Positivo", portanto, vou ganhar.',
+       '"O" n\xc3\xa3o seja t\xc3\xa3o "Negativo".',
+       '\xc3\x89 uma surpresa voc\xc3\xaa ter me achado; n\xc3\xa3o tenho parada.',
+       'Vou precisar fazer uma r\xc3\xa1pida contagem em voc\xc3\xaa.',
+       'Em breve, voc\xc3\xaa vai precisar comer biscoito e tomar um suco.',
+       'Quando eu terminar, voc\xc3\xaa vai precisar dar uma descansada.',
+       'S\xc3\xb3 vai doer um pouquinho.',
+       'Vou deixar voc\xc3\xaa tonto.',
+       'Na hora certa, s\xc3\xb3 estou um pouquinho abaixo.'],
+ 'm': ['Voc\xc3\xaa n\xc3\xa3o sabe com quem est\xc3\xa1 se metendo.',
+       'Nunca se meteu com algu\xc3\xa9m da minha turma?',
+       'Isso \xc3\xa9 bom, quando um n\xc3\xa3o quer dois n\xc3\xa3o se misturam.',
+       'Vamos fazer amizade.',
+       'Parece um bom lugar para confraternizar.',
+       'N\xc3\xa3o \xc3\xa9 confort\xc3\xa1vel?',
+       'Voc\xc3\xaas est\xc3\xa3o se unindo com a derrota.',
+       'Vou me juntar a voc\xc3\xaa no neg\xc3\xb3cio.',
+       'Tem certeza de que est\xc3\xa1 pronto para a uni\xc3\xa3o?'],
+ 'ms': ['Prepare-se para uma sacudida.',
+        'Melhor voc\xc3\xaa sair do caminho.',
+        'Olha a frente.',
+        'Acho que \xc3\xa9 minha vez.',
+        'Isso deve agitar voc\xc3\xaa.',
+        'Prepare-se para ser movido.',
+        'Estou pronto para dar o meu passo.',
+        'Cuidado Toon, voc\xc3\xaa est\xc3\xa1 em terreno inst\xc3\xa1vel.',
+        'Este deve ser um momento de movimento.',
+        'Sinto um impulso de derrotar voc\xc3\xaa.',
+        'Voc\xc3\xaa ainda est\xc3\xa1 tremendo?'],
+ 'hh': ['Estou na sua frente nesta ca\xc3\xa7ada.',
+        'Voc\xc3\xaa est\xc3\xa1 ca\xc3\xa7ando encrenca da grande.',
+        'A sua cabe\xc3\xa7a est\xc3\xa1 na mira do ca\xc3\xa7ador de cabe\xc3\xa7as.',
+        'Que bom, estava atr\xc3\xa1s de voc\xc3\xaa.',
+        'Vou perseguir voc\xc3\xaa por isto.',
+        'Fique de olho!',
+        'Parece que voc\xc3\xaa est\xc3\xa1 perdido nesta ca\xc3\xa7ada.',
+        'Est\xc3\xa1 indo pela mesma trilha que eu?',
+        'Um trof\xc3\xa9u perfeito para a minha cole\xc3\xa7\xc3\xa3o.',
+        'Voc\xc3\xaa vai ter uma dor de cabe\xc3\xa7a...',
+        'N\xc3\xa3o perca o rumo comigo.'],
+ 'tbc': ['Cuidado, vou ado\xc3\xa7ar voc\xc3\xaa.',
+         'Pode me chamar de Coquinho.',
+         'Tem certeza? \xc3\x80s vezes ajo como um C\xc3\xa3ocad\xc3\xa3o.',
+         'Finalmente, estava achando que voc\xc3\xaa ia me deixar aqui \xc3\xa0 merc\xc3\xaa das formigas.',
+         'Vou queimar o seu coco.',
+         'N\xc3\xa3o acha que eu sou um docinho de coco?',
+         'Voc\xc3\xaa vai virar cocada comigo.',
+         'As pessoas me acham dur\xc3\xa3o.',
+         'Cuidado, eu sei a sua data de validade.',
+         'Cuidado, sou uma fera neste jogo.',
+         'Bater voc\xc3\xaa vai ser mole.'],
+ 'cr': ['ATAQUE!',
+        'Voc\xc3\xaa n\xc3\xa3o \xc3\xa9 adequado para a minha corpora\xc3\xa7\xc3\xa3o.',
+        'Prepare-se para ser atacado.',
+        'Parece que voc\xc3\xaa est\xc3\xa1 preparado para assumir o comando da aventura.',
+        'Esta roupa n\xc3\xa3o \xc3\xa9 apropriada para ambientes corporativos.',
+        'Voc\xc3\xaa parece estar bem vulner\xc3\xa1vel.',
+        '\xc3\x89 hora de botar os bens em seu nome.',
+        'Estou em uma cruzada a favor da elimina\xc3\xa7\xc3\xa3o dos Toons.',
+        'Voc\xc3\xaa fica sem defesa contra as minhas id\xc3\xa9ias.',
+        'Relaxa, voc\xc3\xaa vai ver que vai ser melhor assim.'],
+ 'mh': ['Est\xc3\xa1 preparado para a minha tomada?',
+        'Luz, c\xc3\xa2mera, a\xc3\xa7\xc3\xa3o!',
+        'Vai come\xc3\xa7ar a rodar.',
+        'Hoje o papel do Toon derrotado ser\xc3\xa1 feito por - VOC\xc3\x8a!',
+        'Esta cena vai ser cortada.',
+        'J\xc3\xa1 sei qual vai ser a minha motiva\xc3\xa7\xc3\xa3o para esta cena.',
+        'Est\xc3\xa1 preparado para a sua cena final?',
+        'Estou pronto para passar os seus cr\xc3\xa9ditos no final.',
+        'Eu disse para voc\xc3\xaa n\xc3\xa3o me chamar.',
+        'O show tem que continuar.',
+        'N\xc3\xa3o tem neg\xc3\xb3cio igual a este!',
+        'Espero que voc\xc3\xaa n\xc3\xa3o se esque\xc3\xa7a das suas falas.'],
+ 'nc': ['Parece que o seu n\xc3\xbamero est\xc3\xa1 em alta.',
+        'Prefere ser destru\xc3\xaddo com ou sem cobertura crocante?',
+        'Agora, voc\xc3\xaa est\xc3\xa1 destru\xc3\xaddo.',
+        'J\xc3\xa1 est\xc3\xa1 na hora de dizimar todos estes n\xc3\xbameros?',
+        'Vamos fazer uma matem\xc3\xa1tica.',
+        'Onde voc\xc3\xaa gostaria de fazer uma subtra\xc3\xa7\xc3\xa3o hoje?',
+        'Voc\xc3\xaa me deu uma coisa para calcular!',
+        'N\xc3\xa3o vai ser f\xc3\xa1cil.',
+        'Vai em frente, pegue um n\xc3\xbamero qualquer.',
+        'Vou destruir voc\xc3\xaa com os meus c\xc3\xa1lculos.'],
+ 'ls': ['\xc3\x89 hora de recolher o seu empr\xc3\xa9stimo.',
+        'Voc\xc3\xaa tem estado na pior.',
+        'O empr\xc3\xa9stimo agora tem que ser pago.',
+        'Hora de liquidar a d\xc3\xadvida.',
+        'Bom, voc\xc3\xaa queria um adiantamento e conseguiu.',
+        'Voc\xc3\xaa ter\xc3\xa1 que pagar por isso.',
+        '\xc3\x89 hora de devolver o que pegou.',
+        'Pode me dar uma m\xc3\xa3ozinha?',
+        'Ainda bem que voc\xc3\xaa est\xc3\xa1 aqui, isto est\xc3\xa1 uma loucura.',
+        'Podemos fazer um lanchinho?',
+        'Deixe-me dar um tasco.'],
+ 'mb': ['Est\xc3\xa1 na hora de trazer os sacos.',
+        'Posso ensacar isso.',
+        'Papel ou pl\xc3\xa1stico?',
+        'Voc\xc3\xaa tem o t\xc3\xadquete da bagagem?',
+        'Lembre-se de que o dinheiro n\xc3\xa3o vai fazer voc\xc3\xaa feliz.',
+        'Cuidado, tenho muita bagagem.',
+        'Voc\xc3\xaa est\xc3\xa1 prestes a ficar no vermelho.',
+        'O dinheiro vai fazer o seu mundo girar.',
+        'Sou muito rico para o seu bico.',
+        'Voc\xc3\xaa nunca poder\xc3\xa1 ter tanto dinheiro!'],
+ 'rb': ['Voc\xc3\xaa foi roubado.',
+        'Vou roubar esta vit\xc3\xb3ria de voc\xc3\xaa.',
+        'Sou um chato de galochas!',
+        'Espero que voc\xc3\xaa ainda possa sorrir para o bar\xc3\xa3o.',
+        'Voc\xc3\xaa ter\xc3\xa1 que denunciar este roubo.',
+        'M\xc3\xa3os ao alto.',
+        'Sou um advers\xc3\xa1rio nobre.',
+        'Vou levar tudo o que voc\xc3\xaa tem.',
+        'Voc\xc3\xaa pode chamar isto de roubo no bairro.',
+        'Voc\xc3\xaa j\xc3\xa1 devia saber que n\xc3\xa3o se fala com estranhos.'],
+ 'bs': ['Nunca vire as costas para mim.',
+        'Voc\xc3\xaa n\xc3\xa3o vai voltar mesmo.',
+        'Retire o que disse, ou ent\xc3\xa3o...!',
+        'Sou bom em cortar custos.',
+        'Tenho as costas quentes.',
+        'Agora, n\xc3\xa3o d\xc3\xa1 mais para voltar atr\xc3\xa1s.',
+        'Sou o melhor e posso provar.',
+        '\xc3\x93\xc3\xb4\xc3\xb4, parado a\xc3\xad, Toon.',
+        'Deixe-me dar cobertura a voc\xc3\xaa.',
+        'Voc\xc3\xaa vai ter uma dor de cabe\xc3\xa7a infernal.',
+        'Tenho um golpe perfeito.'],
+ 'bw': ['Quero sair bem na foto.',
+        'Voc\xc3\xaa me arrepia os cabelos.',
+        'Posso deixar assim para sempre, se quiser.',
+        'Parece que voc\xc3\xaa vai ficar com a cara boa.',
+        'Voc\xc3\xaa n\xc3\xa3o consegue encarar a verdade.',
+        'Acho que \xc3\xa9 sua vez de mudar de cor.',
+        'Estou t\xc3\xa3o feliz que voc\xc3\xaa chegou na hora de mudar o visual.',
+        'Voc\xc3\xaa est\xc3\xa1 encrencado.',
+        'Vou deixar voc\xc3\xaa doid\xc3\xa3o.',
+        'Sou um baita de um Toonzinho.'],
+ 'le': ['Cuidado, sou legal mas nem tanto.',
+        'Eu pulo de galho em galho, mas alguns quebram.',
+        'Vou fazer a lei chegar at\xc3\xa9 voc\xc3\xaa.',
+        'Voc\xc3\xaa j\xc3\xa1 devia saber que tenho instintos criminosos.',
+        'Vou fazer voc\xc3\xaa ter pesadelos jur\xc3\xaddicos.',
+        'Voc\xc3\xaa n\xc3\xa3o vai ganhar esta batalha.',
+        'Isto \xc3\xa9 t\xc3\xa3o divertido que deveria ser proibido por lei.',
+        'Legalmente falando, voc\xc3\xaa \xc3\xa9 muito pequeno para lutar comigo.',
+        'N\xc3\xa3o h\xc3\xa1 limites para os meus botes.',
+        'Chamo isso de pris\xc3\xa3o de cidad\xc3\xa3o.'],
+ 'sd': ['Voc\xc3\xaa nunca saber\xc3\xa1 quando vou parar.',
+        'Deixe-me levar voc\xc3\xaa para uma volta.',
+        'Vida social \xc3\xa9 comigo mesmo.',
+        'Vou colocar voc\xc3\xaa em um agito.',
+        'Voc\xc3\xaa parece precisar de anima\xc3\xa7\xc3\xa3o.',
+        'A festa est\xc3\xa1 rolando, mas Toons n\xc3\xa3o entram.',
+        'Voc\xc3\xaa n\xc3\xa3o vai gostar do meu pitaco nisto.',
+        'Voc\xc3\xaa vai ficar fora de controle.',
+        'Voc\xc3\xaa se importa de dar umas voltinhas comigo?',
+        'Tenho minha pr\xc3\xb3pria teoria sobre o assunto.'],
+ 'f': ['Vou falar sobre voc\xc3\xaa com o chefe!',
+       'Posso ser apenas um puxa-saco, mas sou demais.',
+       'Estou usando voc\xc3\xaa para subir os v\xc3\xa1rios degraus dentro da empresa.',
+       'Voc\xc3\xaa n\xc3\xa3o vai gostar do jeito como eu trabalho.',
+       'O chefe est\xc3\xa1 contando comigo para deter voc\xc3\xaa.',
+       'Voc\xc3\xaa vai ficar bonito no meu curr\xc3\xadculo.',
+       'Voc\xc3\xaa ter\xc3\xa1 que passar por cima de mim primeiro.',
+       'Vamos ver como voc\xc3\xaa classifica meu desempenho funcional.',
+       'Eu me sobressaio na elimina\xc3\xa7\xc3\xa3o de Toons.',
+       'Voc\xc3\xaa jamais conhecer\xc3\xa1 o meu chefe.',
+       'Vou mandar voc\xc3\xaa de volta para o P\xc3\xa1tio.'],
+ 'p': ['Eu vou apagar voc\xc3\xaa!',
+       'Ei, voc\xc3\xaa n\xc3\xa3o pode ficar mandando em mim.',
+       'Sou o n\xc3\xbamero 2!',
+       'Vou cortar voc\xc3\xaa.',
+       'Vou ter que me fazer mais claro.',
+       'Deixe-me ir direto ao ponto.',
+       'R\xc3\xa1pido, eu fico irritado com facilidade.',
+       'Odeio quando as coisas ficam bobas.',
+       'Ent\xc3\xa3o, voc\xc3\xaa quer arriscar a pr\xc3\xb3pria sorte?',
+       'Voc\xc3\xaa me passou o l\xc3\xa1pis?',
+       'Cuidado, posso deixar uma marca.'],
+ 'ym': ['Concordo com tudo.',
+        'N\xc3\xa3o sei o que significa n\xc3\xa3o.',
+        'Quer me conhecer? Eu digo sim sempre.',
+        'Voc\xc3\xaa precisa de uma for\xc3\xa7a positiva.',
+        'Vou deixar uma impress\xc3\xa3o positiva.',
+        'Ainda n\xc3\xa3o me enganei.',
+        'Sim, estou pronto para voc\xc3\xaa.',
+        'Acha mesmo que quer fazer isto?',
+        'Voc\xc3\xaa certamente terminar\xc3\xa1 com saldo positivo nessa.',
+        'Confirmando a hora da sua reuni\xc3\xa3o.',
+        'N\xc3\xa3o aceito n\xc3\xa3o como resposta.'],
+ 'mm': ['Vou entrar neste neg\xc3\xb3cio.',
+        '\xc3\x80s vezes, os piores venenos v\xc3\xaam em pequenos frascos.',
+        'Nenhum trabalho \xc3\xa9 insignificante para mim.',
+        'Quero o trabalho feito direito, por isso eu mesmo o fa\xc3\xa7o.',
+        'Voc\xc3\xaa precisa de algu\xc3\xa9m para gerenciar os seus bens.',
+        'Que bom, um projeto.',
+        'Bem, voc\xc3\xaa conseguiu me achar.',
+        'Acho que voc\xc3\xaa precisa de alguma organiza\xc3\xa7\xc3\xa3o.',
+        'Vou cuidar de voc\xc3\xaa em dois tempos.',
+        'Estou observando tudo que voc\xc3\xaa faz.',
+        'Tem certeza de que deseja fazer isto?',
+        'Vamos fazer da minha maneira.',
+        'Vou estar na sua cola.',
+        'Posso ser bem intimidador.'],
+ 'ds': ['Voc\xc3\xaa est\xc3\xa1 caindo no meu golpe!',
+        'Voc\xc3\xaa vai encolher com meu ataque.',
+        'Espere retornos min\xc3\xbasculos.',
+        'Voc\xc3\xaa vai deixar de existir.',
+        'N\xc3\xa3o me pe\xc3\xa7a nenhuma dispensa.',
+        'Vou precisar fazer alguns cortes.',
+        'As coisas parecem estar despeda\xc3\xa7adas para voc\xc3\xaa.',
+        'Por que voc\xc3\xaa parece t\xc3\xa3o machucado?'],
+ 'cc': ['Surpreso de saber de mim?',
+        'Voc\xc3\xaa ligou?',
+        'Est\xc3\xa1 pronto para aceitar as minhas tarifas?',
+        'Este aqui sempre recolhe alguma coisa.',
+        'Eu opero bem as linhas.',
+        'Espere um segundo, estou aqui.',
+        'Estava esperando a minha liga\xc3\xa7\xc3\xa3o?',
+        'Estava torcendo para voc\xc3\xaa atender a minha liga\xc3\xa7\xc3\xa3o.',
+        'Vou deixar uma sensa\xc3\xa7\xc3\xa3o tocante.',
+        'Sempre fa\xc3\xa7o liga\xc3\xa7\xc3\xb5es diretas.',
+        'Cara, tem boi na linha.',
+        'Esta liga\xc3\xa7\xc3\xa3o ter\xc3\xa1 um custo para voc\xc3\xaa.',
+        'Voc\xc3\xaa tem um pepino nesta linha.'],
+ 'tm': ['Meu plano \xc3\xa9 tornar isto inconveniente para voc\xc3\xaa.',
+        'Posso incluir voc\xc3\xaa em um seguro?',
+        'Voc\xc3\xaa n\xc3\xa3o deveria ter me atendido.',
+        'Voc\xc3\xaa n\xc3\xa3o vai conseguir se livrar de mim agora.',
+        'T\xc3\xa1 chateado? Que bom.',
+        'Estava pensando em atropelar voc\xc3\xaa.',
+        'Vou inverter as cobran\xc3\xa7as desta liga\xc3\xa7\xc3\xa3o.',
+        'Tenho alguns itens bem caros para voc\xc3\xaa hoje.',
+        'Se deu mal, eu fa\xc3\xa7o liga\xc3\xa7\xc3\xb5es locais.',
+        'Estou preparado para fechar este neg\xc3\xb3cio rapidinho.',
+        'Vou usar um monte de recursos seus.'],
+ 'nd': ['Na minha opini\xc3\xa3o, seu nome est\xc3\xa1 na lama.',
+        'Espero que n\xc3\xa3o se importe se eu jogar o seu nome na boca das matildes.',
+        'A gente j\xc3\xa1 n\xc3\xa3o se conhece?',
+        'Depressa, vou almo\xc3\xa7ar com o Dr. Celebridade.',
+        'Eu falei que conhe\xc3\xa7o o Amizade F\xc3\xa1cil?',
+        'Voc\xc3\xaa nunca vai me esquecer.',
+        'Conhe\xc3\xa7o todas as pessoas certas para detonar voc\xc3\xaa.',
+        'Acho que vou passar a\xc3\xad.',
+        'Estou a fim de detonar alguns Toons.',
+        'Eu te disse, detonei.'],
+ 'gh': ['Diz a\xc3\xad, Toon.',
+        'O bicho vai pegar.',
+        'Vou gostar disso.',
+        'Voc\xc3\xaa vai acabar vendo as minhas garras.',
+        'Vamos assinar embaixo.',
+        'Vamos direto ao que interessa.',
+        'N\xc3\xa3o cutuca a on\xc3\xa7a com vara curta, ou voc\xc3\xaa vai acabar mal.',
+        'Voc\xc3\xaa vai acabar gostando da minha pinta.',
+        'Olha que eu viro uma on\xc3\xa7a.',
+        'Voc\xc3\xaa n\xc3\xa3o vai escapar das minhas garras.',
+        'Voc\xc3\xaa quer que eu safe a on\xc3\xa7a?',
+        'Se ficar o bicho come, se correr o bicho pega.',
+        'As marcas das minhas unhas afiadas est\xc3\xa3o na parede.'],
+ 'sc': ['Vamos logo acabar com esta farsa.',
+        'Voc\xc3\xaa est\xc3\xa1 prestes a ficar no vermelho.',
+        'Voc\xc3\xaa est\xc3\xa1 prestes a pagar taxas abusivas.',
+        'O projeto vai ser de fachada.',
+        'Esta fraude vai ser moleza.',
+        'Logo, logo voc\xc3\xaa vai cair na minha arapuca.',
+        'Vamos embromar um pouquinho.',
+        'Veio cedo para ver o meu truque, n\xc3\xa9?',
+        'Tenho pavio curto com Toons.',
+        'Logo vou armar minha armadilha para voc\xc3\xaa.',
+        'Voc\xc3\xaa est\xc3\xa1 prestes a cair na minha l\xc3\xa1bia.'],
+ 'pp': ['Meu aperto de m\xc3\xa3o \xc3\xa9 forte.',
+        'Minha m\xc3\xa3o \xc3\xa9 de ferro.',
+        'Voc\xc3\xaa n\xc3\xa3o quer que a vaca v\xc3\xa1 pro brejo, ou quer?',
+        'Seu sorriso vai ficar p\xc3\xa1lido como leite.',
+        'Tenho um lugar para voc\xc3\xaa, mas n\xc3\xa3o pense que sou m\xc3\xa3o-aberta.',
+        'Deixe e pagar na mesma moeda.',
+        'Dou tchau com a m\xc3\xa3o fechada.',
+        'Vou provar que voc\xc3\xaa n\xc3\xa3o est\xc3\xa1 sonhando.',
+        'Cabe\xc3\xa7as v\xc3\xa3o rolar, e eu vou ganhar.',
+        'Dou uma moedinha pelas suas piadas.'],
+ 'tw': ['Vamos ter que dar duro.',
+        '\xc3\x89 o P\xc3\xa3o-duro.',
+        'Vou ter que cortar a sua verba.',
+        '\xc3\x89 a melhor oferta que voc\xc3\xaa pode fazer?',
+        'Vamos logo. Tempo \xc3\xa9 dinheiro.',
+        'Voc\xc3\xaa vai descobrir como dou duro.',
+        'Voc\xc3\xaa est\xc3\xa1 na corda bamba.',
+        'Prepare-se para a dureza.',
+        'Voc\xc3\xaa n\xc3\xa3o conhece o p\xc3\xa3o que o diabo amassou.',
+        'Vou ter que apertar o cinto.',
+        'Vou fazer um rombo no seu or\xc3\xa7amento.'],
+ 'bc': ['Adoro subtrair Toons.',
+        'Pode contar comigo para fazer voc\xc3\xaa pagar.',
+        'O neg\xc3\xb3cio \xc3\xa9 contar as moedinhas.',
+        'Contar \xc3\xa9 comigo mesmo.',
+        'Sou um contador de balinhas.',
+        'Sua planilha de gastos est\xc3\xa1 excedendo o limite.',
+        '\xc3\x89 hora de fazer uma auditoria.',
+        'Vamos entrar no meu escrit\xc3\xb3rio.',
+        'Onde voc\xc3\xaa estava? Eu contava com voc\xc3\xaa.',
+        'Estou esperando por voc\xc3\xaa h\xc3\xa1 um milh\xc3\xa3o de horas.',
+        'Voc\xc3\xaa n\xc3\xa3o vale um n\xc3\xadquel.'],
+ 'bf': ['Parece que voc\xc3\xaa chegou na hora do lanche.',
+        'Estou pronto para o banquete.',
+        'Sou um comedor de Toons.',
+        '\xc3\x8aba, hora do almo\xc3\xa7o.',
+        'Na hora certa! Preciso de um lanchinho.',
+        'Gostaria de alguma opini\xc3\xa3o sobre o meu desempenho.',
+        'Vamos falar sobre o que interessa.',
+        'Voc\xc3\xaa vai descobrir que tenho um talento imensur\xc3\xa1vel.',
+        'Bom, preciso de um pequeno est\xc3\xadmulo.',
+        'Adoraria se voc\xc3\xaa almo\xc3\xa7asse comigo.'],
+ 'tf': ['Est\xc3\xa1 na hora de nosso duelo!',
+        'Melhor encarar a derrota.',
+        'Prepare-se para enfrentar o seu pior pesadelo!',
+        'Encare os fatos: eu sou melhor que voc\xc3\xaa.',
+        'Duas cabe\xc3\xa7as pensam melhor que uma.',
+        'Se um n\xc3\xa3o quer, dois n\xc3\xa3o brigam. Quer brigar?',
+        'Voc\xc3\xaa est\xc3\xa1 duplamente encrencado.',
+        'Qual face voc\xc3\xaa quer que o derrote?',
+        'Eu sou demais para voc\xc3\xaa.',
+        'Voc\xc3\xaa n\xc3\xa3o sabe com quem est\xc3\xa1 se metendo.',
+        'Voc\xc3\xaa est\xc3\xa1 preparado para encarar sua derrota?'],
+ 'dt': ['Voc\xc3\xaa ter\xc3\xa1 trabalho em dobro comigo.',
+        'Veja se voc\xc3\xaa consegue enfrentar meu golpe duplo.',
+        'Trabalho para um ARM\xc3\x81RIO 4x4 muito mau.',
+        'Est\xc3\xa1 na hora de um golpe duplo.',
+        'Meu plano \xc3\xa9 ter duas FONTES.',
+        'Voc\xc3\xaa n\xc3\xa3o vai gostar do meu jogo duplo.',
+        'Talvez queira pensar duas vezes nisso.',
+        'Prepare-se para uma LIGA\xc3\x87\xc3\x83O dupla.',
+        'Talvez queira aplicar uma dose dupla contra mim.',
+        'Duplas, algu\xc3\xa9m??'],
+ 'ac': ['Eu vou botar voc\xc3\xaa pr\xc3\xa1 correr desta cidade!',
+        'Est\xc3\xa1 ouvindo uma sirene?',
+        'Vou gostar disso.',
+        'Adoro a emo\xc3\xa7\xc3\xa3o da persegui\xc3\xa7\xc3\xa3o.',
+        'Vou dar um passa-fora.',
+        'Voc\xc3\xaa tem seguro?',
+        'Espero que tenha trazido uma maca.',
+        'Duvido que voc\xc3\xaa possa comigo.',
+        '\xc3\x89 s\xc3\xb3 rala\xc3\xa7\xc3\xa3o a partir daqui.',
+        'Em breve voc\xc3\xaa vai precisar de uma ambul\xc3\xa2ncia.',
+        'N\xc3\xa3o \xc3\xa9 piada.',
+        'Vou passar a parada para voc\xc3\xaa.']}
 SpeedChatStaticTextCommon = {1: lYes,
  2: lNo,
  3: lOK,
- 4: 'SPEEDCHAT PLUS'}
-SpeedChatStaticTextToontown = {100: 'Hi!',
- 101: 'Hello!',
- 102: 'Hi there!',
- 103: 'Hey!',
- 104: 'Howdy!',
- 105: 'Hi everybody!',
- 106: 'Welcome to Toontown!',
- 107: "What's up?",
- 108: 'How are you doing?',
- 109: 'Hello?',
- 200: 'Bye!',
- 201: 'Later!',
- 202: 'See ya!',
- 203: 'Have a nice day!',
- 204: 'Have fun!',
- 205: 'Good luck!',
- 206: "I'll be right back.",
- 207: 'I need to go.',
- 208: "I'll be back later!",
- 209: 'I only have a few minutes.',
+ 4: 'CHAT R\xc3\x81PIDO PLUS'}
+SpeedChatStaticTextToontown = {100: 'Oi!',
+ 101: 'Ol\xc3\xa1!',
+ 102: 'E a\xc3\xad?',
+ 103: '\xc3\x93pa!',
+ 104: 'Tudo certo?',
+ 105: 'Oi, pessoal!',
+ 106: 'Bem-vindo a Toontown!',
+ 107: 'Tudo em cima?',
+ 108: 'Tudo bem?',
+ 109: 'Al\xc3\xb4?',
+ 200: 'Tchau!',
+ 201: 'At\xc3\xa9 mais!',
+ 202: 'Te vejo por a\xc3\xad!',
+ 203: 'Bom dia pra voc\xc3\xaa!',
+ 204: 'Divirta-se!',
+ 205: 'Boa sorte!',
+ 206: 'J\xc3\xa1 volto.',
+ 207: 'Tenho que ir.',
+ 208: 'Eu volto j\xc3\xa1!',
+ 209: 'Eu s\xc3\xb3 tenho alguns minutos.',
  300: ':-)',
- 301: 'Yay!',
- 302: 'Hooray!',
- 303: 'Cool!',
- 304: 'Woo hoo!',
- 305: 'Yeah!',
- 306: 'Ha ha!',
- 307: 'Hee hee!',
- 308: 'Wow!',
- 309: 'Great!',
- 310: 'Whee!',
- 311: 'Oh boy!',
- 312: 'Whoopee!',
- 313: 'Yippee!',
- 314: 'Yee hah!',
- 315: 'Toontastic!',
+ 301: 'Valeu!',
+ 302: 'Maneiro!',
+ 303: 'Legal!',
+ 304: 'Iuhuu!',
+ 305: '\xc3\x89 isso a\xc3\xad!',
+ 306: 'Ah, ah!',
+ 307: 'He, he!',
+ 308: 'Uau!',
+ 309: 'Demais!',
+ 310: 'Iahuuuuu!',
+ 311: 'Nossa!',
+ 312: 'Uhuu!',
+ 313: 'Iupii!!',
+ 314: 'Dez!',
+ 315: 'Toont\xc3\xa1stico!',
  400: ':-(',
- 401: 'Oh no!',
- 402: 'Uh oh!',
- 403: 'Rats!',
- 404: 'Drat!',
- 405: 'Ouch!',
- 406: 'Oof!',
- 407: 'No!!!',
- 408: 'Yikes!',
- 409: 'Huh?',
- 410: 'I need more Laff points.',
- 500: 'Thanks!',
- 501: 'No problem.',
- 502: "You're welcome!",
- 503: 'Any time!',
- 504: 'No thank you.',
- 505: 'Good teamwork!',
- 506: 'That was fun!',
- 507: 'Please be my friend!',
- 508: "Let's work together!",
- 509: 'You guys are great!',
- 510: 'Are you new here?',
- 511: 'Did you win?',
- 512: 'I think this is too risky for you.',
- 513: 'Would you like some help?',
- 514: 'Can you help me?',
- 515: 'Have you been here before?',
- 600: 'You look nice.',
- 601: 'You are awesome!',
- 602: 'You rock!',
- 603: 'You are a genius!',
- 700: 'I like your name.',
- 701: 'I like your look.',
- 702: 'I like your shirt.',
- 703: 'I like your skirt.',
- 704: 'I like your shorts.',
- 705: 'I like this game!',
- 800: 'Sorry!',
- 801: 'Oops!',
- 802: "Sorry, I'm busy fighting Cogs!",
- 803: "Sorry, I'm busy getting Jellybeans!",
- 804: "Sorry, I'm busy completing a ToonTask!",
- 805: 'Sorry, I had to leave unexpectedly.',
- 806: 'Sorry, I was delayed.',
- 807: "Sorry, I can't.",
- 808: "I couldn't wait any longer.",
- 809: "I can't understand you.",
- 810: 'Use the %s.' % GlobalSpeedChatName,
- 811: "Sorry, I'm busy fishing!",
- 812: "Sorry, I'm in a building!",
- 813: "Sorry, I'm helping a friend!",
- 814: "Sorry, I'm busy kart racing!",
- 815: "Sorry, I'm busy gardening!",
- 816: "I can't get on the elevator now.",
- 817: "Sorry, I'm busy golfing!",
- 818: 'Sorry, my Friends List is full.',
- 900: 'Hey!',
- 901: 'Please go away!',
- 902: 'Stop that!',
- 903: "That wasn't nice!",
- 904: "Don't be mean!",
- 905: 'You stink!',
- 906: 'Send a bug report.',
- 907: "I'm stuck.",
- 1000: "Let's go!",
- 1001: 'Can you teleport to me?',
- 1002: 'Shall we go?',
- 1003: 'Where should we go?',
- 1004: 'Which way?',
- 1005: 'This way.',
- 1006: 'Follow me.',
- 1007: 'Wait for me!',
- 1008: "Let's wait for my friend.",
- 1009: "Let's find other Toons.",
- 1010: 'Wait here.',
- 1011: 'Wait a minute.',
- 1012: 'Meet here.',
- 1013: 'Can you come to my house?',
- 1014: "Don't wait for me.",
- 1015: 'Wait!',
- 1016: 'Come check out my garden.',
- 1017: "Let's catch the next one.",
- 1100: "Let's go on the trolley!",
- 1101: "Let's go back to the playground!",
- 1102: "Let's go fight the %s!" % Cogs,
- 1103: "Let's go take over a %s building!" % Cog,
- 1104: "Let's go in the elevator!",
- 1105: "Let's go to %s!" % lToontownCentral,
- 1106: "Let's go to %s!" % lDonaldsDock,
- 1107: "Let's go to %s!" % lMinniesMelodyland,
- 1108: "Let's go to %s!" % lDaisyGardens,
- 1109: "Let's go to %s!" % lTheBrrrgh,
- 1110: "Let's go to %s!" % lDonaldsDreamland,
- 1111: "Let's go to %s!" % lGoofySpeedway,
- 1112: "Let's go to my house!",
- 1113: "Let's go to your house!",
- 1114: "Let's go to Sellbot HQ!",
- 1115: "Let's go fight the VP!",
- 1116: "Let's go in the Factory!",
- 1117: "Let's go fishing!",
- 1118: "Let's go fishing at my house!",
- 1119: "Let's go to Cashbot HQ!",
- 1120: "Let's go fight the CFO!",
- 1121: "Let's go in the Mint!",
- 1122: "Let's go to Lawbot HQ!",
- 1123: "Let's go fight the Chief Justice!",
- 1124: "Let's go in the District Attorney's Office!",
- 1125: "Let's go to %s!" % lOutdoorZone,
- 1126: "Let's go to %s!" % lGolfZone,
- 1127: "Let's go to Bossbot HQ!",
- 1128: "Let's go fight the CEO!",
- 1129: "Let's go in the Cog Golf Courses!",
- 1130: "Let's go take over a Field Office!",
- 1200: 'What ToonTask are you working on?',
- 1201: "Let's work on that.",
- 1202: "This isn't what I'm looking for.",
- 1203: "I'm going to look for that.",
- 1204: "It isn't on this street.",
- 1205: "I haven't found it yet.",
- 1206: 'I need more Merits.',
- 1207: 'I need more Sellbot Suit Parts.',
- 1208: "This isn't what you need.",
- 1209: 'I found what you need.',
- 1210: 'I need more Cogbucks.',
- 1211: 'I need more Jury Notices.',
- 1212: 'I need more Stock Options.',
- 1213: 'I need more Cashbot Suit Parts.',
- 1214: 'I need more Lawbot Suit Parts.',
- 1215: 'I need more Bossbot Suit Parts.',
- 1299: 'I need to get a ToonTask.',
- 1300: 'I think you should choose Toon-up.',
- 1301: 'I think you should choose Sound.',
- 1302: 'I think you should choose Drop.',
- 1303: 'I think you should choose Trap.',
- 1304: 'I think you should choose Lure.',
- 1400: 'Hurry!',
- 1401: 'Nice shot!',
- 1402: 'Nice gag!',
- 1403: 'Missed me!',
- 1404: 'You did it!',
- 1405: 'We did it!',
- 1406: 'Bring it on!',
- 1407: 'Piece of cake!',
- 1408: 'That was easy!',
- 1409: 'Run!',
- 1410: 'Help!',
- 1411: 'Phew!',
- 1412: 'We are in trouble.',
- 1413: 'I need more gags.',
- 1414: 'I need a Toon-Up.',
- 1415: 'You should pass.',
- 1416: 'We can do this!',
- 1500: "Let's use toon-up!",
- 1501: "Let's use trap!",
- 1502: "Let's use lure!",
- 1503: "Let's use sound!",
- 1504: "Let's use throw!",
- 1505: "Let's use squirt!",
- 1506: "Let's use drop!",
- 1520: 'Rock and roll!',
- 1521: "That's gotta hurt.",
- 1522: 'Catch!',
- 1523: 'Special delivery!',
- 1524: 'Are you still here?',
- 1525: "I'm SO scared!",
- 1526: "That's going to leave a mark!",
- 1550: "I'm going to use trap.",
- 1551: "I'm going to use lure.",
- 1552: "I'm going to use drop.",
- 1553: 'You should use a different gag.',
- 1554: "Let's all go for the same Cog.",
- 1555: 'You should choose a different Cog.',
- 1556: 'Go for the weakest Cog first.',
- 1557: 'Go for the strongest Cog first.',
- 1558: 'Save your powerful gags.',
- 1559: "Don't use sound on lured Cogs.",
- 1600: 'I have enough gags.',
- 1601: 'I need more jellybeans.',
- 1602: 'Me too.',
- 1603: 'Hurry up!',
- 1604: 'One more?',
- 1605: 'Play again?',
- 1606: "Let's play again.",
- 1700: "Let's split up.",
- 1701: "Let's stay together.",
- 1702: "Let's battle the Cogs.",
- 1703: 'Step on the switch.',
- 1704: 'Go through the door.',
- 1803: "I'm in the Front Entrance.",
- 1804: "I'm in the Lobby.",
- 1805: "I'm in the hallway outside the Lobby.",
- 1806: "I'm in the hallway outside the Lobby.",
- 1807: "I'm in the Gear Room.",
- 1808: "I'm in the Boiler Room.",
- 1809: "I'm on the East Catwalk.",
- 1810: "I'm in the Paint Mixer.",
- 1811: "I'm in the Paint Mixer Storage Room.",
- 1812: "I'm on the West Silo Catwalk.",
- 1813: "I'm in the Pipe Room.",
- 1814: "I'm on the stairs to the Pipe Room.",
- 1815: "I'm in the Duct Room.",
- 1816: "I'm in the Side Entrance.",
- 1817: "I'm in Stomper Alley.",
- 1818: "I'm outside the Lava Room.",
- 1819: "I'm in the Lava Room.",
- 1820: "I'm in the Lava Storage Room.",
- 1821: "I'm on the West Catwalk.",
- 1822: "I'm in the Oil Room.",
- 1823: "I'm on the Warehouse Lookout.",
- 1824: "I'm in the Warehouse.",
- 1825: "I'm outside the Paint Mixer.",
- 1827: "I'm outside the Oil Room.",
- 1830: "I'm in the East Silo Control Room.",
- 1831: "I'm in the West Silo Control Room.",
- 1832: "I'm in the Center Silo Control Room.",
- 1833: "I'm at the East Silo.",
- 1834: "I'm on the West Silo.",
- 1835: "I'm on the Center Silo.",
- 1836: "I'm on the West Silo.",
- 1837: "I'm at the East Silo.",
- 1838: "I'm on the East Silo Catwalk.",
- 1840: "I'm on top of the West Silo.",
- 1841: "I'm on top of the East Silo.",
- 1860: "I'm on the West Silo Elevator.",
- 1861: "I'm on the East Silo Elevator.",
- 1903: "Let's meet in the Front Entrance.",
- 1904: "Let's meet in the Lobby.",
- 1905: "Let's meet in the hallway outside the Lobby.",
- 1906: "Let's meet in the hallway outside the Lobby.",
- 1907: "Let's meet in the Gear Room.",
- 1908: "Let's meet in the Boiler Room.",
- 1909: "Let's meet on the East Catwalk.",
- 1910: "Let's meet in the Paint Mixer.",
- 1911: "Let's meet in the Paint Mixer Storage Room.",
- 1912: "Let's meet on the West Silo Catwalk.",
- 1913: "Let's meet in the Pipe Room.",
- 1914: "Let's meet on the stairs to the Pipe Room.",
- 1915: "Let's meet in the Duct Room.",
- 1916: "Let's meet in the Side Entrance.",
- 1917: "Let's meet in Stomper Alley.",
- 1918: "Let's meet outside the Lava Room.",
- 1919: "Let's meet in the Lava Room.",
- 1920: "Let's meet in the Lava Storage Room.",
- 1921: "Let's meet on the West Catwalk.",
- 1922: "Let's meet in the Oil Room.",
- 1923: "Let's meet on the Warehouse Lookout.",
- 1924: "Let's meet in the Warehouse.",
- 1925: "Let's meet outside the Paint Mixer.",
- 1927: "Let's meet outside the Oil Room.",
- 1930: "Let's meet in the East Silo Control Room.",
- 1931: "Let's meet in the West Silo Control Room.",
- 1932: "Let's meet in the Center Silo Control Room.",
- 1933: "Let's meet at the East Silo.",
- 1934: "Let's meet on the West Silo.",
- 1935: "Let's meet on the Center Silo.",
- 1936: "Let's meet on the West Silo.",
- 1937: "Let's meet at the East Silo.",
- 1938: "Let's meet on the East Silo Catwalk.",
- 1940: "Let's meet on top of the West Silo.",
- 1941: "Let's meet on top of the East Silo.",
- 1960: "Let's meet on the West Silo Elevator.",
- 1961: "Let's meet on the East Silo Elevator.",
- 2000: 'Purple',
- 2001: 'Blue',
- 2002: 'Cyan',
- 2003: 'Teal',
- 2004: 'Green',
- 2005: 'Yellow',
- 2006: 'Orange',
- 2007: 'Red',
- 2008: 'Pink',
- 2009: 'Brown',
- 2100: 'Please operate the crane.',
- 2101: 'May I operate the crane?',
- 2102: 'I need practice operating the crane.',
- 2103: 'Pick up a disabled goon.',
- 2104: 'Throw the goon at the CFO.',
- 2105: 'Throw a safe now!',
- 2106: "Don't throw a safe now!",
- 2107: 'A safe will knock off his helmet.',
- 2108: 'A safe will become his new helmet.',
- 2109: "I can't reach any safes.",
- 2110: "I can't reach any goons.",
- 2120: 'Please disable the goons.',
- 2121: 'I would rather disable goons.',
- 2122: 'I need practice disabling goons.',
- 2123: 'Please stay nearby.',
- 2124: 'Keep moving.',
- 2125: 'I need to keep moving.',
- 2126: 'Look for someone who needs help.',
- 2130: 'Please save the treasures.',
- 2131: 'Take the treasures.',
- 2132: 'I need treasures!',
- 2133: 'Look out!',
- 2200: 'You need to hit the scale.',
- 2201: 'I will hit the scale.',
- 2202: 'I need help with the scale!',
- 2203: 'You need to stun the Cogs.',
- 2204: 'I will stun the Cogs.',
- 2205: 'I need help with the Cogs!',
- 2206: 'I need more evidence!',
- 2207: "I'm shooting for chairs in the top row.",
- 2208: "I'm shooting for chairs in the bottom row.",
- 2209: "Move out of the way! We can't hit the pan.",
- 2210: "I'll do Toon-Ups for us.",
- 2211: "I don't have any bonus weight.",
- 2212: 'I have a bonus weight of 1.',
- 2213: 'I have a bonus weight of 2.',
- 2214: 'I have a bonus weight of 3.',
- 2215: 'I have a bonus weight of 4.',
- 2216: 'I have a bonus weight of 5.',
- 2217: 'I have a bonus weight of 6.',
- 2218: 'I have a bonus weight of 7.',
- 2219: 'I have a bonus weight of 8.',
- 2220: 'I have a bonus weight of 9.',
- 2221: 'I have a bonus weight of 10.',
- 2222: 'I have a bonus weight of 11.',
- 2223: 'I have a bonus weight of 12.',
- 2300: 'You feed the Cogs on the left.',
- 2301: "I'll feed the Cogs on the left.",
- 2302: 'You feed the Cogs on the right.',
- 2303: "I'll feed the Cogs on the right.",
- 2304: 'You feed the Cogs in the front.',
- 2305: "I'll feed the Cogs in the front.",
- 2306: 'You feed the Cogs in the back.',
- 2307: "I'll feed the Cogs in the back.",
- 2308: 'You use the seltzer bottle.',
- 2309: "I'll use the seltzer bottle.",
- 2310: 'You use the golf tee.',
- 2311: "I'll use the golf tee.",
- 2312: "I'll serve this table.",
- 2313: 'Can you serve this table?',
- 2314: 'Feed the same cog again.',
- 2315: 'Hurry, your cog is hungry!',
- 2316: 'Please save the snacks for sadder toons.',
- 2317: 'Take the snacks before they fall.',
- 3010: 'Anyone want to race?',
- 3020: "Let's race!",
- 3030: 'Want to race?',
- 3040: "Let's show off our karts!",
- 3050: "I don't have enough tickets.",
- 3060: "Let's race again!",
- 3061: 'Want to race again?',
- 3150: 'I need to go to the Kart Shop.',
- 3160: "Let's go to the Race Tracks!",
- 3170: "Let's go to Pit Row to show off our karts!",
- 3180: "I'm going to Pit Row to show off my kart!",
- 3190: 'Meet me at the Race Tracks!',
- 3110: 'Meet up near the Kart Shop!',
- 3130: 'Where should we meet?',
- 3200: 'Where do you want to race?',
- 3201: "Let's pick a different race.",
- 3210: "Let's do a practice race.",
- 3211: "Let's do a battle race.",
- 3220: 'I like the Screwball Stadium race!',
- 3221: 'I like the Rustic Raceway race!',
- 3222: 'I like the City Circuit race!',
- 3223: 'I like the Corkscrew Coliseum race!',
- 3224: 'I like the Airborne Acres race!',
- 3225: 'I like the Blizzard Boulevard race!',
- 3230: "Let's race in the Screwball Stadium!",
- 3231: "Let's race on the Rustic Raceway!",
- 3232: "Let's race on the City Circuit!",
- 3233: "Let's race in the Corkscrew Coliseum!",
- 3234: "Let's race on the Airborne Acres!",
- 3235: "Let's race on the Blizzard Boulevard!",
- 3600: 'Which track do you want to race on?',
- 3601: 'Pick a track!',
- 3602: 'Can we race on a different track?',
- 3603: "Let's pick a different track!",
- 3640: 'I want to race on the first track!',
- 3641: 'I want to race on the second track!',
- 3642: 'I want to race on the third track!',
- 3643: 'I want to race on the fourth track!',
- 3660: "I don't want to race on the first track!",
- 3661: "I don't want to race on the second track!",
- 3662: "I don't want to race on the third track!",
- 3663: "I don't want to race on the fourth track!",
- 3300: 'Wow! You are FAST!',
- 3301: "You're too fast for me!",
- 3310: 'Good race!',
- 3320: 'I really like your kart!',
- 3330: 'Sweet ride!',
- 3340: 'Your kart is cool!',
- 3350: 'Your kart is awesome!',
- 3360: 'Your kart is totally sweet!',
- 3400: 'Too scared to race me?',
- 3410: 'See you at the finish line!',
- 3430: "I'm as fast as lightning!",
- 3450: "You'll never catch me!",
- 3451: "You'll never beat me!",
- 3452: 'No one can beat my time!',
- 3453: 'Hurry up slow pokes!',
- 3460: 'Give me another shot!',
- 3461: 'You got lucky!',
- 3462: 'Ooooh! That was a close one!',
- 3470: 'Wow, I thought you had me beat!',
- 4000: "Let's play minigolf!",
- 4001: "Let's play again!",
- 4002: 'Want to golf?',
- 4100: "Let's play 'Walk In The Par.'",
- 4101: "Let's play 'Hole Some Fun.'",
- 4102: "Let's play 'The Hole Kit and Caboodle.'",
- 4103: 'That course is too easy.',
- 4104: 'That course is too hard.',
- 4105: 'That course is just right.',
- 4200: 'Try standing more to the left.',
- 4201: 'Try standing more to the right.',
- 4202: 'Try standing right in the middle.',
- 4203: 'Try hitting it harder.',
- 4204: 'Try hitting it softer.',
- 4205: 'Try aiming more to the left.',
- 4206: 'Try aiming more to the right.',
- 4207: 'Try aiming right down the middle.',
- 4300: 'So close!',
- 4301: 'What a great shot!',
- 4302: 'That was a lucky shot.',
- 4303: "I'll take a mulligan...",
- 4304: "That's a gimme.",
- 4305: 'Fore!',
+ 401: 'Ah, n\xc3\xa3o!',
+ 402: '\xc3\x8apa!',
+ 403: 'Droga!',
+ 404: 'Ai, ai, ai!',
+ 405: 'Ahhh!',
+ 406: 'Puxa!',
+ 407: 'N\xc3\xa3o!!!',
+ 408: 'P\xc3\xb4xa vida!',
+ 409: 'H\xc3\xa3?',
+ 410: 'Preciso de mais pontos de Risadas.',
+ 500: 'Valeu!',
+ 501: 'Sem problemas.',
+ 502: 'De nada!',
+ 503: 'Sempre que quiser!',
+ 504: 'N\xc3\xa3o, obrigado.',
+ 505: 'Bom trabalho de equipe!',
+ 506: 'Isso foi divertido!',
+ 507: 'Vamos ser amigos!',
+ 508: 'Vamos trabalhar juntos!',
+ 509: 'Voc\xc3\xaas s\xc3\xa3o demais!',
+ 510: 'Voc\xc3\xaa \xc3\xa9 novo aqui?',
+ 511: 'Ganhou?',
+ 512: 'Acho arriscado pr\xc3\xa1 voc\xc3\xaa.',
+ 513: 'Quer ajuda?',
+ 514: 'Voc\xc3\xaa me ajuda?',
+ 515: 'Voc\xc3\xaa j\xc3\xa1 veio aqui antes?',
+ 600: 'Voc\xc3\xaa parece legal.',
+ 601: 'Voc\xc3\xaa \xc3\xa9 incr\xc3\xadvel!',
+ 602: 'Voc\xc3\xaa \xc3\xa9 maneiro!',
+ 603: 'Voc\xc3\xaa \xc3\xa9 um g\xc3\xaanio!',
+ 700: 'Gosto do seu nome.',
+ 701: 'Gosto do seu jeito.',
+ 702: 'Gosto da sua camisa.',
+ 703: 'Gosto da sua saia.',
+ 704: 'Gosto do seu short.',
+ 705: 'Gosto deste jogo!',
+ 800: 'Desculpe!',
+ 801: 'Ops!',
+ 802: 'Desculpe, agora estou lutando com Cogs!',
+ 803: 'Desculpe, agora estou conseguindo balinhas!',
+ 804: 'Desculpe, agora estou completando uma Tarefa Toon!',
+ 805: 'Desculpe, tive que sair de repente.',
+ 806: 'Desculpe, fiquei preso.',
+ 807: 'Desculpe, n\xc3\xa3o posso.',
+ 808: 'N\xc3\xa3o pude esperar mais.',
+ 809: 'N\xc3\xa3o entendi.',
+ 810: 'Use o %s.' % GlobalSpeedChatName,
+ 811: 'Desculpe, estou ocupado pescando!',
+ 812: 'Desculpe, estou dentro de um pr\xc3\xa9dio!',
+ 813: 'Desculpe, estou ajudando um amigo!',
+ 814: 'Desculpe, estou ocupado numa corrida de kart!',
+ 815: 'Desculpe, estou fazendo jardinagem agora!',
+ 816: 'N\xc3\xa3o posso entrar no elevador agora.',
+ 817: 'Desculpe, estou jogando golfe agora!',
+ 818: 'Desculpe, minha Lista de Amigos est\xc3\xa1 cheia.',
+ 900: '\xc3\x93pa!',
+ 901: 'V\xc3\xa1 embora!!',
+ 902: 'Pare com isso!',
+ 903: 'Isso n\xc3\xa3o foi legal!',
+ 904: 'N\xc3\xa3o seja mau!',
+ 905: 'Voc\xc3\xaa \xc3\xa9 nojento!',
+ 906: 'Envie um relat\xc3\xb3rio de problemas.',
+ 907: 'Estou atolado.',
+ 1000: 'Vamos!',
+ 1001: 'Voc\xc3\xaa pode se teletransportar at\xc3\xa9 a mim?',
+ 1002: 'Podemos ir?',
+ 1003: 'Para onde devemos ir?',
+ 1004: 'Em que dire\xc3\xa7\xc3\xa3o?',
+ 1005: 'Esta dire\xc3\xa7\xc3\xa3o.',
+ 1006: 'Siga-me.',
+ 1007: 'Espere por mim!',
+ 1008: 'Vamos esperar pelo meu amigo.',
+ 1009: 'Vamos encontrar outros Toons.',
+ 1010: 'Espere aqui.',
+ 1011: 'Espere um minuto.',
+ 1012: 'Vamos nos encontrar aqui.',
+ 1013: 'Voc\xc3\xaa pode ir at\xc3\xa9 a minha casa?',
+ 1014: 'N\xc3\xa3o espere por mim.',
+ 1015: 'Espere!',
+ 1016: 'Venha dar uma olhada no meu jardim.',
+ 1017: 'Vamos pegar o pr\xc3\xb3ximo.',
+ 1100: 'Vamos pegar o bondinho!',
+ 1101: 'Vamos voltar para o p\xc3\xa1tio!',
+ 1102: 'Vamos lutar com %s!' % Cogs,
+ 1103: 'Vamos tomar um edif\xc3\xadcio %s!' % Cog,
+ 1104: 'Vamos entrar no elevador!',
+ 1105: 'Vamos para o Centro de Toontown!'
+ 1106: 'Vamos para o Porto do Donald!'
+ 1107: 'Vamos para a Melodil\xc3\xa2ndia da Minnie!'
+ 1108: 'Vamos para os Jardins da Margarida!'
+ 1109: 'Vamos para O Brrrgh!'
+ 1110: 'Vamos para a Sonhol\xc3\xa2ndia do Donald!'
+ 1111: 'Vamos para o Aut\xc3\xb3dromo do Pateta',
+ 1112: 'Vamos para a minha casa!',
+ 1113: 'Vamos para a sua casa!',
+ 1114: 'Vamos para o Quartel do Rob\xc3\xb4 Vendedor!',
+ 1115: 'Vamos lutar com o VP!',
+ 1116: 'Vamos entrar na F\xc3\xa1brica!',
+ 1117: 'Vamos pescar!',
+ 1118: 'Vamos pescar na minha casa!',
+ 1119: 'Vamos para o Quartel do Rob\xc3\xb4 Mercen\xc3\xa1rio!',
+ 1120: 'Vamos lutar com o Diretor Financeiro!',
+ 1121: 'Vamos entrar na Casa da Moeda!',
+ 1122: 'Vamos para o Quartel do Rob\xc3\xb4 da Lei!',
+ 1123: 'Vamos lutar com o Juiz Chefe!',
+ 1124: 'Vamos para o Escrit\xc3\xb3rio do Promotor P\xc3\xbablico!',
+ 1125: 'Vamos para %s!' % lOutdoorZone,
+ 1126: 'Vamos para %s!' % lGolfZone,
+ 1127: 'Vamos para o Quartel do Rob\xc3\xb4 Chefe!',
+ 1128: 'Vamos lutar com o Presidente!',
+ 1129: 'Vamos para o Campo de Golfe Cog!',
+ 1130: "Vamos assumir um escrit\xc3\xb3rio de campo!",
+ 1200: 'Em que Tarefa Toon voc\xc3\xaa est\xc3\xa1 trabalhando?',
+ 1201: 'Vamos trabalhar nisto.',
+ 1202: 'Isto n\xc3\xa3o \xc3\xa9 o que estou procurando.',
+ 1203: 'Vou procurar isto.',
+ 1204: 'N\xc3\xa3o est\xc3\xa1 nesta rua.',
+ 1205: 'N\xc3\xa3o encontrei ainda.',
+ 1206: 'Preciso de mais M\xc3\xa9ritos por Cogs.',
+ 1207: 'Preciso de mais pe\xc3\xa7as de vestimentas de Cogs.',
+ 1208: 'N\xc3\xa3o \xc3\xa9 disso que voc\xc3\xaa precisa.',
+ 1209: 'Achei o que voc\xc3\xaa precisa.',
+ 1210: 'Eu preciso de mais Cograna.',
+ 1211: 'Eu preciso de mais Avisos ao J\xc3\xbari.',
+ 1212: 'Preciso de mais A\xc3\xa7\xc3\xb5es.',
+ 1213: 'Eu preciso de mais Pe\xc3\xa7as de Vestimenta de Rob\xc3\xb4 Mercen\xc3\xa1rio.',
+ 1214: 'Eu preciso de mais Pe\xc3\xa7as de Vestimenta de Rob\xc3\xb4 da Lei.',
+ 1215: 'Preciso de mais Pe\xc3\xa7as de Rob\xc3\xb4 Chefe.',
+ 1299: 'Preciso pegar uma Tarefa Toon.',
+ 1300: 'Acho que voc\xc3\xaa devia escolher Toonar.',
+ 1301: 'Acho que voc\xc3\xaa devia escolher Sonora.',
+ 1302: 'Acho que voc\xc3\xaa devia escolher Cadente.',
+ 1303: 'Acho que voc\xc3\xaa devia escolher Armadilha.',
+ 1304: 'Acho que voc\xc3\xaa devia escolher Isca.',
+ 1400: 'Anda!',
+ 1401: 'Que tiro!',
+ 1402: 'Que piada!',
+ 1403: 'N\xc3\xa3o me acertou!',
+ 1404: 'Conseguiu!',
+ 1405: 'Conseguimos!',
+ 1406: 'Ataque!',
+ 1407: 'Moleza!',
+ 1408: 'Esta foi f\xc3\xa1cil!',
+ 1409: 'Corre!',
+ 1410: 'Socorro!',
+ 1411: 'Ufa!',
+ 1412: 'Estamos em apuros.',
+ 1413: 'Preciso de mais piadas.',
+ 1414: 'Preciso de uma Toonar.',
+ 1415: 'Voc\xc3\xaa deve passar.',
+ 1416: 'Vamos conseguir!',
+ 1500: 'Vamos usar toonar!',
+ 1501: 'Vamos usar armadilha!',
+ 1502: 'Vamos usar isca!',
+ 1503: 'Vamos usar sonora!',
+ 1504: 'Vamos usar lan\xc3\xa7amento!',
+ 1505: 'Vamos usar esguicho!',
+ 1506: 'Vamos usar cadente!',
+ 1520: '\xc3\x89 hora do Rock!',
+ 1521: 'Isso deve doer.',
+ 1522: 'Pegue!',
+ 1523: 'Entrega especial!',
+ 1524: 'Voc\xc3\xaa ainda est\xc3\xa1 aqui?',
+ 1525: 'Ai, que medo!',
+ 1526: 'Esta vai deixar cicatriz!',
+ 1550: 'Vou usar uma armadilha.',
+ 1551: 'Vou usar uma isca.',
+ 1552: 'Vou usar uma cadente.',
+ 1553: 'Voc\xc3\xaa devia usar uma piada diferente.',
+ 1554: 'Vamos todos no mesmo Cog.',
+ 1555: 'Voc\xc3\xaa devia escolher um Cog diferente.',
+ 1556: 'V\xc3\xa1 no Cog mais fraco primeiro.',
+ 1557: 'V\xc3\xa1 no Cog mais forte primeiro.',
+ 1558: 'Economize as piadas mais poderosas.',
+ 1559: 'N\xc3\xa3o use som em Cogs dominados por iscas.',
+ 1600: 'Tenho piadas suficientes.',
+ 1601: 'Preciso de mais balinhas.',
+ 1602: 'Eu tamb\xc3\xa9m.',
+ 1603: 'Vamos nessa!',
+ 1604: 'Mais um?',
+ 1605: 'Jogar de novo?',
+ 1606: 'Vamos jogar de novo.',
+ 1700: 'Vamos nos separar.',
+ 1701: 'Vamos ficar juntos.',
+ 1702: 'Vamos lutar com os Cogs.',
+ 1703: 'Pise no interruptor.',
+ 1704: 'Passe pela porta.',
+ 1803: 'Estou na Entrada principal.',
+ 1804: 'Estou no Sal\xc3\xa3o.',
+ 1805: 'Estou no corredor fora do Sal\xc3\xa3o.',
+ 1806: 'Estou no corredor fora do Sal\xc3\xa3o.',
+ 1807: 'Estou na Sala de cogs.',
+ 1808: 'Estou na Sala da caldeira.',
+ 1809: 'Estou na Passarela leste.',
+ 1810: 'Estou no Misturador de tinta.',
+ 1811: 'Estou no Dep\xc3\xb3sito do Misturador de tinta.',
+ 1812: 'Estou na Passarela do Silo Oeste.',
+ 1813: 'Estou na Sala de tubula\xc3\xa7\xc3\xb5es.',
+ 1814: 'Estou nas escadas da Sala de tubula\xc3\xa7\xc3\xb5es.',
+ 1815: 'Estou na Sala de dutos.',
+ 1816: 'Estou na Entrada lateral.',
+ 1817: 'Estou no Beco sinistro.',
+ 1818: 'Estou fora do Sal\xc3\xa3o de lava.',
+ 1819: 'Estou no Sal\xc3\xa3o de lava.',
+ 1820: 'Estou no Dep\xc3\xb3sito de lava.',
+ 1821: 'Estou na Passarela oeste.',
+ 1822: 'Estou na Sala de \xc3\xb3leo.',
+ 1823: 'Estou na Vigil\xc3\xa2ncia do Armaz\xc3\xa9m.',
+ 1824: 'Estou no Armaz\xc3\xa9m.',
+ 1825: 'Estou fora do Misturador de tinta.',
+ 1827: 'Estou fora da Sala de \xc3\xb3leo.',
+ 1830: 'Estou na Sala de controle do Silo Leste.',
+ 1831: 'Estou na Sala de controle do Silo Oeste.',
+ 1832: 'Estou na Sala de controle do Silo Central.',
+ 1833: 'Estou no Silo Leste.',
+ 1834: 'Estou no Silo Oeste.',
+ 1835: 'Estou no Silo Central.',
+ 1836: 'Estou no Silo Oeste.',
+ 1837: 'Estou no Silo Leste.',
+ 1838: 'Estou na Passarela do Silo Leste.',
+ 1840: 'Estou no topo do Silo Oeste.',
+ 1841: 'Estou no topo do Silo Leste.',
+ 1860: 'Estou no Elevador do Silo Oeste.',
+ 1861: 'Estou no Elevador do Silo Leste.',
+ 1903: 'Vamos nos encontrar na Entrada principal.',
+ 1904: 'Vamos nos encontrar no Sal\xc3\xa3o.',
+ 1905: 'Vamos nos encontrar no corredor fora do sal\xc3\xa3o.',
+ 1906: 'Vamos nos encontrar no corredor fora do sal\xc3\xa3o.',
+ 1907: 'Vamos nos encontrar na Sala de cogs.',
+ 1908: 'Vamos nos encontrar na Sala da caldeira.',
+ 1909: 'Vamos nos encontrar na Passarela leste.',
+ 1910: 'Vamos nos encontrar no Misturador de tinta.',
+ 1911: 'Vamos nos encontrar no Dep\xc3\xb3sito do Misturador de tinta.',
+ 1912: 'Vamos nos encontrar na Passarela do Silo Oeste.',
+ 1913: 'Vamos nos encontrar na Sala de tubula\xc3\xa7\xc3\xb5es.',
+ 1914: 'Vamos nos encontrar nas escadas da Sala de tubula\xc3\xa7\xc3\xb5es.',
+ 1915: 'Vamos nos encontrar na Sala de dutos.',
+ 1916: 'Vamos nos encontrar na Entrada lateral.',
+ 1917: 'Vamos nos encontrar no Beco sinistro.',
+ 1918: 'Vamos nos encontrar fora do Sal\xc3\xa3o de lava.',
+ 1919: 'Vamos nos encontrar no Sal\xc3\xa3o de lava.',
+ 1920: 'Vamos nos encontrar no Dep\xc3\xb3sito de lava.',
+ 1921: 'Vamos nos encontrar na Passarela oeste.',
+ 1922: 'Vamos nos encontrar na Sala de \xc3\xb3leo.',
+ 1923: 'Vamos nos encontrar na Vigil\xc3\xa2ncia do Armaz\xc3\xa9m.',
+ 1924: 'Vamos nos encontrar no Armaz\xc3\xa9m.',
+ 1925: 'Vamos nos encontrar fora do Misturador de tinta.',
+ 1927: 'Vamos nos encontrar fora da Sala de \xc3\xb3leo.',
+ 1930: 'Vamos nos encontrar na Sala de controle do Silo Leste.',
+ 1931: 'Vamos nos encontrar na Sala de controle do Silo Oeste.',
+ 1932: 'Vamos nos encontrar na Sala de controle do Silo Central.',
+ 1933: 'Vamos nos encontrar no Silo Leste.',
+ 1934: 'Vamos nos encontrar no Silo Oeste.',
+ 1935: 'Vamos nos encontrar no Silo Central.',
+ 1936: 'Vamos nos encontrar no Silo Oeste.',
+ 1937: 'Vamos nos encontrar no Silo Leste.',
+ 1938: 'Vamos nos encontrar na Passarela do Silo Leste.',
+ 1940: 'Vamos nos encontrar no topo do Silo Oeste.',
+ 1941: 'Vamos nos encontrar no topo do Silo Leste.',
+ 1960: 'Vamos nos encontrar no Elevador do Silo Oeste.',
+ 1961: 'Vamos nos encontrar no Elevador do Silo Leste.',
+ 2000: 'Lil\xc3\xa1s',
+ 2001: 'Azul',
+ 2002: 'Ciano',
+ 2003: 'Azul petr\xc3\xb3leo',
+ 2004: 'Verde',
+ 2005: 'Amarelo',
+ 2006: 'Laranja',
+ 2007: 'Vermelho',
+ 2008: 'Rosa',
+ 2009: 'Marrom',
+ 2100: 'Opere o guindaste.',
+ 2101: 'Posso operar o guindaste?',
+ 2102: 'Preciso de pr\xc3\xa1tica para operar o guindaste.',
+ 2103: 'Escolha um brutamontes desativado.',
+ 2104: 'Jogue o brutamontes no Diretor Financeiro.',
+ 2105: 'Agora jogue um cofre!',
+ 2106: 'N\xc3\xa3o jogue o cofre agora!',
+ 2107: 'O cofre vai derrubar o capacete dele.',
+ 2108: 'O cofre vai virar o novo capacete dele.',
+ 2109: 'N\xc3\xa3o consigo chegar a nenhum cofre.',
+ 2110: 'N\xc3\xa3o consigo chegar a nenhum brutamontes.',
+ 2120: 'Desative os brutamontes.',
+ 2121: 'Prefiro desativar os brutamontes.',
+ 2122: 'Preciso de pr\xc3\xa1tica para desativar brutamontes.',
+ 2123: 'Fique por perto.',
+ 2124: 'Fique circulando.',
+ 2125: 'Preciso circular.',
+ 2126: 'Procure algu\xc3\xa9m que precise de ajuda.',
+ 2130: 'Guarde os tesouros.',
+ 2131: 'Pegue os tesouros.',
+ 2132: 'Preciso de tesouros!',
+ 2133: 'Cuidado!',
+ 2200: 'Voc\xc3\xaa precisa acertar a balan\xc3\xa7a.',
+ 2201: 'Eu vou acertar a balan\xc3\xa7a.',
+ 2202: 'Eu preciso de ajuda com a balan\xc3\xa7a!',
+ 2203: 'Voc\xc3\xaa precisa atordoar os Cogs.',
+ 2204: 'Eu vou atordoar os Cogs.',
+ 2205: 'Eu preciso de ajuda com os Cogs!',
+ 2206: 'Eu preciso de mais evid\xc3\xaancias.',
+ 2207: 'Eu fico com as cadeiras da fileira de cima.',
+ 2208: 'Eu fico com as cadeiras da fileira de baixo.',
+ 2209: 'Saia da frente! N\xc3\xa3o podemos atingir o prato.',
+ 2210: 'Eu fa\xc3\xa7o as piadas Toonar.',
+ 2211: 'Eu n\xc3\xa3o tenho peso b\xc3\xb4nus.',
+ 2212: 'Eu tenho peso b\xc3\xb4nus de 1.',
+ 2213: 'Eu tenho peso b\xc3\xb4nus de 2.',
+ 2214: 'Eu tenho peso b\xc3\xb4nus de 3.',
+ 2215: 'Eu tenho peso b\xc3\xb4nus de 4.',
+ 2216: 'Eu tenho peso b\xc3\xb4nus de 5.',
+ 2217: 'Eu tenho peso b\xc3\xb4nus de 6.',
+ 2218: 'Eu tenho peso b\xc3\xb4nus de 7.',
+ 2219: 'Eu tenho peso b\xc3\xb4nus de 8.',
+ 2220: 'Eu tenho peso b\xc3\xb4nus de 9.',
+ 2221: 'Eu tenho peso b\xc3\xb4nus de 10.',
+ 2222: 'Eu tenho peso b\xc3\xb4nus de 11.',
+ 2223: 'Eu tenho peso b\xc3\xb4nus de 12.',
+ 2300: 'Voc\xc3\xaa alimenta os Cogs \xc3\xa0 esquerda.',
+ 2301: 'Vou alimentar os Cogs \xc3\xa0 esquerda.',
+ 2302: 'Voc\xc3\xaa alimenta os Cogs \xc3\xa0 direita.',
+ 2303: 'Vou alimentar os Cogs \xc3\xa0 direita.',
+ 2304: 'Voc\xc3\xaa alimenta os Cogs \xc3\xa0 frente.',
+ 2305: 'Vou alimentar os Cogs \xc3\xa0 frente.',
+ 2306: 'Voc\xc3\xaa alimenta os Cogs de tr\xc3\xa1s.',
+ 2307: 'Vou alimentar os Cogs de tr\xc3\xa1s.',
+ 2308: 'Voc\xc3\xaa usa a garrafa de \xc3\xa1gua com g\xc3\xa1s.',
+ 2309: 'Vou usar a garrafa de \xc3\xa1gua com g\xc3\xa1s.',
+ 2310: 'Voc\xc3\xaa usa o taco de golfe.',
+ 2311: 'Vou usar o taco de golfe.',
+ 2312: 'Vou servir esta mesa.',
+ 2313: 'Pode servir esta mesa?',
+ 2314: 'Alimente o mesmo Cog de novo.',
+ 2315: 'Depressa, seu Cog est\xc3\xa1 com fome!',
+ 2316: 'Reserve os lanches para Toons mais tristes.',
+ 2317: 'Pegue os lanches antes que eles caiam.',
+ 3010: 'Algu\xc3\xa9m quer apostar corrida?',
+ 3020: 'Vamos apostar corrida!',
+ 3030: 'Quer apostar corrida?',
+ 3040: 'Vamos mostrar nossos karts!',
+ 3050: 'N\xc3\xa3o tenho t\xc3\xadquetes suficientes.',
+ 3060: 'Vamos apostar outra corrida!',
+ 3061: 'Quer apostar outra corrida?',
+ 3150: 'Preciso ir \xc3\xa0 Loja do kart.',
+ 3160: 'Vamos para a pista de corrida!',
+ 3170: 'Vamos para a largada para mostrar nossos karts!',
+ 3180: 'Vou para a largada mostrar meu kart!',
+ 3190: 'A gente se encontra na pista de corrida!',
+ 3110: 'O ponto de encontro \xc3\xa9 a Loja do kart!',
+ 3130: 'Onde a gente se encontra?',
+ 3200: 'Onde voc\xc3\xaa quer correr?',
+ 3201: 'Vamos escolher uma corrida diferente.',  
+ 3210: 'Vamos fazer uma corrida de aquecimento.',
+ 3211: 'Vamos fazer um campeonato de corrida.',
+ 3220: 'Eu gosto da corrida do Est\xc3\xa1dio dos Nerds!',
+ 3221: 'Eu gosto da corrida do Aut\xc3\xb3dromo R\xc3\xbastico!',
+ 3222: 'Eu gosto da corrida do Circuito da Cidade!',
+ 3223: 'Eu gosto da corrida do Coliseu Saca-Rolhas!',
+ 3224: 'Eu gosto da corrida da Pista de Pulos!',
+ 3222: 'Eu gosto da corrida do Circuito da Cidade!',
+ 3230: 'Vamos correr no Est\xc3\xa1dio dos Nerds!',
+ 3231: 'Vamos correr no Aut\xc3\xb3dromo R\xc3\xbastico!',
+ 3232: 'Vamos correr no Circuito da Cidade!',
+ 3233: 'Vamos correr no Coliseu Saca-Rolhas!',
+ 3234: 'Vamos correr na Pista de Pulos!',
+ 3235: 'Vamos correr na Avenida da Neve!',
+ 3600: 'Em que pista voc\xc3\xaa quer correr?',
+ 3601: 'Escolha uma pista!',
+ 3602: 'A gente pode correr em uma pista diferente?',
+ 3603: 'Vamos escolher uma pista diferente!',
+ 3640: 'Quero correr na primeira pista!',
+ 3641: 'Quero correr na segunda pista!',
+ 3642: 'Quero correr na terceira pista!',
+ 3643: 'Quero correr na quarta pista!',
+ 3660: 'N\xc3\xa3o quero correr na primeira pista!',
+ 3661: 'N\xc3\xa3o quero correr na segunda pista!',
+ 3662: 'N\xc3\xa3o quero correr na terceira pista!',
+ 3663: 'N\xc3\xa3o quero correr na quarta pista!',
+ 3300: 'Uau! Voc\xc3\xaa \xc3\xa9 R\xc3\x81PIDO!',
+ 3301: 'Voc\xc3\xaa \xc3\xa9 muito r\xc3\xa1pido para mim!',
+ 3310: 'Boa corrida!',
+ 3320: 'Eu me amarrei no seu kart!',
+ 3330: 'Uma corrida maravilhosa!',
+ 3340: 'Seu kart \xc3\xa9 muito maneiro!',
+ 3350: 'Seu kart \xc3\xa9 incr\xc3\xadvel!',
+ 3360: 'Seu kart \xc3\xa9 maravilhoso!',
+ 3400: 'T\xc3\xa1 com medo de me enfrentar?',
+ 3410: 'Vejo voc\xc3\xaa na linha de chegada!',
+ 3430: 'Sou r\xc3\xa1pido como um raio!',
+ 3450: 'Voc\xc3\xaa nunca vai me alcan\xc3\xa7ar!',
+ 3451: 'Voc\xc3\xaa nunca vai me derrotar!',
+ 3452: 'Ningu\xc3\xa9m consegue bater o meu tempo!',
+ 3453: 'Vamos embora, molenga!',
+ 3460: 'Me d\xc3\xa1 outra chance!',
+ 3461: 'Foi sorte a sua!',
+ 3462: 'Uh-huu! Essa foi perto!',
+ 3470: 'Uau, pensei que voc\xc3\xaa tinha me vencido!',
+ 4000: 'Vamos jogar minigolfe!',
+ 4001: 'Vamos jogar de novo!',
+ 4002: 'Quer jogar golfe?',
+ 4100: 'Vamos jogar no "Tacada e Caminhada".',
+ 4101: 'Vamos jogar no "Tacadas Divertidas".',
+ 4102: 'Vamos jogar no "Todas as Tacadas".',
+ 4103: 'Esse percurso \xc3\xa9 f\xc3\xa1cil demais.',
+ 4104: 'Esse percurso \xc3\xa9 dif\xc3\xadcil demais.',
+ 4105: 'Esse percurso est\xc3\xa1 \xc3\xb3timo.',
+ 4200: 'Tente ficar mais para a esquerda.',
+ 4201: 'Tente ficar mais para a direita.',
+ 4202: 'Tente ficar bem no meio.',
+ 4203: 'Tente bater mais forte.',
+ 4204: 'Tente bater mais fraco.',
+ 4205: 'Tente mirar mais para a esquerda.',
+ 4206: 'Tente mirar mais para a direita.',
+ 4207: 'Tente mirar bem no meio.',
+ 4300: 'Por pouco!',
+ 4301: 'Que tacada sensacional!',
+ 4302: 'Essa foi uma tacada de sorte.',
+ 4303: 'Quero mais uma chance...',
+ 4304: 'Essa \xc3\xa9 muito f\xc3\xa1cil.',
+ 4305: 'Bola!',
  4306: 'Shhhh!',
- 4307: 'Good game!',
- 5000: "Let's form a Boarding Group.",
- 5001: 'Join my Boarding Group.',
- 5002: 'Can you invite me to your Boarding Group?',
- 5003: "I'm already in a Boarding Group.",
- 5004: 'Leave your Boarding Group.',
- 5005: 'We are boarding now.',
- 5006: 'Where are we going?',
- 5007: 'Are we ready?',
- 5008: "Let's Go!",
- 5009: "Don't leave this area or you will leave the Boarding Group.",
- 5100: "Let's go to the Front Three.",
- 5101: "Let's go to the Middle Six.",
- 5102: "Let's go to the Back Nine.",
- 5103: "Let's go to the C.E.O. Battle.",
- 5104: "Let's go to the Senior V.P Battle.",
- 5105: "Let's go to the Front Entrance.",
- 5106: "Let's go to the Side Entrance.",
- 5107: "Let's go to the Coin Mint.",
- 5108: "Let's go to the Dollar Mint.",
- 5109: "Let's go to the Bullion Mint.",
- 5110: "Let's go to the C.F.O. Battle.",
- 5111: "Let's go to the Chief Justice Battle.",
- 5112: "Let's go to the Lawbot A Office.",
- 5113: "Let's go to the Lawbot B Office.",
- 5114: "Let's go to the Lawbot C Office.",
- 5115: "Let's go to the Lawbot D Office.",
- 5200: "We're going to the Front Three.",
- 5201: "We're going to the Middle Six.",
- 5202: "We're going to the Back Nine.",
- 5203: "We're going to the C.E.O. Battle.",
- 5204: "We're going to the Senior V.P Battle.",
- 5205: "We're going to the Front Entrance.",
- 5206: "We're going to the Side Entrance.",
- 5207: "We're going to the Coin Mint.",
- 5208: "We're going to the Dollar Mint.",
- 5209: "We're going to the Bullion Mint.",
- 5210: "We're going to the C.F.O. Battle.",
- 5211: "We're going to the Chief Justice Battle.",
- 5212: "We're going to the Lawbot A Office.",
- 5213: "We're going to the Lawbot B Office.",
- 5214: "We're going to the Lawbot C Office.",
- 5215: "We're going to the Lawbot D Office.",
- 5300: "Let's go to a party.",
- 5301: 'See you at the party!',
- 5302: 'My party has started!',
- 5303: 'Come to my party!',
- 5304: 'Welcome to my party!',
- 5305: 'This party rules!',
- 5306: 'Your party is fun!',
- 5307: "It's party time!",
- 5308: 'Time is running out!',
- 5309: 'No cogs allowed!',
- 5310: 'I like this song!',
- 5311: 'This music is great!',
- 5312: 'Cannons are a blast!',
- 5313: 'Watch me jump!',
- 5314: 'Trampolines are fun!',
- 5315: "Let's play Catch!",
- 5316: "Let's dance!",
- 5317: 'To the dance floor!',
- 5318: "Let's play Tug of War!",
- 5319: 'Start the fireworks!',
- 5320: 'These fireworks are beautiful!',
- 5321: 'Nice decorations.',
- 5322: 'I wish I could eat this cake!',
- 10000: 'The choice is yours!',
- 10001: 'Who are you voting for?',
- 10002: "I'm pickin' Chicken!",
- 10003: 'Vote now! Vote Cow!',
- 10004: 'Go bananas! Vote Monkey!',
- 10005: 'Be a honey! Vote Bear!',
- 10006: 'Think big! Vote Pig!',
- 10007: "Vote Goat - and that's all she wrote!",
+ 4307: 'Grande jogo!',
+ 5000: 'Vamos formar um Grupo de Abordagem.',
+ 5001: 'Junte-se ao meu Grupo de Abordagem.',
+ 5002: 'Voc\xc3\xaa pode me convidar para o seu Grupo de Abordagem',
+ 5003: 'Eu j\xc3\xa1 estou em um Grupo de Embarque.',
+ 5004: 'Deixar o seu Grupo de Abordagem.',
+ 5005: 'Estamos embarcando agora.',
+ 5006: 'Onde estamos indo?',
+ 5007: 'Estamos prontos?',
+ 5008: 'Vamos!',
+ 5009: 'N\xc3\xa3o saia desta \xc3\xa1rea ou sair\xc3\xa1 do Grupo de Abordagem.',
+ 5100: 'Vamos para o Tr\xc3\xaas da Frente.',
+ 5101: 'Vamos para o Seis do Meio.',
+ 5102: 'Vamos para o Nove de Tr\xc3\xa1s.',
+ 5103: 'Vamos para a Batalha do Presidente',
+ 5104: 'Vamos para a Batalha do S\xc3\xaanior V.P..',
+ 5105: 'Vamos para a Entrada Principal.',
+ 5106: 'Vamos para a Entrada dos Fundos.',
+ 5107: 'Vamos para a Mina de Moedas.',
+ 5108: 'Vamos para a Mina de Dinheiro',
+ 5109: 'Vamos para a Mina de Ouro.',
+ 5110: 'Vamos para a Batalha do C.F.O.',
+ 5111: 'Vamos para a Batalha do Juiz-Chefe.',
+ 5112: 'Vamos para o Escrit\xc3\xb3rio dos Rob\xc3\xb4s da Lei A.',
+ 5113: 'Vamos para o Escrit\xc3\xb3rio dos Rob\xc3\xb4s da Lei B.',
+ 5114: 'Vamos para o Escrit\xc3\xb3rio dos Rob\xc3\xb4s da Lei C.',
+ 5115: 'Vamos para o Escrit\xc3\xb3rio dos R\xc3\xb4bos da Lei D',
+ 5200: 'Estamos indo para o Tr\xc3\xaas da Frente.',
+ 5201: 'Estamos indo para o Seis do Meio.',
+ 5202: 'Estamos indo para o Nove de Tr\xc3\xa1s.',
+ 5203: 'Estamos indo para a Batalha do Presidente.',
+ 5204: 'Estamos indo para a Batalha do S\xc3\xaanior V.P..',
+ 5205: 'Estamos indo para a Entrada Principal.',
+ 5206: 'Estamos indo para a Entrada dos Fundos.',
+ 5207: 'Estamos indo para a Mina de Moedas.',
+ 5208: 'Estamos indo para a Mina de Dinheiro.',
+ 5209: 'Estamos indo para a Mina de Ouro',
+ 5210: 'Estamos indo para a Batalha do C.F.O.',
+ 5211: 'Estamos indo para a Batalha do Juiz-Chefe.',
+ 5212: 'Estamos indo para o Escrit\xc3\xb3rio do R\xc3\xb4bos da Lei A.',
+ 5213: 'Estamos indo para o Escrit\xc3\xb3rio do R\xc3\xb4bos da Lei B.',
+ 5214: 'Estamos indo para o Escrit\xc3\xb3rio do R\xc3\xb4bos da Lei C.',
+ 5215: 'Estamos indo para o Escrit\xc3\xb3rio do R\xc3\xb4bos da Lei D.',
+ 5300: 'Vamos para uma festa.',
+ 5301: 'Vejo voc\xc3\xaa na festa!',
+ 5302: 'Minha festa come\xc3\xa7ou!',
+ 5303: 'Venha para a minha festa!',
+ 5304: 'Bem-vindo \xc3\xa0 minha festa!',
+ 5305: 'Esta festa tem regras!',
+ 5306: 'Sua festa \xc3\xa9 divertida!',
+ 5307: '\xc3\x89 hora da festa!',
+ 5308: 'O tempo est\xc3\xa1 ficando para fora!',
+ 5309: 'Nenhum Cogs s\xc3\xa3o permitidos!',
+ 5310: 'Eu gosto dessa m\xc3\xbasica!',
+ 5311: 'Esta m\xc3\xbasica \xc3\xa9 \xc3\xb3tima!',
+ 5312: 'Canh\xc3\xb5es s\xc3\xa3o uma explos\xc3\xa3o!',
+ 5313: 'V\xc3\xaa-me salto!',
+ 5314: 'Trampolines s\xc3\xa3o divertidos!',
+ 5315: 'Deixe-nos Pegar jogo!',
+ 5316: 'Vamos dan\xc3\xa7ar!',
+ 5317: 'Para a pista de dan\xc3\xa7a!',
+ 5318: 'Vamos brincar de Cabo de guerra!',
+ 5319: 'Comece os fogos de artif\xc3\xadcio!',
+ 5320: 'Estes fogos de artif\xc3\xadcio s\xc3\xa3o lindos',
+ 5321: 'Decora\xc3\xa7\xc3\xb5es agrad\xc3\xa1veis.',
+ 5322: 'Eu gostaria de poder comer este bolo!',
+ 10000: 'A escolha \xc3\xa9 sua!',
+ 10001: 'Voc\xc3\xaa vai votar em quem?',
+ 10002: 'A minha candidata \xc3\xa9 a Galinha!',
+ 10003: 'Nada de caca! Vote na Vaca!',
+ 10004: 'N\xc3\xa3o fique no v\xc3\xa1cuo! Vote no Macaco!',
+ 10005: 'Mantenha o curso! Vote no Urso!',
+ 10006: 'Pense gordo! Vote no Porco!',
+ 10007: 'Vote no Bode - com ele a gente pode!',
  20000: SuitBrushOffs[None][0],
  20001: SuitBrushOffs[None][1],
  20002: SuitBrushOffs[None][2],
@@ -1746,445 +1746,445 @@ SpeedChatStaticTextToontown = {100: 'Hi!',
  20348: SuitFaceoffTaunts['sd'][7],
  20349: SuitFaceoffTaunts['sd'][8],
  20350: SuitFaceoffTaunts['sd'][9],
- 21000: 'Here boy!',
- 21001: 'Here girl!',
- 21002: 'Stay.',
- 21003: 'Good boy!',
- 21004: 'Good girl!',
- 21005: 'Nice Doodle.',
- 21006: "Please don't bother me.",
- 21200: 'Jump!',
- 21201: 'Beg!',
- 21202: 'Play dead!',
- 21203: 'Rollover!',
- 21204: 'Backflip!',
- 21205: 'Dance!',
- 21206: 'Speak!',
- 30100: "Happy April Toons' Week!",
- 30101: "Welcome to my April Toons' Week party!",
- 30102: 'The Silly Meter is back in Toon Hall!',
- 30110: 'Mickey is in Daisy Gardens.',
- 30111: 'Daisy is in Toontown Central.',
- 30112: 'Minnie is in The Brrrgh.',
- 30113: 'Pluto is in Melodyland.',
- 30114: 'Donald is sleepwalking at the Speedway.',
- 30115: 'Goofy is in Dreamland.',
- 30120: 'Mickey is acting like Daisy!',
- 30121: 'Daisy is acting like Mickey!',
- 30122: 'Minnie is acting like Pluto!',
- 30123: 'Pluto is acting like Minnie!',
- 30124: 'Pluto is talking!',
- 30125: 'Goofy is acting like Donald!',
- 30126: 'Donald is dreaming he is Goofy!',
- 30130: 'Watch how far I can jump.',
- 30131: 'Wow, you jumped really far!',
- 30132: 'Hey, Doodles can talk!',
- 30133: 'Did your Doodle just talk?',
- 30140: 'Things sure are silly around here!',
- 30141: 'How sillier could things get?',
- 30150: 'Operation: Storm Sellbot is here!',
- 30151: 'Sellbot Towers had its power drained by Doodles!',
- 30152: 'The VP had his power drained by Doodles!',
- 30153: 'Everyone can fight the VP right now!',
- 30154: "You don't need a Sellbot Disguise to fight the VP!",
- 30155: 'You get a Rental Suit when you go into Sellbot Towers.',
- 30156: 'Do you like my Rental Suit? Sorry about the safety pins!',
- 30157: "It's best to have eight Toons to fight the VP.",
- 30158: 'Will you help me fight the VP?',
- 30159: 'Do you want to fight the VP with me?',
- 30160: 'Would you like to join my Sellbot VP group?',
- 30161: 'I am looking for a Toon with a Rental Suit to fight the VP.',
- 30162: 'I have a Rental Suit, and am looking to fight the VP.',
- 30163: 'Just walk through the doors to get your Rental Suit.',
- 30164: 'Save your gags for the Cogs inside!',
- 30165: 'We have to defeat these Cogs first!',
- 30166: 'Bump the barrels to gag up.',
- 30167: 'Bump the barrel to get a Toon-up.',
- 30168: 'Now we have to fight some Skelecogs!',
- 30169: "Jump up and touch the Toon's cage for pies!",
- 30170: 'Now we fight the VP!',
- 30171: 'Aim your pies by pressing the Delete button.',
- 30172: "Two Toons should throw pies through the VP's open doors!",
- 30173: "I'll stun the VP from the front.",
- 30174: "I'll stun the VP from the back.",
- 30175: 'Jump when the VP jumps!',
- 30180: 'I got double jellybeans on the Trolley!',
- 30181: 'I got double jellybeans from fishing!',
- 30182: 'I got double jellybeans at a party!',
- 30183: 'Jellybeans jellybeans jellybeans!',
- 30184: "I'm really keen to earn a bean!",
- 30185: "Don't be smelly, get beans of jelly!",
- 30186: "I'm gonna adopt a Doodle with all these jellybeans!",
- 30187: 'What am I gonna spend all these jellybeans on?',
- 30188: "I'm gonna throw a huge party!",
- 30189: "I'm gonna decorate my whole Estate!",
- 30190: "I'm gonna buy a whole new wardrobe!",
- 30191: 'Jellybeans, please!',
- 30192: "Don't be mean, give a bean!",
- 30193: 'Who wants jellybeans?',
- 30194: 'Dance for jellybeans!',
- 30200: 'Deck the halls... ',
- 30201: 'Load some pies...',
- 30202: 'Joyful toons...',
- 30203: 'Snowman heads...',
- 30204: "Toontown's merry...",
- 30205: 'Lure good cheer...',
- 30220: 'Deck the halls with seltzer spray!\nHappy Winter Holiday!',
- 30221: 'Load some pies into your sleigh!\nHappy Winter Holiday!',
- 30222: 'Joyful toons bring Cogs dismay!\nHappy Winter Holiday!',
- 30223: 'Snowman heads are hot today!\nHappy Winter Holiday!',
- 30224: "Toontown's merry, come what may!\nHappy Winter Holiday!",
- 30225: 'Lure good cheer the Toontown way!\nHappy Winter Holiday!',
- 30250: 'Boo!',
- 30251: 'Happy Halloween!',
- 30252: 'Spooky!',
- 30275: 'Happy holidays!',
- 30276: "Season's greetings!",
- 30277: 'Have a Wonderful Winter!',
- 30301: 'Have you seen the Silly Meter?',
- 30302: 'The Silly Meter is in Toon Hall.',
- 30303: 'Things sure are getting silly around here!',
- 30304: 'I saw a fire hydrant moving!',
- 30305: 'Toontown is coming to life!',
- 30306: "Have you been to Flippy's new office?",
- 30307: 'I caused a Silly Surge in battle!',
- 30308: "Let's defeat some Cogs to make Toontown sillier!",
- 30309: 'The Silly Meter is bigger and crazier than ever!',
- 30310: 'Lots of hydrants have come alive!',
- 30311: 'I saw a mail box moving!',
- 30312: 'I watched a trash can wake up!',
- 30313: 'How silly can it get?',
- 30314: "What's going to happen next?",
- 30315: 'Something silly, I bet!',
- 30316: 'Have you caused a Silly Surge yet?',
- 30317: "Let's defeat some Cogs to make Toontown sillier!",
- 30318: 'Cog Invasion!',
- 30319: 'Incoming!',
- 30320: "Let's stop those Cogs!",
- 30321: 'I miss the Silly Surges!',
- 30322: "Let's go stop an Invasion!",
- 30323: 'Toontown is sillier than ever now!',
- 30324: 'Have you seen something come alive?',
- 30325: 'My favorites are the fire hydrants!',
- 30326: 'My favorites are the mailboxes!',
- 30327: 'My favorites are the trash cans!',
- 30328: 'Hooray! We stopped the Cog invasions!',
- 30329: 'A hydrant helped me in battle!',
- 30330: 'A hydrant boosted my Squirt Gags!',
- 30331: 'A trash can boosted my Toon-Up Gags!',
- 30332: 'A mailbox helped my Throw Gags!',
- 30350: 'Welcome to my Victory Party!',
- 30351: 'This is a great Victory Party!',
- 30352: "We showed those Cogs who's boss!",
- 30353: 'Good job helping end the Cog invasions!',
- 30354: 'I bet this is driving the Cogs crazy!',
- 30355: "Let's play Cog-O-War!",
- 30356: 'My team won at Cog-O-War!',
- 30357: "It's nice to have fire hydrants, trash cans, and mailboxes here!",
- 30358: 'I like the balloon of the Doodle biting the Cog!',
- 30359: 'I like the balloon of the Cog covered in ice cream!',
- 30360: 'I like the wavy Cog that flaps his arms!',
- 30361: "I jumped on a Cog's face!",
- 30400: 'The Sellbots are invading!',
- 30401: 'The V.P. was hopping mad about Operation: Storm Sellbot ...',
- 30402: "He's sending the Sellbots in to invade Toontown!",
- 30403: "Let's go fight some Sellbots!",
- 30404: "There's a new kind of building in Toontown!",
- 30405: 'Have you seen the Mover & Shaker Field Offices?',
- 30406: 'The V.P. created them as a reward for the Movers & Shakers.',
- 30407: "Let's go defeat a Field Office!",
- 30408: 'I got an SOS Card for defeating a Field Office!',
- 30409: 'Clear the map by exploring the maze.',
- 30410: 'Destroy the Cogs by hitting them with water balloons!',
- 30411: 'Movers & Shakers take two balloons to destroy.',
- 30412: 'Look out for falling objects!',
- 30413: 'Watch out for the Cogs!',
- 30414: 'Collect Jokes to get a Toon-up at the end!',
- 30415: 'When the room shakes, a Mover & Shaker is nearby.',
- 30416: 'Defeat all four Movers & Shakers to open the exit!',
- 30417: 'The exit is open!',
- 30418: "It's the Boss!",
- 30450: "It's easy to be green!",
- 30451: 'Visit Green Bean Jeans and you can be green too!',
- 30452: "It's on Oak Street in Daisy Gardens."}
-SpeedChatStaticTextPirates = {50001: 'Aye',
- 50002: 'Nay',
- 50003: 'Yes',
- 50004: 'No',
+ 21000: 'Aqui, amig\xc3\xa3o!',
+ 21001: 'Aqui, amigona!',
+ 21002: 'Parado.',
+ 21003: 'Bom garoto!',
+ 21004: 'Boa menina!',
+ 21005: 'Rabisco bonzinho.',
+ 21006: 'Por favor, n\xc3\xa3o me chateie.',
+ 21200: 'Pula!',
+ 21201: 'D\xc3\xa1 a pata!',
+ 21202: 'Finge de morto!',
+ 21203: 'Rola!',
+ 21204: 'Faz cambalhota!',
+ 21205: 'Dan\xc3\xa7a!',
+ 21206: 'Fala!',
+ 30100: 'Feliz Semana da mentira Toons!',
+ 30101: 'Bem-vindo \xc3\xa0 minha festa da Semana da mentira dos Toons!',
+ 30102: 'O Medidor de Bobagem est\xc3\xa1 de volta ao Prefeitoona!',
+ 30110: 'Mickey est\xc3\xa1 no Jardim da Margarida.',
+ 30111: 'Margarida est\xc3\xa1 em Centro de Toontown.',
+ 30112: 'Minnie est\xc3\xa1 no Brrrgh.',
+ 30113: 'Pluto est\xc3\xa1 na Melodil\xc3\xa2ndia.',
+ 30114: 'Donald est\xc3\xa1 son\xc3\xa2mbulo no aut\xc3\xb3dromo.',
+ 30115: 'O Pateta est\xc3\xa1 na Sonhol\xc3\xa2ndia.',
+ 30120: 'Mickey est\xc3\xa1 agindo como Margarida!',
+ 30121: 'Margarida est\xc3\xa1 agindo como Mickey!',
+ 30122: 'Minnie est\xc3\xa1 agindo como Pluto!',
+ 30123: 'Pluto est\xc3\xa1 agindo como Minnie!',
+ 30124: 'Pluto est\xc3\xa1 falando!',
+ 30125: 'Pateta est\xc3\xa1 agindo como Donald!',
+ 30126: 'Donald est\xc3\xa1 sonhando que \xc3\xa9 o Pateta!',
+ 30130: 'Observe at\xc3\xa9 onde consigo pular.',
+ 30131: 'Nossa, voc\xc3\xaa pulou muito longe!',
+ 30132: 'Ei, Rabiscos podem, falar!',
+ 30133: 'Seu Rabisco acabou de falar?',
+ 30140: 'As coisas com certeza s\xc3\xa3o bobas por aqui!',
+ 30141: 'Qu\xc3\xa3o mais bobas as coisas poderiam ficar?',
+ 30150: 'Opera\xc3\xa7\xc3\xa3o: Tempestade dos Rob\xc3\xb4s Vendedores est\xc3\xa1 aqui!',
+ 30151: 'Torres dos Rob\xc3\xb4s Vendedores teve sua energia drenada por Rabiscos!',
+ 30152: 'O S\xc3\xaanior VP teve seu poder drenado por Rabiscos!',
+ 30153: 'Todos podem lutar contra o  S\xc3\xaanior VP agora mesmo!',
+ 30154: 'Voc\xc3\xaa n\xc3\xa3o precisa de um disfarce de Rob\xc3\xb4 Vendedores para lutar contra o VP!',
+ 30155: 'Voc\xc3\xaa ganha um Terno Alugado quando entra nas Torres dos Rob\xc3\xb4s Vendedores.',
+ 30156: 'Voc\xc3\xaa gostou do meu traje de aluguel? Desculpe pelos alfinetes de seguran\xc3\xa7a!',
+ 30157: '\xc3\x89 melhor ter oito Toons para lutar contra o s\xc3\xaanior VP.',
+ 30158: 'Voc\xc3\xaa vai me ajudar a lutar contra o s\xc3\xaanior VP?',
+ 30159: 'Voc\xc3\xaa quer lutar contra o s\xc3\xaanior VP comigo?',
+ 30160: 'Voc\xc3\xaa gostaria de se juntar ao meu grupo Rob\xc3\xb4s Vendedores s\xc3\xaanior VP?',
+ 30161: 'Estou procurando um Toon com Traje Alugado para lutar contra o s\xc3\xaanior VP.', 
+ 30162: 'Eu tenho um traje de aluguel e estou querendo lutar contra o  s\xc3\xaanior VP.',
+ 30163: 'Basta passar pelas portas para pegar seu traje de aluguel.',
+ 30164: 'Guarde suas piadas para os Cogs l\xc3\xa1 dentro!',
+ 30165: 'Temos que derrotar esses Cogs primeiro!',
+ 30166: 'Bata nos barris para piada subir.',
+ 30167: 'Bata no cano para conseguir um Toonar.',
+ 30168: 'Agora temos que lutar contra alguns EsqueletosCogs!',
+ 30169: 'Salte e toque na gaiola do Toon para pegar tortas!',
+ 30170: 'Agora lutamos contra o s\xc3\xaanior VP!',
+ 30171: 'Mire suas tortas pressionando o bot\xc3\xa3o Delete.',
+ 30172: 'Dois Toons deveriam jogar tortas pelas portas abertas do VP!',
+ 30173: 'Vou atordoar o s\xc3\xaanior VP pela frente.',
+ 30174: 'Vou atordoar o s\xc3\xaanior VP pelas costas.',
+ 30175: 'Pule quando o s\xc3\xaanior VP pular!',
+ 30180: 'Tenho balinhas duplas no carrinho!',
+ 30181: 'Ganhei balinhas duplas na pesca!',
+ 30182: 'Ganhei Balinhas duplas em uma festa!',
+ 30183: 'Balinhas  balinhas balinhas!',
+ 30184: 'Estou com muita vontade de ganhar uma bala!',
+ 30185: 'N\xc3\xa3o seja fedorento, pegue balinha!',
+ 30186: 'Vou adotar um Rasbico com todas essas balinhas!',
+ 30187: 'Em que vou gastar todas essas balinhas?',
+ 30188: 'Vou dar uma grande festa!',
+ 30189: 'Vou decorar toda a minha propriedade!',
+ 30190: 'Vou comprar um guarda-roupa totalmente novo!',
+ 30191: 'Balinhas, por favor!',
+ 30192: 'N\xc3\xa3o seja mau, d\xc3\xaa um feij\xc3\xa3o!',
+ 30193: 'Quem quer balinhas?',
+ 30194: 'Dance para balinhas!',
+ 30200: 'Hoje \xc3\xa9 dia de Alegria...',
+ 30201: 'Coloque algumas tortas...',
+ 30202: 'Toons alegres...',
+ 30203: 'Cabe\xc3\xa7as de boneco de neve...',
+ 30204: 'Toontown \xc3\xa9 alegre...',
+ 30205: 'Isca bom \xc3\xa2nimo...',
+ 30220: 'Hoje \xc3\xa9 dia de Alegria com spray de \xc3\xa1gua com g\xc3\xa1s!\nBoas festas de inverno!',
+ 30221: 'Coloque algumas tortas em seu tren\xc3\xb3!\nBoas festas de inverno!',
+ 30222: 'Toons alegres trazem consterna\xc3\xa7\xc3\xa3o aos Cogs!\nBoas festas de inverno!',
+ 30223: 'As cabe\xc3\xa7as dos bonecos de neve est\xc3\xa3o quentes hoje!\nBoas f\xc3\xa9rias de inverno!',
+ 30224: 'Toontown \xc3\xa9 alegre, aconte\xc3\xa7a o que acontecer!\nBoas festas de inverno!',
+ 30225: 'Isca a alegria do jeito Toontown!\nBoas f\xc3\xa9rias de inverno!',
+ 30250: 'Buu!',
+ 30251: 'Feliz Dia das Bruxas!',
+ 30252: 'Assustador!',
+ 30275: 'Boas festas!',
+ 30276: 'Cumprimentos de temporada!',
+ 30277: 'Tenha um inverno maravilhoso!',
+ 30301: 'Voc\xc3\xaa viu o Medidor de Bobagem?',
+ 30302: 'O medidor de bobagem est\xc3\xa1 na Prefeitoona.',
+ 30303: 'As coisas com certeza est\xc3\xa3o ficando bobas por aqui!',
+ 30304: 'Eu vi um hidrante se mexendo!',
+ 30305: 'Toontown est\xc3\xa1 ganhando vida!',
+ 30306: 'Voc\xc3\xaa j\xc3\xa1 esteve no novo escrit\xc3\xb3rio do Flippy?',
+ 30307: 'Eu causei um Surto Bobo em batalha!',
+ 30308: 'Vamos derrotar alguns Cogs para deixar Toontown mais boba!',
+ 30309: 'O Medidor de Bobagem est\xc3\xa1 maior e mais louco do que nunca!',
+ 30310: 'Muitos hidrantes ganharam vida!',
+ 30311: 'Vi uma caixa de correio se mexendo!',
+ 30312: 'Eu vi uma lata de lixo acordar!',
+ 30313: 'Qu\xc3\xa3o bobo isso pode ser?',
+ 30314: 'O que vai acontecer a seguir?',
+ 30315: 'Algo bobo, aposto!',
+ 30316: 'Voc\xc3\xaa j\xc3\xa1 causou um Surto Bobo?',
+ 30317: 'Vamos derrotar alguns Cogs para deixar Toontown mais boba!',
+ 30318: 'Invas\xc3\xa3o da cog!',
+ 30319: 'Chegando!',
+ 30320: 'Vamos parar esses cogs!',
+ 30321: 'Sinto falta dos Surtos Bobos!',
+ 30322: 'Vamos impedir uma invas\xc3\xa3o!',
+ 30323: 'Toontown est\xc3\xa1 mais bobo do que nunca!',
+ 30324: 'Voc\xc3\xaa viu algo ganhar vida?',
+ 30325: 'Meus favoritos s\xc3\xa3o os hidrantes!',
+ 30326: 'Minhas favoritas s\xc3\xa3o as caixas de correio!',
+ 30327: 'Meus favoritos s\xc3\xa3o as latas de lixo!',
+ 30328: 'Viva! Paramos as invas\xc3\xb5es dos Cogs!',
+ 30329: 'Um hidrante me ajudou na batalha!',
+ 30330: 'Um hidrante impulsionou minhas Piadas de Esguicho!',
+ 30331: 'Uma lata de lixo impulsionou minhas Piadas de Toonar!',
+ 30332: 'Uma caixa de correio ajudou minhas Piadas de Lan\xc3\xa7amento!',
+ 30350: 'Bem-vindo \xc3\xa0 minha Festa da Vit\xc3\xb3ria!',
+ 30351: 'Esta \xc3\xa9 uma grande Festa da Vit\xc3\xb3ria!',
+ 30352: 'Mostramos \xc3\xa0queles Cogs quem manda!',
+ 30353: 'Bom trabalho ajudando a acabar com as invas\xc3\xb5es Cog!',
+ 30354: 'Aposto que isso est\xc3\xa1 deixando os Cogs loucos!',
+ 30355: "Vamos jogar Cog-de-Guerra"
+ 30356: 'Meu time venceu o Cog-de-Guerra!',
+ 30357: '\xc3\x89 bom ter hidrantes, latas de lixo e caixas de correio aqui!',
+ 30358: 'Gosto do bal\xc3\xa3o do Rabisco mordendo o cog!',
+ 30359: 'Gosto do bal\xc3\xa3o do Cog coberto de sorvete!',
+ 30360: 'Gosto do cog ondulado que bate os bra\xc3\xa7os!',
+ 30361: 'Eu pulei na cara de um Cog!',
+ 30400: 'Os Rob\xc3\xb4s Vendedores est\xc3\xa3o invadindo!',
+ 30401: 'O s\xc3\xaanior VP estava louco com a Opera\xc3\xa7\xc3\xa3o: Tempestade de Rob\xc3\xa4s Vendedores...',
+ 30402: 'Ele est\xc3\xa1 enviando os Rob\xc3\xb4s Vendedores para invadir Toontown!',
+ 30403: 'Vamos lutar contra alguns Rob\xc3\xb4s Vendedores!',
+ 30404: 'H\xc3\xa1 um novo tipo de constru\xc3\xa7\xc3\xa3o em Toontown!',
+ 30405: 'Voc\xc3\xaa viu os escrit\xc3\xb3rios de campo dos Agitadores?',
+ 30406: 'O s\xc3\xaanior VP os criou como uma recompensa para os Agitadores.',
+ 30407: 'Vamos derrotar um Escrit\xc3\xb3rio de Campo!',
+ 30408: 'Recebi um cart\xc3\xa3o SOS por derrotar um Escrit\xc3\xb3rio de Campo!',
+ 30409: 'Limpe o mapa explorando o labirinto.',
+ 30410: 'Destrua os cogs acertando-as com bal\xc3\xb5es de \xc3\xa1gua!',
+ 30411: 'Agitadores levam dois bal\xc3\xb5es para destruir.',
+ 30412: 'Cuidado com a queda de objetos!',
+ 30413: 'Cuidado com as cogs!',
+ 30414: 'Colete piadas para obter um Toonar no final!',
+ 30415: 'Quando a sala treme, um Agitador est\xc3\xa1 por perto.',
+ 30416: 'Derrote todos os quatros Agitadores para abrir a sa\xc3\xadda!',
+ 30417: 'A sa\xc3\xadda est\xc3\xa1 aberta!',
+ 30418: '\xc3\x89 o chefe!',
+ 30450: '\xc3\x89 f\xc3\xa1cil ser verde!',
+ 30451: 'Visite Jeans Feij\xc3\xa3o Verde e voc\xc3\xaa tamb\xc3\x89m pode ser verde!',
+ 30452: 'Fica na Rua dos Carvalhos nos Jardins da Margarida.'}
+SpeedChatStaticTextPirates: {50001: 'Sim',
+ 50002: 'N\xc3\xa3o',
+ 50003: 'Arrr!',
+ 50004: 'Sim, sim, Capit\xc3\xa3o!',
  50005: 'Ok',
- 50100: 'Gangway!',
- 50101: 'Blimey!',
- 50102: 'Well blow me down!',
- 50103: 'Walk the plank!',
- 50104: 'Dead men tell no tales....',
- 50105: 'Shiver me timbers!',
- 50106: "Salty as a Kraken's kiss.",
- 50107: 'Treasure be the measure of our pleasure!',
- 50108: "I don't fear death - I attune it.",
- 50700: 'Ahoy!',
- 50701: 'Ahoy, mate!',
+ 50100: 'Todos a bordo!',
+ 50101: 'Ei, marujo!',
+ 50102: 'Alto l\xc3\xa1!',
+ 50103: 'Abram caminho!',
+ 50104: 'Caramba!',
+ 50105: 'Me explodiram!',
+ 50106: 'Ei, voc\xc3\xaa!',
+ 50107: 'Claro, claro, Capit\xc3\xa3o!',
+ 50108: 'Ande na prancha!',
+ 50700: 'Ah!',
+ 50701: 'Ah, amigo!',
  50702: 'Yo-Ho-Ho',
  50703: 'Avast!',
- 50704: 'Hey Bucko.',
- 50800: 'Until next time.',
- 50801: 'May fair winds find ye.',
- 50802: 'Godspeed.',
- 50900: 'How are ye, mate?',
+ 50704: 'Ei, Bucko.',
+ 50800: 'At\xc3\xa9 a pr\xc3\xb3xima.',
+ 50801: 'Que bons ventos encontrem voc\xc3\xaa.',
+ 50802: 'Boa velocidade.',
+ 50900: 'Como vai, amigo?',
  50901: '',
- 51000: "It's like the sky is raining gold doubloons!",
- 51001: 'May a stiff wind be at our backs, the sun on our faces and our cannons fire true!',
- 51100: 'I be sailing some rough waters today.',
- 51200: 'Me apologies, mate.',
- 51201: 'Sorry.',
- 51202: 'Sorry, I was busy before.',
- 51203: 'Sorry, I already have plans.',
- 51204: "Sorry, I don't need to do that.",
- 51300: 'Attack the weakest one!',
- 51301: 'Attack the strongest one!',
- 51302: 'Attack me target!',
- 51303: 'I be needing help!',
- 51304: "I can't do any damage!",
- 51305: 'I think we be in trouble.',
- 51306: 'Surround the most powerful one.',
- 51307: 'We should retreat.',
- 51308: 'Run for it!',
- 51400: 'Fire a Broadside!',
- 51401: 'Port Side! (left)',
- 51402: 'Starboard Side! (right)',
- 51403: 'Incoming!',
- 51404: 'Come about!',
- 51405: 'Broadside! Take Cover!',
- 51406: 'To the Cannons!',
- 51407: 'Open fire!',
- 51408: 'Hold yer fire!',
- 51409: 'Aim for the masts!',
- 51410: 'Aim for the hull!',
- 51411: 'Prepare to board!',
- 51412: "She's coming about.",
- 51413: 'Ramming speed!',
- 51414: "We've got her on the run.",
- 51415: 'We be taking on water!',
- 51416: "We can't take anymore!",
- 51417: "I don't have a shot!",
- 51418: "Let's find port for repair.",
- 51419: 'Man overboard!',
- 51420: 'Enemy spotted.',
- 51421: 'Handsomely now, mates!',
- 50400: "Let's set sail.",
- 50401: "Let's get out of here.",
- 51500: "Let's sail to Port Royal.",
- 51501: "Let's sail to Tortuga.",
- 51502: "Let's sail to Padres Del Fuego.",
- 51503: "Let's sail to Devil's Anvil.",
- 51504: "Let's sail to Kingshead.",
- 51505: "Let's sail to Isla Perdida.",
- 51506: "Let's sail to Cuba.",
- 51507: "Let's sail to Tormenta.",
- 51508: "Let's sail to Outcast Isle.",
- 51509: "Let's sail to Driftwood.",
- 51510: "Let's sail to Cutthroat.",
- 51511: "Let's sail to Rumrunner's Isle.",
- 51512: "Let's sail to Isla Cangrejos.",
- 51600: "Let's head into town.",
- 51601: "Let's go to the docks.",
- 51602: "Let's head to the tavern.",
- 51800: "Let's go to Fort Charles.",
- 51801: "Let's go to the Governor's Mansion.",
- 52500: 'Where be I, mate?',
- 51700: 'Yer already there.',
- 51701: "I don't know.",
- 51702: 'Yer on the wrong island.',
- 51703: "That's in town.",
- 51704: 'Look just outside of town.',
- 51705: 'Ye will have to search through the jungle.',
- 51706: 'Deeper inland.',
- 51707: 'Oh, that be by the coast.',
- 50200: 'Bilge rat!',
- 50201: 'Scurvy dog!',
- 50202: 'See ye in Davy Jones locker!',
- 50203: 'Scoundrel!',
- 50204: 'Landlubber!',
- 50205: 'Addle-minded fool!',
- 50206: 'You need a sharp sword and sharper wits.',
- 50207: 'Ye be one doubloon short of a full hull mate!',
- 50208: "Watch yer tongue or I'll pickle it with sea salt!",
- 50209: 'Touch me loot and you get the boot!',
- 50210: 'The horizon be as empty as yer head.',
- 50211: "You're a canvas shy of a full sail, aren't ye mate?",
- 50300: 'Fine shooting mate!',
- 50301: 'A well placed blow!',
- 50302: 'Nice shot!',
- 50303: 'Well met!',
- 50304: 'We showed them!',
- 50305: 'Yer not so bad yerself!',
- 50306: 'A fine plunder haul!',
- 52400: 'May luck be my lady.',
- 52401: 'I think these cards be marked!',
- 52402: 'Blimey cheater!',
- 51900: "That's a terrible flop!",
- 51901: 'Trying to buy the hand, are ye?',
- 51902: 'Ye be bluffing.',
- 51903: "I don't think ye had it.",
- 51904: 'Saved by the river.',
- 52600: 'Hit me.',
- 52601: 'Can I get another dealer?',
- 53101: 'I caught a fish!',
- 53102: 'I saw a Legendary Fish!',
- 53103: 'What did you catch?',
- 53104: 'This will make a whale of a tale!',
- 53105: 'That was a beauty!',
- 53106: 'Arr, the sea is treacherous today.',
- 53107: 'What a bountiful haul of fish!',
- 53110: 'Do you have the Legendary Lure?',
- 53111: 'Have you ever caught a Legendary Fish?',
- 53112: 'Can you sail on a fishing boat?',
- 53113: 'Where is the Fishing Master?',
- 53114: 'Have you completed your fish collection?',
- 53120: 'Fire at my target!',
- 53121: 'Fire at the ship closest to the shore!',
- 53122: "There's a ship getting away!",
- 53123: 'Fire at the big ships!',
- 53124: 'Fire at the small ships!',
- 53125: 'More are coming!',
- 53126: "We're not going to last much longer!",
- 53127: 'Shoot the barrels!',
- 53128: "We've got new ammo!",
- 53129: 'Sturdy defense, mates!',
- 53141: 'Look at the potion I made!',
- 53142: 'Have you completed your potion collection?',
- 53143: 'Where is the Gypsy?',
- 53144: 'What potion is that?',
- 53145: 'This potion was easy enough.',
- 53146: "This potion was hard brewin', I tell ye!",
- 53160: 'We need someone to bilge pump!',
- 53161: 'We need someone to scrub!',
- 53162: 'We need someone to saw!',
- 53163: 'We need someone to brace!',
- 53164: 'We need someone to hammer!',
- 53165: 'We need someone to patch!',
- 53166: "I'll do it!",
- 53167: "Keep it up, this ship won't repair itself!",
- 53168: 'Great job repairing the ship!',
- 52100: 'Want to group up?',
- 52101: 'Join me crew?',
- 52200: 'Fight some skeletons?',
- 52201: 'Fight some crabs?',
- 52300: "How 'bout a game of Mayhem?",
- 52301: 'Join me Mayhem game.',
- 52302: 'Want to start a Mayhem game?',
- 52303: 'Want to start a team battle game?',
- 52304: 'Join me team battle game.',
- 52350: 'Join my Cannon Defense.',
- 52351: 'Want to start a Cannon Defense?',
- 52352: 'Can you lend me a hand with Repair?',
- 52353: 'We need to Repair the ship now!',
- 52354: 'Care to catch some fish?',
- 52355: 'Want to go fishing with me?',
- 52356: "Join me crew for some fishin'?",
- 52357: 'Time to brew some potions!',
- 52358: 'You should try your hand at brewing potions.',
+ 51000: '\xc3\x89 como se o c\xc3\xa9u estivesse chovendo dobr\xc3\xb5es de ouro!',
+ 51001: 'Que um vento forte esteja \xc3\xa0s nossas costas, o sol em nossos rostos e nossos canh\xc3\xb5es disparem verdadeiramente!',
+ 51100: 'Eu estive navegando em \xc3\xa1guas agitadas neste dia.',
+ 51200: 'Minhas desculpas, cara.',
+ 51201: 'Desculpe.',
+ 51202: 'Desculpe, eu estava ocupado antes.',
+ 51203: 'Desculpe, j\xc3\xa1 tenho planos.',
+ 51204: 'Desculpe, n\xc3\xa3o preciso fazer isso.',
+ 51300: 'Ataque o mais fraco!',
+ 51301: 'Ataque o mais forte!',
+ 51302: 'Ataque meu alvo!',
+ 51303: 'Preciso de ajuda!',
+ 51304: 'N\xc3\xa3o posso causar nenhum dano!',
+ 51305: 'Acho que estamos com problemas.',
+ 51306: 'Cerque o mais poderoso.',
+ 51307: 'Dev\xc3\xadamos recuar.',
+ 51308: 'Corra!',
+ 51400: 'Dispare um Broadside!',
+ 51401: 'Bombordo! (esquerda)',
+ 51402: 'Lado de estibordo! (direita)',
+ 51403: 'Chegando!',
+ 51404: 'Vamos l\xc3\xa1!',
+ 51405: 'Broadside! Proteja-se!',
+ 51406: 'Para os Canh\xc3\xb5es!',
+ 51407: 'Abra fogo!',
+ 51408: 'Segure o fogo!',
+ 51409: 'Mire nos mastros!',
+ 51410: 'Mire no casco!',
+ 51411: 'Prepare-se para embarcar!',
+ 51412: 'Ela est\xc3\xa1 chegando.',
+ 51413: 'Velocidade de for\xc3\xa7a!',
+ 51414: 'N\xc3\xb3s a temos em fuga.',
+ 51415: 'Estamos entrando na \xc3\xa1gua.',
+ 51416: 'N\xc3\xa3o aguentamos mais.',
+ 51417: 'N\xc3\xa3o tenho chance!',
+ 51418: 'Vamos encontrar uma porta para reparo.',
+ 51419: 'Homem ao mar!',
+ 51420: 'Inimigo avistado.',
+ 51421: 'Bonito agora, homens!',
+ 50400: 'Vamos zarpar.',
+ 50401: 'Vamos sair daqui.',
+ 51500: 'Vamos navegar para Port Royal.',
+ 51501: 'Vamos navegar para Tortuga.',
+ 51502: 'Vamos navegar para Padres Del Fuego.',
+ 51503: "Vamos navegar para Devil's Anvil.",
+ 51504: 'Vamos navegar para Kingshead.',
+ 51505: 'Vamos navegar para Isla Perdida.',
+ 51506: 'Vamos navegar para Cuba.',
+ 51507: 'Vamos navegar para Tormenta.',
+ 51508: 'Vamos navegar para Outcast Isle.',
+ 51509: 'Vamos navegar para Driftwood.',
+ 51510: 'Vamos navegar para Cutthroat.',
+ 51511: "Vamos navegar para Rumrunner's Isle.",
+ 51512: 'Vamos navegar para Isla Cangrejos.',
+ 51600: 'Vamos para a cidade.',
+ 51601: 'Vamos para as docas.',
+ 51602: 'Vamos para o bar.',
+ 51800: 'Vamos para o Forte Charles.',
+ 51801: 'Vamos para a Mans\xc3\xa3o do Governador.',
+ 52500: 'Onde estou?',
+ 51700: 'Voc\xc3\xaa j\xc3\xa1 est\xc3\xa1 l\xc3\xa1.',
+ 51701: 'N\xc3\xa3o sei.',
+ 51702: 'Voc\xc3\xaa est\xc3\xa1 na ilha errada.',
+ 51703: 'Isso \xc3\xa9 na cidade.',
+ 51704: 'Olhe fora da cidade.',
+ 51705: 'Voc\xc3\xaa ter\xc3\xa1 que procurar na selva.',
+ 51706: 'Mais fundo no interior.',
+ 51707: 'Ah, isso \xc3\xa9 perto da costa.',
+ 50200: 'Seu rato de por\xc3\xa3o!',
+ 50201: 'Seu c\xc3\xa3o sarnento!',
+ 50202: 'Te vejo no fundo do mar!',
+ 50203: 'Patife!',
+ 50204: 'Marujo de terra firme!',
+ 50205: 'Tolo distra\xc3\xaddo!',
+ 50206: 'Voc\xc3\xaa precisa de uma espada afiada e intelig\xc3\xaancia mais afiada.',
+ 50207: 'Falta um dobr\xc3\xa3o para completar o casco, companheiro!',
+ 50208: 'Cuidado com a l\xc3\xadngua ou vou pic\xc3\xa1-la com sal marinho!',
+ 50209: 'Toque-me, saque e voc\xc3\xaa ser\xc3\xa1 chutado!',
+ 50210: 'O horizonte esteja t\xc3\xa3o vazio quanto sua cabe\xc3\xa7a.',
+ 50211: 'Voc\xc3\xaa \xc3\xa9 uma tela com a vela cheia, n\xc3\xa3o \xc3\xa9, cara?',
+ 50300: 'Bom tiro, amigo!',
+ 50301: 'Um golpe bem dado!',
+ 50302: 'Belo tiro!',
+ 50303: 'Muito bem!',
+ 50304: 'N\xc3\xb3s mostramos a eles!',
+ 50305: 'Voc\xc3\xaa n\xc3\xa3o \xc3\xa9 t\xc3\xa3o ruim assim!',
+ 50306: 'Uma bela pilhagem!',
+ 52400: 'Que a sorte esteja minha senhora.',
+ 52401: 'Acho que essas cartas est\xc3\xa3o marcadas!',
+ 52402: 'Caramba, trapaceiro!',
+ 51900: 'Isso \xc3\xa9 um fracasso terr\xc3\xadvel!',
+ 51901: 'Tentando comprar a m\xc3\xa3o, n\xc3\xa3o \xc3\xa9?',
+ 51902: 'Voc\xc3\xaa est\xc3\xa1 blefando.',
+ 51903: 'Acho que voc\xc3\xaa n\xc3\xa3o entendeu.',
+ 51904: 'Salvo pelo rio.',
+ 52600: 'Bata em mim.',
+ 52601: 'Posso contratar outro revendedor?',
+ 53101: 'Peguei um peixe!',
+ 53102: 'Eu vi um Peixe Lend\xc3\xa1rio!',
+ 53103: 'O que voc\xc3\xaa pegou?',
+ 53104: 'Isso vai transformar uma hist\xc3\xb3ria em uma baleia!',
+ 53105: 'Isso foi uma beleza!',
+ 53106: 'Arr, o mar est\xc3\xa1 trai\xc3\xa7oeiro hoje.',
+ 53107: 'Que quantidade abundante de peixes!',
+ 53110: 'Voc\xc3\xaa tem a Isca Lend\xc3\xa1ria?',
+ 53111: 'Voc\xc3\xaa j\xc3\xa1 pegou um Peixe Lend\xc3\xa1rio?',
+ 53112: 'Voc\xc3\xaa consegue navegar em um barco de pesca?',
+ 53113: 'Onde est\xc3\xa1 o Mestre da Pesca?',
+ 53114: 'Voc\xc3\xaa completou sua cole\xc3\xa7\xc3\xa3o de peixes?',
+ 53120: 'Atire no meu alvo!',
+ 53121: 'Atirem no navio mais pr\xc3\xb3ximo da costa!',
+ 53122: 'H\xc3\xa1 um navio fugindo!',
+ 53123: 'Fogo nos grandes navios!',
+ 53124: 'Fogo nos navios pequenos!',
+ 53125: 'Mais est\xc3\xa3o chegando!',
+ 53126: "N\xc3\xa3o vamos durar muito mais!",
+ 53127: 'Atire nos barris!',
+ 53128: 'Temos muni\xc3\xa7\xc3\xa3o nova!',
+ 53129: 'Defesa robusta, companheiros!',
+ 53141: 'Olha a po\xc3\xa7\xc3\xa3o que eu fiz!',
+ 53142: 'Voc\xc3\xaa completou sua cole\xc3\xa7\xc3\xa3o de po\xc3\xa7\xc3\xb5es?',
+ 53143: 'Onde est\xc3\xa1 o cigano?',
+ 53144: 'Que po\xc3\xa7\xc3\xa3o \xc3\xa9 essa?',
+ 53145: 'Esta po\xc3\xa7\xc3\xa3o foi bastante f\xc3\xa1cil.',
+ 53146: 'ssa po\xc3\xa7\xc3\xa3o foi dif\xc3\xadcil de preparar, eu te digo!',
+ 53160: 'Precisamos de algu\xc3\xa9m para bombear o esgoto!',
+ 53161: 'Precisamos de algu\xc3\xa9m para esfregar!',
+ 53162: 'Precisamos de algu\xc3\xa9m para serrar!',
+ 53163: 'Precisamos de algu\xc3\xa9m para nos preparar!',
+ 53164: 'Precisamos de algu\xc3\xa9m para martelar!',
+ 53165: 'Precisamos de algu\xc3\xa9m para corrigir!',
+ 53166: 'Eu farei isso!',
+ 53167: 'Continue assim, este navio n\xc3\xa3o vai se consertar sozinho!',
+ 53168: '\xc3\x93timo trabalho consertando o navio!',
+ 52100: 'Quer se agrupar?',
+ 52101: 'Juntar-se \xc3\xa0 minha tripula\xc3\xa7\xc3\xa3o?',
+ 52200: 'Lute contra alguns esqueletos?',
+ 52201: 'Lute contra alguns caranguejos?',
+ 52300: 'Que tal um jogo de Mayhem?',
+ 52301: 'Junte-se ao meu jogo Mayhem.',
+ 52302: 'Quer iniciar um jogo Mayhem?',
+ 52303: 'Quer iniciar um jogo de batalha em equipe?',
+ 52304: 'Junte-se ao meu jogo de batalha em equipe.',
+ 52350: 'Junte-se \xc3\xa0 minha defesa de canh\xc3\xa3o.',
+ 52351: 'Quer iniciar uma defesa de canh\xc3\xa3o?',
+ 52352: 'Voc\xc3\xaa pode me ajudar com o Reparo?',
+ 52353: 'Precisamos reparar o navio agora!',
+ 52354: 'Quer pegar alguns peixes?',
+ 52355: 'Quer pescar comigo?',
+ 52356: 'Junte-se \xc3\xa0 minha tripula\xc3\xa7\xc3\xa3o para pescar?',
+ 52357: 'Hora de preparar algumas po\xc3\xa7\xc3\xb5es!',
+ 52358: 'Voc\xc3\xaa deveria tentar preparar po\xc3\xa7\xc3\xb5es.',
  52000: '',
- 52000: '',
+ 52001: '',
  52700: '',
  53000: '',
  52800: '',
  52900: '',
  50500: '',
  50600: '',
- 60100: 'Hi!',
- 60101: 'Hello!',
- 60102: 'Hey!',
- 60103: 'Yo!',
- 60104: 'Hi everybody!',
- 60105: 'How are you doing?',
- 60106: "What's Up?",
- 60200: 'Bye!',
- 60201: 'Later!',
- 60202: 'See ya!',
- 60203: "I'll be right back.",
- 60204: 'I need to go.',
+ 60100: 'Oi',
+ 60101: 'Ol\xc3\xa1!',
+ 60102: 'Oi!',
+ 60103: 'Ei!',
+ 60104: 'Oi pessoal!',
+ 60105: 'Como \xc3\xa9 que t\xc3\xa1?',
+ 60106: 'Qual \xc3\xa9?',
+ 60200: 'Tchau!',
+ 60201: 'At\xc3\xa9 mais!',
+ 60202: 'Te vejo por a\xc3\xad!',
+ 60203: 'Volto j\xc3\xa1!',
+ 60204: 'Tenho que ir.',
  60300: ':-)',
- 60301: 'Cool!',
- 60302: 'Yeah!',
+ 60301: 'Legal!',
+ 60302: '\xc3\x89 isso a\xc3\xad!',
  60303: 'Ha ha!',
- 60304: 'Sweet!',
- 60305: 'Yeah!',
- 60306: 'That rocks!',
- 60307: 'Funky!',
- 60308: 'Awesome!',
- 60309: 'Wow!',
+ 60304: 'Que fofo!',
+ 60305: '\xc3\x89 isso a\xc3\xad!',
+ 60306: 'Que maneiro!',
+ 60307: 'Irado!',   
+ 60308: 'Incr\xc3\xadvel!',
+ 60309: 'Uau!',
  60400: ':-(',
- 60401: 'Doh!',
- 60402: 'Aw man!',
- 60403: 'Ouch!',
- 60404: 'Bummer!',
- 60500: 'Where are you?',
- 60501: "Let's go to the Gateway Store.",
- 60502: "Let's go to the Disco Hall.",
- 60503: "Let's go to Toontown.",
- 60504: "Let's go to Pirates of the Carribean.",
- 60505: 'Flip coin',
- 60506: 'Dance',
- 60507: 'Chant 1',
- 60508: 'Chant 2',
- 60509: 'Dance a jig',
- 60510: 'Sleep',
- 60511: 'Flex',
- 60512: 'Play Lute',
- 60513: 'Play Flute',
- 60514: 'Frustrated',
- 60515: 'Searching',
- 60516: 'Yawn',
- 60517: 'Kneel',
- 60518: 'Sweep',
- 60519: 'Primp',
- 60520: 'Yawn',
- 60521: 'Dance',
- 60522: 'No',
- 60523: 'Yes',
- 60524: 'Laugh',
- 60525: 'Clap',
- 60526: 'Smile',
- 60527: 'Anger',
- 60528: 'Fear',
- 60529: 'Sad',
- 60530: 'Celebrate',
- 60668: 'Celebrate',
- 60669: 'Sleep',
- 60602: 'Angry',
- 60614: 'Clap',
- 60622: 'Scared',
- 60640: 'Laugh',
- 60652: 'Sad',
- 60657: 'Smile',
- 60664: 'Wave',
- 60665: 'Wink',
- 60666: 'Yawn',
- 60669: 'Sleep',
- 60670: 'Dance',
- 60676: 'Flirt',
- 60677: 'Zombie dance',
- 60678: 'Noisemaker',
- 60671: "Hello, I'm a Pirate, and I'm here to steal your heart.",
- 60672: "I just found the treasure I've been searching for.",
- 60673: "If you were a booger, I'd pick you first.",
- 60674: 'Come to Tortuga often?',
- 60675: 'Do you have a map?  I just keep getting lost in your eyes.',
- 65000: 'Yes',
- 65001: 'No',
- 60909: 'Check Hand'}
+ 60401: 'Aahh!',
+ 60402: 'P\xc3\xb4xa, cara!',
+ 60403: 'Ai!',
+ 60404: 'P\xc3\xb4xa!',
+ 60500: 'Cad\xc3\xaa voc\xc3\xaa?',
+ 60501: 'Vamos para a Loja da Entrada!',
+ 60502: 'Vamos para a Discoteca!',
+ 60503: 'Vamos para Toontown.',
+ 60504: 'Vamos para os Piratas do Caribe!',
+ 60505: 'Girar moeda',
+ 60506: 'Dan\xc3\xa7ar',
+ 60507: 'Canto 1',
+ 60508: 'Canto 2',
+ 60509: 'Dan\xc3\xa7ar animado',
+ 60510: 'Dormir',
+ 60511: 'Flexionar',
+ 60512: 'Tocar Ala\xc3\xbade',
+ 60513: 'Tocar Flauta',
+ 60514: 'Frustra\xc3\xa7\xc3\xa3o',
+ 60515: 'Procurando',
+ 60516: 'Bocejar',
+ 60517: 'Ajoelhar',
+ 60518: 'Varrer',
+ 60519: 'Enfeitar',
+ 60520: 'Bocejar',
+ 60521: 'Dan\xc3\xa7ar',
+ 60522: 'N\xc3\xa3o',
+ 60523: 'Sim',
+ 60524: 'Rir',
+ 60525: 'Aplaudir',
+ 60526: 'Sorrir',
+ 60527: 'Raiva',
+ 60528: 'Medo',
+ 60529: 'Triste',
+ 60530: 'Comemorar',
+ 60668: 'Comemorar',
+ 60669: 'Dormir',
+ 60602: 'Furioso',
+ 60614: 'Aplaudir',
+ 60622: 'Assustado',
+ 60640: 'Rir',
+ 60652: 'Triste',
+ 60657: 'Sorrir',
+ 60664: 'Acenar',
+ 60665: 'Piscar',
+ 60666: 'Bocejar',
+ 60669: 'Dormir',
+ 60670: 'Dan\xc3\xa7ar',
+ 60676: 'Flertar',
+ 60677: 'Dan\xc3\xa7a do Zumbi',
+ 60678: 'Barulhento',
+ 60671: 'Ol\xc3\xa1, sou um Pirata e estou aqui para roubar seu cora\xc3\xa7\xc3\xa3o.',
+ 60672: 'Acabo de encontrar o tesouro que procurava.',
+ 60673: 'Se voc\xc3\xaa fosse uma meleca te pegava primeiro.',
+ 60674: 'Vem sempre aqui em Tortuga?',
+ 60675: 'Voc\xc3\xaa tem um mapa? Acabo de me perder em seu olhar.',
+ 65000: 'Sim',
+ 65001: 'N\xc3\xa3o',
+ 60909: 'Verifique a m\xc3\xa3o'}
 SpeedChatStaticText = SpeedChatStaticTextCommon
-Emotes_Root = 'EMOTES'
-Emotes_Dances = 'Dances'
-Emotes_General = 'General'
-Emotes_Music = 'Music'
-Emotes_Expressions = 'Emotions'
-Emote_ShipDenied = 'Cannot emote while sailing.'
-Emote_MoveDenied = 'Cannot emote while moving.'
-Emote_CombatDenied = 'Cannot emote while in combat.'
-Emote_CannonDenied = 'Cannot emote while using a cannon.'
-Emote_SwimDenied = 'Cannot emote while swimming.'
-Emote_ParlorGameDenied = 'Cannot emote while playing a parlor game.'
+Emotes_Root = 'EMO\xc3\x87\xc3\x95ES'
+Emotes_Dances = 'Dan\xc3\xa7as'
+Emotes_General = 'Geral'
+Emotes_Music = 'M\xc3\xbasica'
+Emotes_Expressions = 'Emo\xc3\xa7\xc3\xb5es'
+Emote_ShipDenied = 'N\xc3\xa3o \xc3\xa9 poss\xc3\xadvel se emocionar ao navegar.'
+Emote_MoveDenied = 'N\xc3\xa3o \xc3\xa9 poss\xc3\xadvel se emocionar ao mover-se.'
+Emote_CombatDenied = 'N\xc3\xa3o \xc3\xa9 poss\xc3\xadvel se emocionar ao lutar.'
+Emote_CannonDenied = 'N\xc3\xa3o \xc3\xa9 poss\xc3\xadvel se emocionar ao usar um canh\xc3\xa3o.'
+Emote_SwimDenied = 'N\xc3\xa3o \xc3\xa9 poss\xc3\xadvel se emocionar ao nadar.'
+Emote_ParlorGameDenied = 'N\xc3\xa3o \xc3\xa9 poss\xc3\xadvel se emocionar durante um jogo de sal\xc3\xa3o.'
 Emotes = (60505,
  60506,
  60509,
@@ -2242,448 +2242,448 @@ Emotes = (60505,
  60517,
  60678,
  60909)
-SCFactoryMeetMenuIndexes = (1903,
+SCFactoryMeetMenuIndexes = (1903, 
  1904,
  1906,
  1907,
  1908,
  1910,
  1913,
- 1915,
+ 1915, 
  1916,
- 1917,
+ 1917, 
  1919,
  1922,
  1923,
- 1924,
+ 1924, 
  1932,
  1940,
  1941)
-CustomSCStrings = {10: 'Oh, well.',
- 20: 'Why not?',
- 30: 'Naturally!',
- 40: "That's the way to do it.",
- 50: 'Right on!',
- 60: 'What up?',
- 70: 'But of course!',
+CustomSCStrings = {10: 'Bom...',
+ 20: 'Por que n\xc3\xa3o?',
+ 30: 'Claro!',
+ 40: '\xc3\x89 assim que se faz isso.',
+ 50: 'Maravilha!',
+ 60: 'E a\xc3\xad?',
+ 70: 'Mas claro!',
  80: 'Bingo!',
- 90: "You've got to be kidding...",
- 100: 'Sounds good to me.',
- 110: "That's kooky!",
- 120: 'Awesome!',
- 130: 'For crying out loud!',
- 140: "Don't worry.",
+ 90: 'Voc\xc3\xaa s\xc3\xb3 pode estar brincando...',
+ 100: 'Parece legal.',
+ 110: 'Que loucura!',
+ 120: 'Caramba!',
+ 130: 'Que confus\xc3\xa3o!',
+ 140: 'N\xc3\xa3o se preocupe.',
  150: 'Grrrr!',
- 160: "What's new?",
- 170: 'Hey, hey, hey!',
- 180: 'See you tomorrow.',
- 190: 'See you next time.',
- 200: 'See ya later, alligator.',
- 210: 'After a while, crocodile.',
- 220: 'I need to go soon.',
- 230: "I don't know about this!",
- 240: "You're outta here!",
- 250: 'Ouch, that really smarts!',
- 260: 'Gotcha!',
- 270: 'Please!',
- 280: 'Thanks a million!',
- 290: "You are stylin'!",
- 300: 'Excuse me!',
- 310: 'Can I help you?',
- 320: "That's what I'm talking about!",
- 330: "If you can't take the heat, stay out of the kitchen.",
- 340: 'Well shiver me timbers!',
- 350: "Well isn't that special!",
- 360: 'Quit horsing around!',
- 370: 'Cat got your tongue?',
- 380: "You're in the dog house now!",
- 390: 'Look what the cat dragged in.',
- 400: 'I need to go see a Toon.',
- 410: "Don't have a cow!",
- 420: "Don't chicken out!",
- 430: "You're a sitting duck.",
- 440: 'Whatever!',
- 450: 'Totally!',
- 460: 'Sweet!',
- 470: 'That rules!',
- 480: 'Yeah, baby!',
- 490: 'Catch me if you can!',
- 500: 'You need to heal first.',
- 510: 'You need more Laff Points.',
- 520: "I'll be back in a minute.",
- 530: "I'm hungry.",
- 540: 'Yeah, right!',
- 550: "I'm sleepy.",
- 560: "I'm ready!",
- 570: "I'm bored.",
- 580: 'I love it!',
- 590: 'That was exciting!',
- 600: 'Jump!',
- 610: 'Got gags?',
- 620: "What's wrong?",
- 630: 'Easy does it.',
- 640: 'Slow and steady wins the race.',
- 650: 'Touchdown!',
- 660: 'Ready?',
- 670: 'Set!',
- 680: 'Go!',
- 690: "Let's go this way!",
- 700: 'You won!',
- 710: 'I vote yes.',
- 720: 'I vote no.',
- 730: 'Count me in.',
- 740: 'Count me out.',
- 750: "Stay here, I'll be back.",
- 760: 'That was quick!',
- 770: 'Did you see that?',
- 780: "What's that smell?",
- 790: 'That stinks!',
- 800: "I don't care.",
- 810: 'Just what the doctor ordered.',
- 820: "Let's get this party started!",
- 830: 'This way everybody!',
- 840: 'What in the world?',
- 850: "The check's in the mail.",
- 860: 'I heard that!',
- 870: 'Are you talking to me?',
- 880: "Thank you, I'll be here all week.",
+ 160: 'Qual \xc3\xa9 a boa?',
+ 170: 'Ei, ei, ei!',
+ 180: 'Vejo voc\xc3\xaa amanh\xc3\xa3.',
+ 190: 'At\xc3\xa9 a pr\xc3\xb3xima.',
+ 200: 'Tchau-tchau, pica-pau.',
+ 210: "At\xc3\xa9 outra hora, galinha d'angola.",
+ 220: 'Vou precisar ir daqui a pouco.',
+ 230: 'N\xc3\xa3o conhe\xc3\xa7o isso!',
+ 240: 'Voc\xc3\xaa est\xc3\xa1 fora daqui!',
+ 250: 'Ai, isso d\xc3\xb3i!',
+ 260: 'Peguei voc\xc3\xaa!',
+ 270: 'Por favor!',
+ 280: 'Obrigad\xc3\xadssimo!',
+ 290: 'Voc\xc3\xaa est\xc3\xa1 ditando moda!',
+ 300: 'D\xc3\xa1 licen\xc3\xa7a!',
+ 310: 'Posso ajudar?',
+ 320: '\xc3\x89 o que eu estou falando!',
+ 330: 'Jabuti perde tempo querendo aprender li\xc3\xa7\xc3\xa3o de \xc3\xa1guia.',
+ 340: 'Macacos me mordam!',
+ 350: 'Isso \xc3\xa9 especial!',
+ 360: 'Vamos parar de fazer bagun\xc3\xa7a!',
+ 370: 'O gato comeu sua l\xc3\xadngua?',
+ 380: 'Agora \xc3\xa9 com voc\xc3\xaa!',
+ 390: 'Feio que d\xc3\xb3i.',
+ 400: 'Preciso ver um Toon.',
+ 410: 'N\xc3\xa3o dei a m\xc3\xadnima!',
+ 420: 'N\xc3\xa3o vai amarelar!',
+ 430: 'Voc\xc3\xaa \xc3\xa9 uma isca f\xc3\xa1cil.',
+ 440: 'Sei l\xc3\xa1!',
+ 450: 'Tudo a ver!',
+ 460: 'Gracinha!',
+ 470: 'Voc\xc3\xaa que manda!',
+ 480: '\xc3\x89 isso a\xc3\xad, garoto!',
+ 490: 'Vem me pegar, se voc\xc3\xaa conseguir!',
+ 500: 'Voc\xc3\xaa precisa se recuperar antes.',
+ 510: 'Voc\xc3\xaa precisa de mais Pontos de risadas.',
+ 520: 'Estou de volta em um minuto.',
+ 530: 'Estou com fome.',
+ 540: 'Isso mesmo!',
+ 550: 'Estou com sono.',
+ 560: 'Estou pronto!',
+ 570: 'Estou de aborrecido.',
+ 580: 'Amo isso!',
+ 590: 'Isso foi muito legal!',
+ 600: 'Pule!',
+ 610: 'Ganhou piadas?',
+ 620: 'O que houve?',
+ 630: 'Vai devagar.',
+ 640: 'Devagar e sempre.',
+ 650: 'Gol!',
+ 660: 'Pronto?',
+ 670: 'Tudo OK!',
+ 680: 'Vai!',
+ 690: 'Vamos por aqui!',
+ 700: 'Voc\xc3\xaa ganhou!',
+ 710: 'Meu voto \xc3\xa9 sim.',
+ 720: 'Meu voto \xc3\xa9 n\xc3\xa3o.',
+ 730: 'Me inclui nessa.',
+ 740: 'Me inclui fora dessa.',
+ 750: 'Fica aqui, eu volto.',
+ 760: 'Rapidinho!',
+ 770: 'Voc\xc3\xaa viu aquilo?',
+ 780: 'O que foi isso?',
+ 790: 'Nojento!',
+ 800: 'N\xc3\xa3o ligo.',
+ 810: 'Justo o que eu precisava.',
+ 820: 'Vamos botar lenha na fogueira!',
+ 830: 'Por aqui, galera!',
+ 840: 'Que coisa \xc3\xa9 essa?',
+ 850: 'A sorte est\xc3\xa1 lan\xc3\xa7ada.',
+ 860: 'Eu ouvi isso!',
+ 870: 'Voc\xc3\xaa est\xc3\xa1 falando comigo?',
+ 880: 'Valeu, vou estar por aqui por uma semana.',
  890: 'Hmm.',
- 900: "I'll get this one.",
- 910: 'I got it!',
- 920: "It's mine!",
- 930: 'Please, take it.',
- 940: 'Stand back, this could be dangerous.',
- 950: 'No worries!',
- 960: 'Oh, my!',
- 970: 'Whew!',
- 980: 'Owoooo!',
- 990: 'All Aboard!',
- 1000: 'Hot Diggity Dog!',
- 1010: 'Curiosity killed the cat.',
- 2000: 'Act your age!',
- 2010: 'Am I glad to see you!',
- 2020: 'Be my guest.',
- 2030: 'Been keeping out of trouble?',
- 2040: 'Better late than never!',
+ 900: 'Eu pego este.',
+ 910: 'Peguei!',
+ 920: '\xc3\x89 meu!',
+ 930: 'Toma pra voc\xc3\xaa.',
+ 940: 'Afaste-se, pode ser perigoso.',
+ 950: 'N\xc3\xa3o esquenta!',
+ 960: 'Minha nossa!',
+ 970: 'Puxa!',
+ 980: 'Uuuuhuuu!',
+ 990: 'Todos a bordo!',
+ 1000: 'Caramba!',
+ 1010: 'A curiosidade matou o gato.',
+ 2000: 'Tome ju\xc3\xadzo!',
+ 2010: 'Que bom ver voc\xc3\xaa!',
+ 2020: 'Voc\xc3\xaa que sabe.',
+ 2030: 'Est\xc3\xa1 se saindo bem?',
+ 2040: 'Antes tarde do que nunca!',
  2050: 'Bravo!',
- 2060: 'But seriously, folks...',
- 2070: 'Care to join us?',
- 2080: 'Catch you later!',
- 2090: 'Changed your mind?',
- 2100: 'Come and get it!',
- 2110: 'Dear me!',
- 2120: 'Delighted to make your acquaintance.',
- 2130: "Don't do anything I wouldn't do!",
- 2140: "Don't even think about it!",
- 2150: "Don't give up the ship!",
- 2160: "Don't hold your breath.",
- 2170: "Don't ask.",
- 2180: 'Easy for you to say.',
- 2190: 'Enough is enough!',
- 2200: 'Excellent!',
- 2210: 'Fancy meeting you here!',
- 2220: 'Give me a break.',
- 2230: 'Glad to hear it.',
- 2240: 'Go ahead, make my day!',
- 2250: 'Go for it!',
- 2260: 'Good job!',
- 2270: 'Good to see you!',
- 2280: 'Got to get moving.',
- 2290: 'Got to hit the road.',
- 2300: 'Hang in there.',
- 2310: 'Hang on a second.',
- 2320: 'Have a ball!',
- 2330: 'Have fun!',
- 2340: "Haven't got all day!",
- 2350: 'Hold your horses!',
- 2360: 'Horsefeathers!',
- 2370: "I don't believe this!",
- 2380: 'I doubt it.',
- 2390: 'I owe you one.',
- 2400: 'I read you loud and clear.',
- 2410: 'I think so.',
- 2420: 'I think you should pass.',
- 2430: "I wish I'd said that.",
- 2440: "I wouldn't if I were you.",
- 2450: "I'd be happy to!",
- 2460: "I'm helping my friend.",
- 2470: "I'm here all week.",
- 2480: 'Imagine that!',
- 2490: 'In the nick of time...',
- 2500: "It's not over 'til it's over.",
- 2510: 'Just thinking out loud.',
- 2520: 'Keep in touch.',
- 2530: 'Lovely weather for ducks!',
- 2540: 'Make it snappy!',
- 2550: 'Make yourself at home.',
- 2560: 'Maybe some other time.',
- 2570: 'Mind if I join you?',
- 2580: 'Nice place you have here.',
- 2590: 'Nice talking to you.',
- 2600: 'No doubt about it.',
- 2610: 'No kidding!',
- 2620: 'Not by a long shot.',
- 2630: 'Of all the nerve!',
- 2640: 'Okay by me.',
- 2650: 'Righto.',
- 2660: 'Say cheese!',
- 2670: 'Say what?',
- 2680: 'Tah-dah!',
- 2690: 'Take it easy.',
- 2700: 'Ta-ta for now!',
- 2710: 'Thanks, but no thanks.',
- 2720: 'That takes the cake!',
- 2730: "That's funny.",
- 2740: "That's the ticket!",
- 2750: "There's a Cog invasion!",
- 2760: 'Toodles.',
- 2770: 'Watch out!',
- 2780: 'Well done!',
- 2790: "What's cooking?",
- 2800: "What's happening?",
- 2810: 'Works for me.',
- 2820: 'Yes sirree.',
- 2830: 'You betcha.',
- 2840: 'You do the math.',
- 2850: 'You leaving so soon?',
- 2860: 'You make me laugh!',
- 2870: 'You take right.',
- 2880: "You're going down!",
- 3000: 'Anything you say.',
- 3010: 'Care if I join you?',
- 3020: 'Check, please.',
- 3030: "Don't be too sure.",
- 3040: "Don't mind if I do.",
- 3050: "Don't sweat it!",
- 3060: "Don't you know it!",
- 3070: "Don't mind me.",
- 3080: 'Eureka!',
- 3090: 'Fancy that!',
- 3100: 'Forget about it!',
- 3110: 'Going my way?',
- 3120: 'Good for you!',
- 3130: 'Good grief.',
- 3140: 'Have a good one!',
- 3150: 'Heads up!',
- 3160: 'Here we go again.',
- 3170: 'How about that!',
- 3180: 'How do you like that?',
- 3190: 'I believe so.',
- 3200: 'I think not.',
- 3210: "I'll get back to you.",
- 3220: "I'm all ears.",
- 3230: "I'm busy.",
- 3240: "I'm not kidding!",
- 3250: "I'm speechless.",
- 3260: 'Keep smiling.',
- 3270: 'Let me know!',
- 3280: 'Let the pie fly!',
- 3290: "Likewise, I'm sure.",
- 3300: 'Look alive!',
- 3310: 'My, how time flies.',
- 3320: 'No comment.',
- 3330: "Now you're talking!",
- 3340: 'Okay by me.',
- 3350: 'Pleased to meet you.',
- 3360: 'Righto.',
- 3370: 'Sure thing.',
- 3380: 'Thanks a million.',
- 3390: "That's more like it.",
- 3400: "That's the stuff!",
- 3410: 'Time for me to hit the hay.',
- 3420: 'Trust me!',
- 3430: 'Until next time.',
- 3440: 'Wait up!',
- 3450: 'Way to go!',
- 3460: 'What brings you here?',
- 3470: 'What happened?',
- 3480: 'What now?',
- 3490: 'You first.',
- 3500: 'You take left.',
- 3510: 'You wish!',
- 3520: "You're toast!",
- 3530: "You're too much!",
- 4000: 'Toons rule!',
- 4010: 'Cogs drool!',
- 4020: 'Toons of the world unite!',
- 4030: 'Howdy, partner!',
- 4040: 'Much obliged.',
- 4050: 'Get along, little doggie.',
- 4060: "I'm going to hit the hay.",
- 4070: "I'm chomping at the bit!",
- 4080: "This town isn't big enough for the two of us!",
- 4090: 'Saddle up!',
- 4100: 'Draw!!!',
- 4110: "There's gold in them there hills!",
- 4120: 'Happy trails!',
- 4130: 'This is where I ride off into the sunset...',
- 4140: "Let's skedaddle!",
- 4150: 'You got a bee in your bonnet?',
- 4160: 'Lands sake!',
- 4170: 'Right as rain.',
- 4180: 'I reckon so.',
- 4190: "Let's ride!",
- 4200: 'Well, go figure!',
- 4210: "I'm back in the saddle again!",
- 4220: 'Round up the usual suspects.',
- 4230: 'Giddyup!',
- 4240: 'Reach for the sky.',
- 4250: "I'm fixing to.",
- 4260: 'Hold your horses!',
- 4270: "I can't hit the broad side of a barn.",
- 4280: "Y'all come back now.",
- 4290: "It's a real barn burner!",
- 4300: "Don't be a yellow belly.",
- 4310: 'Feeling lucky?',
- 4320: "What in Sam Hill's goin' on here?",
- 4330: 'Shake your tail feathers!',
- 4340: "Well, don't that take all.",
- 4350: "That's a sight for sore eyes!",
- 4360: 'Pickins is mighty slim around here.',
- 4370: 'Take a load off.',
- 4380: "Aren't you a sight!",
- 4390: "That'll learn ya!",
- 6000: 'I want candy!',
- 6010: "I've got a sweet tooth.",
- 6020: "That's half-baked.",
- 6030: 'Just like taking candy from a baby!',
- 6040: "They're cheaper by the dozen.",
- 6050: 'Let them eat cake!',
- 6060: "That's the icing on the cake.",
- 6070: "You can't have your cake and eat it too.",
- 6080: 'I feel like a kid in a candy store.',
- 6090: 'Six of one, half a dozen of the other...',
- 6100: "Let's keep it short and sweet.",
- 6110: 'Keep your eye on the doughnut not the hole.',
- 6120: "That's pie in the sky.",
- 6130: "But it's wafer thin.",
- 6140: "Let's gum up the works!",
- 6150: "You're one tough cookie!",
- 6160: "That's the way the cookie crumbles.",
- 6170: 'Like water for chocolate.',
- 6180: 'Are you trying to sweet talk me?',
- 6190: 'A spoonful of sugar helps the medicine go down.',
- 6200: 'You are what you eat!',
- 6210: 'Easy as pie!',
- 6220: "Don't be a sucker!",
- 6230: 'Sugar and spice and everything nice.',
- 6240: "It's like butter!",
- 6250: 'The candyman can!',
- 6260: 'We all scream for ice cream!',
- 6270: "Let's not sugar coat it.",
- 6280: 'Knock knock...',
- 6290: "Who's there?",
- 7000: 'Quit monkeying around!',
- 7010: 'That really throws a monkey-wrench in things.',
- 7020: 'Monkey see, monkey do.',
- 7030: 'They made a monkey out of you.',
- 7040: 'That sounds like monkey business.',
- 7050: "I'm just monkeying with you.",
- 7060: "Who's gonna be monkey in the middle?",
- 7070: "That's a monkey off my back...",
- 7080: 'This is more fun than a barrel of monkeys!',
- 7090: "Well I'll be a monkey's uncle.",
- 7100: "I've got monkeys on the brain.",
- 7110: "What's with the monkey suit?",
- 7120: 'Hear no evil.',
- 7130: 'See no evil.',
- 7140: 'Speak no evil.',
- 7150: "Let's make like a banana and split.",
- 7160: "It's a jungle out there.",
- 7170: "You're the top banana.",
- 7180: 'Cool bananas!',
- 7190: "I'm going bananas!",
- 7200: "Let's get into the swing of things!",
- 7210: 'This place is swinging!',
- 7220: "I'm dying on the vine.",
- 7230: 'This whole affair has me up a tree.',
- 7230: "Let's make like a tree and leave.",
- 7240: "Jellybeans don't grow on trees!",
- 10000: 'This place is a ghost town.',
- 10001: 'Nice costume!',
- 10002: 'I think this place is haunted.',
- 10003: 'Trick or Treat!',
- 10004: 'Boo!',
- 10005: 'Happy Haunting!',
- 10006: 'Happy Halloween!',
- 10007: "It's time for me to turn into a pumpkin.",
- 10008: 'Spooktastic!',
- 10009: 'Spooky!',
- 10010: "That's creepy!",
- 10011: 'I hate spiders!',
- 10012: 'Did you hear that?',
- 10013: "You don't have a ghost of a chance!",
- 10014: 'You scared me!',
- 10015: "That's spooky!",
- 10016: "That's freaky!",
- 10017: 'That was strange....',
- 10018: 'Skeletons in your closet?',
- 10019: 'Did I scare you?',
- 11000: 'Bah! Humbug!',
- 11001: 'Better not pout!',
+ 2060: 'Mas, falando s\xc3\xa9rio, pessoal...',
+ 2070: 'Est\xc3\xa1 a fim de se juntar a n\xc3\xb3s?',
+ 2080: 'Te pego depois!',
+ 2090: 'Mudou de id\xc3\xa9ia?',
+ 2100: 'Vem pegar!',
+ 2110: 'Ai, meu Deus!',
+ 2120: 'Prazer em conhecer.',
+ 2130: 'N\xc3\xa3o fa\xc3\xa7a nada que eu n\xc3\xa3o faria!',
+ 2140: 'Nem pense nisso!',
+ 2150: 'N\xc3\xa3o abandone o barco!',
+ 2160: 'N\xc3\xa3o segura a respira\xc3\xa7\xc3\xa3o.',
+ 2170: 'Nem me fale.',
+ 2180: '\xc3\x89 f\xc3\xa1cil falar.',
+ 2190: 'J\xc3\xa1 chega!',
+ 2200: 'Excelente!',
+ 2210: 'Incr\xc3\xadvel encontrar voc\xc3\xaa aqui!',
+ 2220: 'D\xc3\xa1 um tempo.',
+ 2230: 'Gostei de saber.',
+ 2240: 'Vai em frente que eu quero ver!',
+ 2250: 'Vai em frente!',
+ 2260: 'Muito bom!',
+ 2270: 'Legal ver voc\xc3\xaa!',
+ 2280: 'Tenho que me mandar.',
+ 2290: 'Tenho que ir embora.',
+ 2300: 'Agüenta firme.',
+ 2310: 'Espera um segundo.',
+ 2320: 'Curta bastante!',
+ 2330: 'Divirta-se!',
+ 2340: 'N\xc3\xa3o tenho o dia todo!',
+ 2350: 'Segura a onda!',
+ 2360: 'Viajou!',
+ 2370: 'N\xc3\xa3o acredito!',
+ 2380: 'Duvido.',
+ 2390: 'Devo essa a voc\xc3\xaa.',
+ 2400: 'Estou lendo sua mente, voc\xc3\xaa \xc3\xa9 claro como \xc3\xa1gua.',
+ 2410: 'Eu acho isso.',
+ 2420: 'Acho que voc\xc3\xaa devia passar.',
+ 2430: 'Quem dera ter dito isso.',
+ 2440: 'Se eu fosse voc\xc3\xaa n\xc3\xa3o faria isso.',
+ 2450: 'Seria \xc3\xb3timo!',
+ 2460: 'Estou ajudando meu amigo.',
+ 2470: 'Estou aqui a semana toda.',
+ 2480: 'Imagina s\xc3\xb3!',
+ 2490: 'Na hora H...',
+ 2500: 'O que tiver de ser, ser\xc3\xa1.',
+ 2510: 'S\xc3\xb3 estou pensando alto.',
+ 2520: 'Mantenha o contato.',
+ 2530: 'Depois da tempestade vem o lama\xc3\xa7al!',
+ 2540: 'Rapidinho!',
+ 2550: 'Sinta-se em casa.',
+ 2560: 'Talvez outra hora.',
+ 2570: 'Posso me juntar a voc\xc3\xaas?',
+ 2580: 'Que lugar legal, o seu.',
+ 2590: 'Foi \xc3\xb3timo falar com voc\xc3\xaa.',
+ 2600: 'Sem d\xc3\xbavida.',
+ 2610: 'Sem brincadeira!',
+ 2620: 'Nem por um decreto.',
+ 2630: 'Tenha a santa paci\xc3\xaancia!',
+ 2640: 'Por mim tudo bem.',
+ 2650: 'T\xc3\xa1 legal.',
+ 2660: 'Sorria!',
+ 2670: 'O que voc\xc3\xaa disse?',
+ 2680: 'Tchaaaan!',
+ 2690: 'Calma a\xc3\xad.',
+ 2700: 'At\xc3\xa9 pr\xc3\xa1 voc\xc3\xaas!',
+ 2710: 'Quem desdenha quer comprar.',
+ 2720: 'Muito maneiro!',
+ 2730: 'Muito engra\xc3\xa7ado.',
+ 2740: 'O truque \xc3\xa9 esse!',
+ 2750: 'Est\xc3\xa1 acontecendo uma invas\xc3\xa3o de Cogs!',
+ 2760: 'Vacilo.',
+ 2770: 'Cuidado!',
+ 2780: 'Bem feito!',
+ 2790: 'O que est\xc3\xa1 acontecendo?',
+ 2800: 'O que est\xc3\xa1 havendo?',
+ 2810: 'Para mim est\xc3\xa1 certo.',
+ 2820: 'Certo, chefe.',
+ 2830: 'Pode apostar.',
+ 2840: 'Fa\xc3\xa7a as contas.',
+ 2850: 'Por que est\xc3\xa1 saindo t\xc3\xa3o cedo?',
+ 2860: 'Voc\xc3\xaa me faz rir!',
+ 2870: 'Vai direto.',
+ 2880: 'Voc\xc3\xaa est\xc3\xa1 decaindo!',
+ 3000: 'O que quiser.',
+ 3010: 'Voc\xc3\xaa se importa se eu me juntar a voc\xc3\xaas?',
+ 3020: 'Verifique, OK?',
+ 3030: 'N\xc3\xa3o esteja t\xc3\xa3o certo disso.',
+ 3040: 'N\xc3\xa3o liga se eu fizer isso.',
+ 3050: 'N\xc3\xa3o sacrifica!',
+ 3060: 'Voc\xc3\xaa n\xc3\xa3o conhece?',
+ 3070: 'N\xc3\xa3o liga para mim.',
+ 3080: 'Descobri!',
+ 3090: 'Imagine s\xc3\xb3!',
+ 3100: 'Pode esquecer!',
+ 3110: 'Est\xc3\xa1 indo para o mesmo lugar que eu?',
+ 3120: 'Melhor para voc\xc3\xaa!',
+ 3130: 'Que coisa.',
+ 3140: 'Aproveita!',
+ 3150: 'Fica de olho!',
+ 3160: 'E l\xc3\xa1 vamos n\xc3\xb3s de novo.',
+ 3170: 'Que tal essa!',
+ 3180: 'Que voc\xc3\xaa acha?',
+ 3190: 'Eu acho que sim.',
+ 3200: 'Acho que n\xc3\xa3o.',
+ 3210: 'Dou uma resposta mais tarde.',
+ 3220: 'Sou todo ouvidos.',
+ 3230: 'Agora n\xc3\xa3o d\xc3\xa1.',
+ 3240: 'N\xc3\xa3o estou brincando!',
+ 3250: 'Estou de queixo ca\xc3\xaddo.',
+ 3260: 'Continue sorrindo.',
+ 3270: 'Depois me fala!',
+ 3280: 'Deixa a torta voar!',
+ 3290: 'Eu tamb\xc3\xa9m tenho certeza.',
+ 3300: 'Pare de demorar!',
+ 3310: 'Caramba, o tempo voou.',
+ 3320: 'Sem coment\xc3\xa1rios.',
+ 3330: 'Agora voc\xc3\xaa est\xc3\xa1 falando minha l\xc3\xadngua!',
+ 3340: 'Por mim tudo bem.',
+ 3350: 'Bom conhecer voc\xc3\xaa.',
+ 3360: 'T\xc3\xa1 legal.',
+ 3370: 'Com certeza.',
+ 3380: 'Valeu mesmo.',
+ 3390: '\xc3\x89 por a\xc3\xad.',
+ 3400: '\xc3\x89 isso!',
+ 3410: 'Hora de dormir.',
+ 3420: 'Confie em mim!',
+ 3430: 'At\xc3\xa9 a pr\xc3\xb3xima.',
+ 3440: 'Espere acordado!',
+ 3450: 'Muito bem!',
+ 3460: 'O que traz voc\xc3\xaa aqui?',
+ 3470: 'O que aconteceu?',
+ 3480: 'E agora?',
+ 3490: 'Voc\xc3\xaa primeiro.',
+ 3500: 'Pegue a esquerda.',
+ 3510: 'Bem que voc\xc3\xaa queria!',
+ 3520: 'Voc\xc3\xaa est\xc3\xa1 com problemas!',
+ 3530: 'Voc\xc3\xaa \xc3\xa9 demais!',
+ 4000: 'Os Tonns mandam na \xc3\xa1rea!',
+ 4010: 'Besteirol de Cog!',
+ 4020: 'Toons de todo o mundo, uni-vos!',
+ 4030: 'E a\xc3\xad, parceiro!',
+ 4040: 'Muit\xc3\xadssimo obrigado.',
+ 4050: 'Vamos l\xc3\xa1, novato.',
+ 4060: 'T\xc3\xb4 indo pra caminha.',
+ 4070: 'T\xc3\xb4 doido pra ir!',
+ 4080: 'Esta cidade \xc3\xa9 pequena demais para n\xc3\xb3s dois!',
+ 4090: 'V\xc3\xa1 embora!',
+ 4100: 'Puxa!!!',
+ 4110: '\xc3\x89 ouro!',
+ 4120: 'Boa viagem!',
+ 4130: 'T\xc3\xa1 na hora de sumir...',
+ 4140: 'Debandar!',
+ 4150: 'Ficou com a pulga atr\xc3\xa1s da orelha?',
+ 4160: 'Me poupe!',
+ 4170: 'Perfeito.',
+ 4180: 'Aposto.',
+ 4190: 'P\xc3\xa9 na estrada!',
+ 4200: 'Ent\xc3\xa3o, adivinha!',
+ 4210: 'T\xc3\xb4 de novo na ativa!',
+ 4220: 'Procure os suspeitos de sempre.',
+ 4230: 'Vamos agitar!',
+ 4240: 'O c\xc3\xa9u \xc3\xa9 o limite.',
+ 4250: 'Estou me preparando.',
+ 4260: 'Segura a onda!',
+ 4270: 'N\xc3\xa3o acerto uma.',
+ 4280: 'Voltem todos agora.',
+ 4290: '\xc3\x89 uma verdadeira lavada!',
+ 4300: 'N\xc3\xa3o vai amarelar.',
+ 4310: 'T\xc3\xa1 se achando?',
+ 4320: 'Que bagun\xc3\xa7a \xc3\xa9 essa aqui?',
+ 4330: 'Vamos parar com esta pregui\xc3\xa7a!',
+ 4340: 'S\xc3\xb3 n\xc3\xa3o v\xc3\xaa quem n\xc3\xa3o quer.',
+ 4350: '\xc3\x89 um col\xc3\xadrio para os olhos!',
+ 4360: 'Nossas op\xc3\xa7\xc3\xb5es est\xc3\xa3o acabando.',
+ 4370: 'Tire esse peso das costas.',
+ 4380: 'Que paisagem maravilhosa!',
+ 4390: 'Voc\xc3\xaa vai ver s\xc3\xb3!',
+ 6000: 'Quero doce!',
+ 6010: 'Sou que nem formiga com doce.',
+ 6020: 'Foi feito no grito.',
+ 6030: 'F\xc3\xa1cil como tirar doce de crian\xc3\xa7a!',
+ 6040: 'Leve tr\xc3\xaas e pague um.',
+ 6050: 'Eles v\xc3\xa3o sentir o gostinho!',
+ 6060: '\xc3\x89 a parte ruim da hist\xc3\xb3ria.',
+ 6070: 'Voc\xc3\xaa n\xc3\xa3o pode assobiar e chupar cana.',
+ 6080: 'T\xc3\xb4 me sentindo como uma crian\xc3\xa7a em uma loja de doces.',
+ 6090: 'Seis deste, meia d\xc3\xbazia do outro...',
+ 6100: 'Rapadura \xc3\xa9 doce mas n\xc3\xa3o \xc3\xa9 mole n\xc3\xa3o.',
+ 6110: 'Tem que fritar o peixe de olho no gato.',
+ 6120: '\xc3\x89 sopa no mel.',
+ 6130: 'Mas temos que pisar em ovos.',
+ 6140: 'Vamos melar os trabalhos!',
+ 6150: 'Voc\xc3\xaa \xc3\xa9 um coco duro de quebrar!',
+ 6160: '\xc3\x89 assim que o bolo desanda.',
+ 6170: 'Caf\xc3\xa9 com leite.',
+ 6180: 'T\xc3\xa1 tentando ado\xc3\xa7ar a minha boca?',
+ 6190: 'Tem que tomar \xc3\xa1gua pra ajudar a descer.',
+ 6200: 'Voc\xc3\xaa \xc3\xa9 o que voc\xc3\xaa come!',
+ 6210: '\xc3\x89 mam\xc3\xa3o com a\xc3\xa7\xc3\xbacar!',
+ 6220: 'Deixa de ser banan\xc3\xa3o!',
+ 6230: 'Azedinho doce.',
+ 6240: 'Molezinha!',
+ 6250: 'Olha o bicho-pap\xc3\xa3o!',
+ 6260: 'Olha o sorvete a\xc3\xad, gente!',
+ 6270: 'N\xc3\xa3o vamos enfeitar o bolo n\xc3\xa3o.',
+ 6280: 'Toc, toc, toc...',
+ 6290: 'Quem \xc3\xa9?',
+ 7000: 'P\xc3\xa1ra de macaquice!',
+ 7010: 'Entrou areia.',
+ 7020: 'Macaco de imita\xc3\xa7\xc3\xa3o.',
+ 7030: 'Eles te passaram a perna.',
+ 7040: 'Parece hist\xc3\xb3ria pra boi dormir.',
+ 7050: 'S\xc3\xb3 t\xc3\xb4 de palha\xc3\xa7ada contigo.',
+ 7060: 'Quem quer ser a bola da vez?',
+ 7070: '\xc3\x89 papagaio de pirata...',
+ 7080: 'Uma macacada s\xc3\xb3!',
+ 7090: 'Macacos me mordam!',
+ 7100: 'Cada macaco no seu galho.',
+ 7110: 'E a beca?',
+ 7120: 'N\xc3\xa3o ou\xc3\xa7o.',
+ 7130: 'N\xc3\xa3o vejo.',
+ 7140: 'N\xc3\xa3o falo.',
+ 7150: 'Cada um para um lado, macacada.',
+ 7160: 'L\xc3\xa1 fora \xc3\xa9 uma selva.',
+ 7170: 'Voc\xc3\xaa \xc3\xa9 o rei da selva!',
+ 7180: 'Tudo \xc3\xb3timo!',
+ 7190: 'T\xc3\xb4 enlouquecendo!',
+ 7200: 'Vamos entrar no ritmo!',
+ 7210: 'Este lugar est\xc3\xa1 muito cheio!',
+ 7220: 'Adeus, vida cruel.',
+ 7230: 'Acabei numa furada.',
+ 7230: 'P\xc3\xa9 na t\xc3\xa1bua.',
+ 7240: 'Balinhas n\xc3\xa3o crescem em \xc3\xa1rvores!',
+ 10000: 'Este lugar \xc3\xa9 uma cidade-fantasma.',
+ 10001: 'Bonita roupa!',
+ 10002: 'Acho que este lugar \xc3\xa9 assombrado.',
+ 10003: 'Gostosuras ou travessuras!',
+ 10004: 'Buuuuu!',
+ 10005: 'Feliz Assombra\xc3\xa7\xc3\xa3o!',
+ 10006: 'Feliz Dia das Bruxas!',
+ 10007: 'Est\xc3\xa1 na hora de eu virar uma ab\xc3\xb3bora.',
+ 10008: 'Fantasm\xc3\xa1tico!',
+ 10009: 'Sinistro!',
+ 10010: 'Isso \xc3\xa9 horripilante!',
+ 10011: 'Detesto aranhas!',
+ 10012: 'Voc\xc3\xaa ouviu?',
+ 10013: 'Voc\xc3\xaa n\xc3\xa3o tem nem uma sombra de chance!',
+ 10014: 'Me assustou!',
+ 10015: 'Horr\xc3\xadvel!',
+ 10016: 'Bizarro!',
+ 10017: 'Isso foi muito estranho....',
+ 10018: 'Esqueletos no seu arm\xc3\xa1rio?',
+ 10019: 'Assustei voc\xc3\xaa?',
+ 11000: 'Ah! Marmelada!',
+ 11001: 'Melhor desamarrar a cara!',
  11002: 'Brrr!',
- 11003: 'Chill out!',
- 11004: 'Come and get it!',
- 11005: "Don't be a turkey.",
- 11006: 'Gobble gobble!',
- 11007: 'Happy holidays!',
- 11008: 'Happy New Year!',
- 11009: 'Happy Thanksgiving!',
- 11010: 'Happy Turkey Day!',
+ 11003: 'Fica calmo!',
+ 11004: 'Vem pegar!',
+ 11005: 'N\xc3\xa3o d\xc3\xa1 uma de peru, para morrer de v\xc3\xa9spera.',
+ 11006: 'Glu-glu-glu!',
+ 11007: 'Boas Festas!',
+ 11008: 'Feliz Ano Novo!',
+ 11009: 'Um bom feriado para voc\xc3\xaa!',
+ 11010: 'Feliz Dia do Peru!',
  11011: 'Ho! Ho! Ho!',
- 11012: 'It\'s "snow" problem.',
- 11013: 'It\'s "snow" wonder.',
- 11014: 'Let it snow!',
- 11015: "Rake 'em in.",
- 11016: "Season's greetings!",
- 11017: 'Snow doubt about it!',
- 11018: 'Snow far, snow good!',
- 11019: 'Yule be sorry!',
- 11020: 'Have a Wonderful Winter!',
- 11021: 'The Holiday Party decorations are Toontastic!',
- 11022: 'Toon Troopers are hosting Holiday Parties!',
- 12000: 'Be mine!',
- 12001: 'Be my sweetie!',
- 12002: "Happy ValenToon's Day!",
- 12003: 'Aww, how cute.',
- 12004: "I'm sweet on you.",
- 12005: "It's puppy love.",
- 12006: 'Love ya!',
- 12007: 'Will you be my ValenToon?',
- 12008: 'You are a sweetheart.',
- 12009: 'You are as sweet as pie.',
- 12010: 'You are cute.',
- 12011: 'You need a hug.',
- 12012: 'Lovely!',
- 12013: "That's darling!",
- 12014: 'Roses are red...',
- 12015: 'Violets are blue...',
- 12016: "That's sweet!",
- 12050: 'I LOVE busting Cogs!',
- 12051: "You're dynamite!",
- 12052: 'I only have hypno-eyes for you!',
- 12053: "You're sweeter than a jellybean!",
- 12054: "I'd LOVE for you to come to my ValenToon's party!",
- 13000: "Top o' the mornin' to you!",
- 13001: "Happy St. Patrick's Day!",
- 13002: "You're not wearing green!",
- 13003: "It's the luck of the Irish.",
- 13004: "I'm green with envy.",
- 13005: 'You lucky dog!',
- 13006: "You're my four leaf clover!",
- 13007: "You're my lucky charm!",
- 14000: "Let's have a summer Estate party!",
- 14001: "It's party time!",
- 14002: 'Last one in the pond is a rotten Cog!',
- 14003: 'Group Doodle training time!',
- 14004: 'Doodle training time!',
- 14005: 'Your Doodle is cool!',
- 14006: 'What tricks can your Doodle do?',
- 14007: 'Time for Cannon Pinball!',
- 14008: 'Cannon Pinball rocks!',
- 14009: 'Your Estate rocks!',
- 14010: 'Your Garden is cool!',
- 14011: 'Your Estate is cool!'}
+ 11012: '\'Noel\' problema.',
+ 11013: '\'Noel\' surpresa nenhuma.',
+ 11014: 'Deixa bater o sino, pequenino!',
+ 11015: 'Raspa o tacho.',
+ 11016: 'Feliz Natal!',
+ 11017: 'Com \'nataleza\'!',
+ 11018: 'At\xc3\xa9 o Natal, tudo bem!',
+ 11019: 'Voc\xc3\xaa vai se \'arrenapender\'!',
+ 11020: 'Tenha um inverno maravilhoso!'
+ 11021: 'As decora\xc3\xa7\xc3\xb5es da Festa de Natal s\xc3\xa3o Toontastico!'
+ 11022: 'Soldados Toons est\xc3\xa3o organizando festas de fim de ano!'
+ 12000: 'Fica comigo!',
+ 12001: 'Vem ser meu amorzinho!',
+ 12002: 'Feliz Dia dos Namorados!',
+ 12003: 'Ahhh, que bonitinho.',
+ 12004: 'Estou apaixonado por voc\xc3\xaa.',
+ 12005: 'Amor de pombinhos.',
+ 12006: 'Te amo!',
+ 12007: 'Quer ser meu amor?',
+ 12008: 'Voc\xc3\xaa \xc3\xa9 uma gra\xc3\xa7a.',
+ 12009: 'Voc\xc3\xaa \xc3\xa9 doce como mel.',
+ 12010: 'Fofura.',
+ 12011: 'Voc\xc3\xaa precisa de um abra\xc3\xa7o.',
+ 12012: 'Muito fofo!',
+ 12013: 'Que fofo!',
+ 12014: 'Rosas s\xc3\xa3o vermelhas...',
+ 12015: 'Violetas s\xc3\xa3o azuis...',
+ 12016: 'Que gracinha!',
+ 12050: 'EU AMO acabar com Cogs!'
+ 12051: 'Voc\xc3\xaa \xc3\xa9 um estouro!',
+ 12052: 'S\xc3\xb3 tenho olhos para voc\xc3\xaa!',
+ 12053: 'Voc\xc3\xaa \xc3\xa9 mais doce do que uma bala!',
+ 12054: 'Eu ADORARIA ter voc\xc3\xaa em minha Festa Dia dos namorados!',
+ 13000: 'Tenho voc\xc3\xaa no cora\xc3\xa7\xc3\xa3o!',
+ 13001: 'Feliz P\xc3\xa1scoa!',
+ 13002: 'Voc\xc3\xaa n\xc3\xa3o est\xc3\xa1 vestindo marrom-chocolate!',
+ 13003: 'Sorte de iniciante marrom-chocolate.',
+ 13004: 'Estou chocolate de inveja.',
+ 13005: 'Seu sortudo!',
+ 13006: 'Voc\xc3\xaa \xc3\xa9 o meu trevo de quatro folhas!',
+ 13007: 'Voc\xc3\xaa \xc3\xa9 o meu talism\xc3\xa3!',
+ 14000: 'Vamos dar uma festa de ver\xc3\xa3o na Propriedade!',
+ 14001: '\xc3\x89 hora da festa!',
+ 14002: 'O \xc3\xbaltimo a chegar ao lago \xc3\xa9 um Cog do padre!',
+ 14003: 'Hora de treinar Rabisco em Grupo!',
+ 14004: 'Hora de treinar Rabisco!',
+ 14005: 'Seu Rabisco \xc3\xa9 legal!',
+ 14006: 'Que truques seu Rabisco pode fazer?',
+ 14007: 'Hora do Pinball de Canh\xc3\xa3o!',
+ 14008: 'O Pinball de Canh\xc3\xa3o \xc3\xa9 demais!',
+ 14009: 'Sua Propriedade \xc3\xa9 demais!',
+ 14010: 'Seu Jardim \xc3\xa9 legal!',
+ 14011: 'Sua Propriedade \xc3\xa9 legal!'}
 SCMenuCommonCogIndices = (20000, 20004)
 SCMenuCustomCogIndices = {'bf': (20005, 20014),
  'nc': (20015, 20024),
@@ -2717,71 +2717,71 @@ SCMenuCustomCogIndices = {'bf': (20005, 20014),
  'rb': (20320, 20329),
  'sc': (20330, 20331),
  'sd': (20341, 20350)}
-PSCMenuExpressions = 'EXPRESSIONS'
-PSCMenuGreetings = 'GREETINGS'
-PSCMenuGoodbyes = 'GOODBYES'
-PSCMenuFriendly = 'FRIENDLY'
-PSCMenuHappy = 'HAPPY'
-PSCMenuSad = 'SAD'
-PSCMenuSorry = 'SORRY'
-PSCMenuCombat = 'COMBAT'
-PSCMenuSeaCombat = 'SEA COMBAT'
-PSCMenuPlaces = 'PLACES'
-PSCMenuLetsSail = "LET'S SAIL..."
-PSCMenuLetsHeadTo = "LET'S HEAD TO..."
+PSCMenuExpressions = 'EXPRESS\xc3\x95ES'
+PSCMenuGreetings = 'CUMPRIMENTOS'
+PSCMenuGoodbyes = 'DESPEDIDAS'
+PSCMenuFriendly = 'AMIG\xc3\x81VEL'
+PSCMenuHappy = 'FELIZ'
+PSCMenuSad = 'TRISTE'
+PSCMenuSorry = 'DESCULPA'
+PSCMenuCombat = 'COMBATE'
+PSCMenuSeaCombat = 'COMBATE NO MAR'
+PSCMenuPlaces = 'LUGARES'
+PSCMenuLetsSail = 'VAMOS\\NAVEGAR...'
+PSCMenuLetsHeadTo = 'VAMOS\\PARA...'
 PSCMenuHeadToPortRoyal = 'PORT ROYAL'
-PSCMenuWhereIs = 'WHERE IS ..?'
+PSCMenuWhereIs = 'ONDE EST\xc3\x81 ..?'
 PSCMenuWhereIsPortRoyal = 'PORT ROYAL'
 PSCMenuWhereIsTortuga = 'TORTUGA'
 PSCMenuWhereIsPadresDelFuego = 'PADRES DEL FUEGO'
 PSCMenuWhereIsLasPulgas = 'LAS PULGAS'
 PSCMenuWhereIsLosPadres = 'LOS PADRES'
-PSCMenuDirections = 'DIRECTIONS'
-PSCMenuInsults = 'INSULTS'
-PSCMenuCompliments = 'COMPLIMENTS'
-PSCMenuCardGames = 'CARD GAMES'
-PSCMenuPoker = 'POKER'
-PSCMenuBlackjack = 'BLACKJACK'
+PSCMenuDirections = 'DIRE\xc3\x87\xc3\x95ES'
+PSCMenuInsults = 'INSULTOS'
+PSCMenuCompliments = 'ELOGIOS'
+PSCMenuCardGames = 'JOGOS DE CARTAS'
+PSCMenuPoker = 'P\xc3\x93QUER'
+PSCMenuBlackjack = 'O JOGO DE VINTE-E-UM'
 PSCMenuMinigames = 'MINIGAMES'
 PSCMenuFishing = 'FISHING'
-PSCMenuCannonDefense = 'CANNON DEFENSE'
-PSCMenuPotions = 'POTION BREWING'
-PSCMenuRepair = 'REPAIR'
-PSCMenuInvitations = 'INVITATIONS'
+PSCMenuCannonDefense = 'CANH\xc3\x83O DE DEFESA'
+PSCMenuPotions = 'PO\xc3\x87\xc3\x83O DE FERMENTA\xc3\x87\xc3\x83O'
+PSCMenuRepair = 'REPARAR'
+PSCMenuInvitations = 'CONVITES'
 PSCMenuVersusPlayer = 'VERSUS'
-PSCMenuHunting = 'HUNTING'
-PSCMenuQuests = 'QUESTS'
+PSCMenuHunting = 'ASSUTADO'
+PSCMenuQuests = 'MISS\xc3\x95ES'
 PSCMenuGM = 'GM'
-PSCMenuShips = 'SHIPS'
-PSCMenuAdventures = 'ADVENTURE'
-GWSCMenuHello = 'GREETINGS'
-GWSCMenuBye = 'GOODBYES'
-GWSCMenuHappy = 'HAPPY'
-GWSCMenuSad = 'SAD'
-GWSCMenuPlaces = 'PLACES'
-RandomButton = 'Randomize'
-TypeANameButton = 'Type Name'
-PickANameButton = 'Pick-A-Name'
-NameShopSubmitButton = 'Submit'
-RejectNameText = 'That name is not allowed. Please try again.'
-WaitingForNameSubmission = 'Submitting your name...'
-NameShopNameMaster = 'NameMasterEnglish.txt'
-NameShopPay = 'Subscribe'
-NameShopPlay = 'Free Trial'
-NameShopOnlyPaid = 'Only paid users\nmay name their Toons.\nUntil you subscribe\nyour name will be\n'
-NameShopContinueSubmission = 'Continue Submission'
-NameShopChooseAnother = 'Choose Another Name'
-NameShopToonCouncil = 'The Toon Council\nwill review your\nname.  ' + 'Review may\ntake a few days.\nWhile you wait\nyour name will be\n '
-PleaseTypeName = 'Please type your name:'
-ToonAlreadyExists = '%s already exists'
-AllNewNames = 'All new names\nmust be approved\nby the Name Council.'
-NameShopNameRejected = 'The name you\nsubmitted has\nbeen rejected.'
-NameShopNameAccepted = 'Congratulations!\nThe name you\nsubmitted has\nbeen accepted!'
-NoPunctuation = "You can't use punctuation marks in your name!"
-PeriodOnlyAfterLetter = 'You can use a period in your name, but only after a letter.'
-ApostropheOnlyAfterLetter = 'You can use an apostrophe in your name, but only after a letter.'
-NoNumbersInTheMiddle = 'Numeric digits may not appear in the middle of a word.'
-ThreeWordsOrLess = 'Your name must be three words or fewer.'
+PSCMenuShips = 'NAVIOS'
+PSCMenuAdventures = 'AVENTURA'
+GWSCMenuHello = 'CUMPRIMENTOS'
+GWSCMenuBye = 'DESPEDIDAS'
+GWSCMenuHappy = 'FELIZ'
+GWSCMenuSad = 'TRISTE'
+GWSCMenuPlaces = 'LUGARES'
+RandomButton = 'Aleat\xc3\xb3rio'
+TypeANameButton = 'Digite um nome'
+PickANameButton = 'Escolha um nome'
+NameShopSubmitButton = 'Enviar'
+RejectNameText = 'Este nome n\xc3\xa3o \xc3\xa9 permitido. Tente novamente.'
+WaitingForNameSubmission = 'Enviando o seu nome...'
+NameShopNameMaster = 'NameMaster_portuguese.txt'
+NameShopPay = 'Assine j\xc3\xa1!'
+NameShopPlay = 'Avalia\xc3\xa7\xc3\xa3o gratuita'
+NameShopOnlyPaid = 'Somente usu\xc3\xa1rios pagantes\npodem dar nomes aos seus Toons.\nAt\xc3\xa9 que voc\xc3\xaa se inscreva\nseu nome ser\xc3\xa1\n'
+NameShopContinueSubmission = 'Continuar envio'
+NameShopChooseAnother = 'Escolha outro nome'
+NameShopToonCouncil = 'O Conselho de Toons\nanalisar\xc3\xa1 o seu\nnome.' + 'A an\xc3\xa1lise pode\nlevar alguns dias.\nEnquanto voc\xc3\xaa espera\nseu nome ser\xc3\xa1\n'
+PleaseTypeName = 'Digite o seu nome:'
+ToonAlreadyExists = '%s j\xc3\xa1 existe'
+AllNewNames = 'Todos os novos nomes\ndevem ser aprovados\npelo Conselho de Toons.'
+NameShopNameRejected = 'O nome\nenviado foi\nrejeitado.'
+NameShopNameAccepted = 'Parab\xc3\xa9ns!\nO nome\nenviado foi\naceito!'
+NoPunctuation = 'N\xc3\xa3o \xc3\xa9 permitido usar caracteres de pontua\xc3\xa7\xc3\xa3o nos nomes!'
+PeriodOnlyAfterLetter = 'Voc\xc3\xaa pode usar um ponto no nome, mas apenas depois de uma letra.'
+ApostropheOnlyAfterLetter = 'Voc\xc3\xaa pode usar um ap\xc3\xb3strofo no nome, mas apenas depois de uma letra.'
+NoNumbersInTheMiddle = 'D\xc3\xadgitos num\xc3\xa9ricos podem n\xc3\xa3o aparecer no meio da palavra.'
+ThreeWordsOrLess = 'Seu nome deve ter tr\xc3\xaas palavras ou menos.'
 CopyrightedNames = ('mickey',
  'mickey mouse',
  'mickeymouse',
@@ -2792,102 +2792,103 @@ CopyrightedNames = ('mickey',
  'donald duck',
  'donaldduck',
  'pluto',
- 'goofy')
-NCTooShort = 'That name is too short.'
-NCNoDigits = 'Your name cannot contain numbers.'
-NCNeedLetters = 'Each word in your name must contain some letters.'
-NCNeedVowels = 'Each word in your name must contain some vowels.'
-NCAllCaps = 'Your name cannot be all capital letters.'
-NCMixedCase = 'That name has too many capital letters.'
-NCBadCharacter = "Your name cannot contain the character '%s'"
-NCRepeatedChar = "Your name has too many of the character '%s'"
-NCGeneric = 'Sorry, that name will not work.'
-NCTooManyWords = 'Your name cannot be more than four words long.'
-NCDashUsage = "Dashes may only be used to connect two words together (like in 'Boo-Boo')."
-NCCommaEdge = 'Your name may not begin or end with a comma.'
-NCCommaAfterWord = 'You may not begin a word with a comma.'
-NCCommaUsage = 'That name does not use commas properly. Commas must join two words together, like in the name "Dr. Quack, MD". Commas must also be followed by a space.'
-NCPeriodUsage = 'That name does not use periods properly. Periods are only allowed in words like "Mr.", "Mrs.", "J.T.", etc.'
-NCApostrophes = 'That name has too many apostrophes.'
+ 'pateta')
+NCTooShort = 'Este nome \xc3\xa9 muito curto.'
+NCNoDigits = 'O nome n\xc3\xa3o pode conter n\xc3\xbameros.'
+NCNeedLetters = 'Cada palavra do nome deve conter algumas letras.'
+NCNeedVowels = 'Cada palavra do nome deve conter algumas vogais.'
+NCAllCaps = 'O seu nome n\xc3\xa3o pode estar todo em mai\xc3\xbascula.'
+NCMixedCase = 'Este nome tem muitas letras em min\xc3\xbascula.'
+NCBadCharacter = "O seu nome n\xc3\xa3o pode conter o caractere '%s'"
+NCRepeatedChar = "Seu nome tem muitos caracteres '%s'"
+NCGeneric = 'Sinto muito, este nome n\xc3\xa3o vai funcionar.'
+NCTooManyWords = 'O seu nome n\xc3\xa3o pode ter mais de quatro palavras.'
+NCDashUsage = "H\xc3\xadfens podem ser usados apenas para ligar duas palavras (como em 'Bu-Bu')."
+NCCommaEdge = 'O seu nome n\xc3\xa3o pode come\xc3\xa7ar ou terminar com v\xc3\xadrgula.'
+NCCommaAfterWord = 'Voc\xc3\xaa n\xc3\xa3o pode come\xc3\xa7ar uma palavra com v\xc3\xadrgula.'
+NCCommaUsage = 'Este nome n\xc3\xa3o usa v\xc3\xadrgulas corretamente. As v\xc3\xadrgulas devem juntar duas palavras, como no nome "Dr. Quack, MD". As v\xc3\xadrgulas devem tamb\xc3\xa9m ser seguidas por um espa\xc3\xa7o.'
+NCPeriodUsage = 'Este nome n\xc3\xa3o usa pontos corretamente. Os pontos s\xc3\xa3o permitidos somente em palavras como "Sr.", "Sra.", "J.P." etc.'
+NCApostrophes = 'Este nome tem muitos ap\xc3\xb3strofos.'
 AvatarDetailPanelOK = lOK
 AvatarDetailPanelCancel = lCancel
-AvatarDetailPanelClose = lClose
-AvatarDetailPanelLookup = 'Looking up details for %s.'
-AvatarDetailPanelFailedLookup = 'Unable to get details for %s.'
-AvatarDetailPanelPlayer = 'Player: %(player)s\nWorld: %(world)s\nLocation: %(location)s'
-AvatarDetailPanelOnline = 'District: %(district)s\nLocation: %(location)s'
-AvatarDetailPanelOffline = 'District: offline\nLocation: offline'
-AvatarPanelFriends = 'Friends'
-AvatarPanelWhisper = 'Whisper'
-AvatarPanelSecrets = 'True Friends'
-AvatarPanelGoTo = 'Go To'
-AvatarPanelIgnore = 'Ignore'
-AvatarPanelStopIgnore = 'Stop Ignoring'
-AvatarPanelEndIgnore = 'End Ignore'
-AvatarPanelTrade = 'Trade'
-AvatarPanelCogLevel = 'Level: %s'
-AvatarPanelCogDetailClose = lClose
+AvatarDetailPanelClose = 'Fechar'
+AvatarDetailPanelLookup = 'Procurando detalhes de %s.'
+AvatarDetailPanelFailedLookup = 'N\xc3\xa3o foi poss\xc3\xadvel obter detalhes de %s.'
+AvatarDetailPanelPlayer = 'Jogador: %(player)s\Mundo: %(world)s\nLocal: %(location)s'
+AvatarDetailPanelOnline = 'Regi\xc3\xa3o: %(district)s\nLocation: %(location)s'
+AvatarDetailPanelOffline = 'Regi\xc3\xa3o: off-line\nLocal: off-line'
+AvatarPanelFriends = 'Amigos'
+AvatarPanelWhisper = 'Cochichar'
+AvatarPanelSecrets = 'Secretos'
+AvatarPanelGoTo = 'Ir para'
+AvatarPanelIgnore = 'Ignorar'
+AvatarPanelStopIgnore = 'Parar de Ignorar'
+AvatarPanelEndIgnore = 'Encerrar Ignorar'
+AvatarPanelTrade = 'Trocar'
+AvatarPanelCogLevel = 'N\xc3\xadvel: %s'
+AvatarPanelCogDetailClose = 'Fechar'
 TeleportPanelOK = lOK
 TeleportPanelCancel = lCancel
 TeleportPanelYes = lYes
 TeleportPanelNo = lNo
-TeleportPanelCheckAvailability = 'Trying to go to %s.'
-TeleportPanelNotAvailable = '%s is busy right now; try again later.'
-TeleportPanelIgnored = '%s is ignoring you.'
-TeleportPanelNotOnline = "%s isn't online right now."
-TeleportPanelWentAway = '%s went away.'
-TeleportPanelUnknownHood = "You don't know how to get to %s!"
-TeleportPanelUnavailableHood = '%s is not available right now; try again later.'
-TeleportPanelDenySelf = "You can't go to yourself!"
-TeleportPanelOtherShard = "%(avName)s is in district %(shardName)s, and you're in district %(myShardName)s.  Do you want to switch to %(shardName)s?"
+TeleportPanelCheckAvailability = 'Tentando ir para %s.'
+TeleportPanelNotAvailable = '%s est\xc3\xa1 ocupado(a) agora; tente novamente mais tarde.'
+TeleportPanelIgnored = '%s est\xc3\xa1 ignorando voc\xc3\xaa.'
+TeleportPanelNotOnline = '%s n\xc3\xa3o est\xc3\xa1 on-line neste momento.'
+TeleportPanelWentAway = '%s saiu.'
+TeleportPanelUnknownHood = 'Voc\xc3\xaa n\xc3\xa3o sabe ir para %s!'
+TeleportPanelUnavailableHood = '%s n\xc3\xa3o est\xc3\xa1 dispon\xc3\xadvel agora; tente novamente mais tarde.'
+TeleportPanelDenySelf = 'Voc\xc3\xaa n\xc3\xa3o pode ir l\xc3\xa1 por conta pr\xc3\xb3pria!'
+TeleportPanelOtherShard = '%(avName)s est\xc3\xa1 na regi\xc3\xa3o %(shardName)s, e voc\xc3\xaa est\xc3\xa1 na regi\xc3\xa3o %(myShardName)s. Deseja ir para %(shardName)s?'
 KartRacingMenuSections = [-1,
- 'PLACES',
- 'RACES',
- 'TRACKS',
- 'COMPLIMENTS',
- 'TAUNTS']
+ 'LUGARES',
+ 'CORRIDAS',
+ 'PISTAS',
+ 'ELOGIOS',
+ 'PROVOCA\xc3\x87\xc3\x95ES']
 AprilToonsMenuSections = [-1,
- 'GREETINGS',
- 'PLAYGROUNDS',
- 'CHARACTERS',
- 'ESTATES']
-SillyHolidayMenuSections = [-1, 'WORLD', 'BATTLE']
+ 'CUMPRIMENTOS',
+ 'PARQUES',
+ 'PERSONAGENS',
+ 'PROPRIEDADES']
+SillyHolidayMenuSections = [-1, 'MUNDO', 'BATALHA']
 CarolMenuSections = [-1]
-VictoryPartiesMenuSections = [-1, 'PARTY', 'ITEMS']
-GolfMenuSections = [-1,
- 'COURSES',
- 'TIPS',
- 'COMMENTS']
-BoardingMenuSections = ['GROUP',
- "Let's go to...",
- "We're going to...",
+VictoryPartiesMenuSections = [-1, 'FESTA', 'ITENS']
+GolfMenuSections = [-1, 
+ 'PERCURSOS',
+ 'DICAS',
+ 'COMENT\xc3\x81RIOS']
+BoardingMenuSections = ['GRUPO',
+ 'Vamos para...',
+ 'Estava indo para...',
  -1]
-SellbotNerfMenuSections = [-1, 'GROUPING', 'SELLBOT TOWERS/VP']
-JellybeanJamMenuSections = ['GET JELLYBEANS', 'SPEND JELLYBEANS']
-WinterMenuSections = ['CAROLING', -1]
+SellbotNerfMenuSections = [-1, 'REUNINDO', 'TORRES/VP Rob\xc3\xb4 Vendedor']
+JellybeanJamMenuSections = ['OBTER BALINHAS', 'GASTAR BALINHAS']
+WinterMenuSections = ['CANTANDO', -1]
 HalloweenMenuSections = [-1]
 SingingMenuSections = [-1]
-WhiteListMenu = [-1, 'WHITELIST']
+WhiteListMenu = [-1, 'LISTA DE PERMISS\xc3\x95ES']
 SellbotInvasionMenuSections = [-1]
-SellbotFieldOfficeMenuSections = [-1, 'STRATEGY']
+SellbotFieldOfficeMenuSections = [-1, 'ESTRAT\xc3\x89GIA']
 IdesOfMarchMenuSections = [-1]
-TTAccountCallCustomerService = 'Please call Customer Service at %s.'
-TTAccountCustomerServiceHelp = '\nIf you need help, please call Customer Service at %s.'
-TTAccountIntractibleError = 'An error occurred.'
+TTAccountCallCustomerService = 'Favor entrar em contato com o Atendimento ao Consumidor em %s.'
+TTAccountCustomerServiceHelp = '\nSe precisar de ajuda, favor entrar em contato com o Atendimento ao Comsumidor em %s.'
+TTAccountIntractibleError = 'Um erro ocorreu.'
 
 def timeElapsedString(timeDelta):
     timeDelta = abs(timeDelta)
     if timeDelta.days > 0:
         if timeDelta.days == 1:
-            return '1 day ago'
+            return '1 dia atr\xc3\xa1s'
         else:
-            return '%s days ago' % timeDelta.days
+            return '%s dias atr\xc3\xa1s' % timeDelta.days
     elif timeDelta.seconds / 3600 > 0:
         if timeDelta.seconds / 3600 == 1:
-            return '1 hour ago'
+            return '1 hora atr\xc3\xa1s'
         else:
-            return '%s hours ago' % (timeDelta.seconds / 3600)
-    elif timeDelta.seconds / 60 < 2:
-        return '1 minute ago'
+            return '%s horas atr\xc3\xa1s' % (timeDelta.seconds / 3600)
     else:
-        return '%s minutes ago' % (timeDelta.seconds / 60)
+        if timeDelta.seconds / 60 < 2:
+            return '1 minuto atr\xc3\xa1s'
+        else:
+            return '%s minutos atr\xc3\xa1s' % (timeDelta.seconds / 60)
