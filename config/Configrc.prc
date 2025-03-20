@@ -20,7 +20,7 @@ default-model-extension .bam
 vfs-case-sensitive 0
 
 # Server Settings
-server-version sv1.0.47.38
+server-version sv1.4.47.34
 server-failover 80 443
 tt-specific-login 1
 #game-server
@@ -84,7 +84,7 @@ direct-wtext 0
 on-screen-debug-font ImpressBT.ttf
 
 # Misc Settings
-inactivity-timeout 180
+inactivity-timeout 600
 # If require-window is true, it means that we should raise an exception if the window fails to open correctly.
 require-window 0
 # Limits the size of the buffer used.
