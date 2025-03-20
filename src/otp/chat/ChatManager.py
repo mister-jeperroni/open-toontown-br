@@ -284,7 +284,7 @@ class ChatManager(DirectObject.DirectObject):
         if avatarId:
             av = self.cr.identifyAvatar(avatarId)
         if av != None:
-            avatarUnderstandable = av.isUnderstandable()
+            avatarUnderstandable = 1
         if playerId:
             if playerId in base.cr.playerFriendsManager.playerId2Info:
                 playerInfo = base.cr.playerFriendsManager.playerId2Info.get(playerId)
