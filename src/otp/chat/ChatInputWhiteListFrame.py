@@ -223,12 +223,7 @@ class ChatInputWhiteListFrame(FSM.FSM, DirectFrame):
             self.sendChatByMode(text)
 
     def sendChatByData(self, text):
-        if not self.receiverId:
-            base.talkAssistant.sendOpenTalk(text)
-        elif self.receiverId and not self.toPlayer:
-            base.talkAssistant.sendWhisperTalk(text, self.receiverId)
-        elif self.receiverId and self.toPlayer:
-            base.talkAssistant.sendAccountTalk(text, self.receiverId)
+        raise NotImplementedError
 
     def sendChatByMode(self, text):
         state = self.getCurrentOrNextState()
@@ -317,30 +312,4 @@ class ChatInputWhiteListFrame(FSM.FSM, DirectFrame):
                 return str(exception)
 
     def applyFilter(self, keyArgs, strict = False):
-        text = self.chatEntry.get(plain=True)
-        if len(text) > 0 and text[0] in ['~', '>']:
-            self.okayToSubmit = True
-        else:
-            words = text.split(' ')
-            newwords = []
-            self.notify.debug('%s' % words)
-            self.okayToSubmit = True
-            for word in words:
-                if word == '' or self.whiteList.isWord(word):
-                    newwords.append(word)
-                else:
-                    if self.checkBeforeSend:
-                        self.okayToSubmit = False
-                    else:
-                        self.okayToSubmit = True
-                    newwords.append('\x01WLEnter\x01' + word + '\x02')
-
-            if not strict:
-                lastword = words[-1]
-                if lastword == '' or self.whiteList.isPrefix(lastword):
-                    newwords[-1] = lastword
-                else:
-                    newwords[-1] = '\x01WLEnter\x01' + lastword + '\x02'
-            newtext = ' '.join(newwords)
-            self.chatEntry.set(newtext)
-        self.chatEntry.guiItem.setAcceptEnabled(self.okayToSubmit)
+        raise NotImplementedError
