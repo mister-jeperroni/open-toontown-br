@@ -1,5 +1,5 @@
 @echo off
-title Open Toontown - AI (District) Server
+title Toontown_BR QA - AI (District) Server
 cd ..
 cd ..
 cd src/
@@ -14,5 +14,5 @@ if "%PPYTHON_PATH%"=="" set PPYTHON_PATH=python
                --max-channels 999999 --stateserver 4002 ^
                --messagedirector-ip 127.0.0.1:7199 ^
                --eventlogger-ip 127.0.0.1:7197 ^
-               --district-name "Toon Valley"
+               --district-name "Vila dos Toons"
 goto main

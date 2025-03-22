@@ -1,14 +1,13 @@
-from panda3d.core import *
-from panda3d.otp import *
+from pandac.PandaModules import *
 QuietZone = 1
 UberZone = 2
-WallBitmask = BitMask32(1)
-FloorBitmask = BitMask32(2)
-CameraBitmask = BitMask32(4)
-CameraTransparentBitmask = BitMask32(8)
-SafetyNetBitmask = BitMask32(512)
-SafetyGateBitmask = BitMask32(1024)
-GhostBitmask = BitMask32(2048)
+WallBitmask = BitMask32(0x01)
+FloorBitmask = BitMask32(0x02)
+CameraBitmask = BitMask32(0x04)
+CameraTransparentBitmask = BitMask32(0x08)
+SafetyNetBitmask = BitMask32(0x200)
+SafetyGateBitmask = BitMask32(0x400)
+GhostBitmask = BitMask32(0x800)
 PathFindingBitmask = BitMask32.bit(29)
 OriginalCameraFov = 52.0
 DefaultCameraFov = 52.0
@@ -42,7 +41,6 @@ CEInvisible = 11
 CEPumpkin = 12
 CEBigWhite = 13
 CESnowMan = 14
-CEGreenToon = 15
 CEGhost = 'g'
 BigToonScale = 1.5
 SmallToonScale = 0.5
@@ -78,19 +76,18 @@ GlobalDialogClass = None
 ProductPrefix = None
 
 def getInterfaceFont():
-    global InterfaceFontPath
     global InterfaceFont
-    if InterfaceFont == None:
+    if (InterfaceFont == None):
         if InterfaceFontPath == None:
             InterfaceFont = TextNode.getDefaultFont()
         else:
-            InterfaceFont = loader.loadFont(InterfaceFontPath, lineHeight=1.0)
+            InterfaceFont = loader.loadFont(InterfaceFontPath, lineHeight = 1.0)
     return InterfaceFont
 
 
 def setInterfaceFont(path):
-    global InterfaceFontPath
     global InterfaceFont
+    global InterfaceFontPath
     InterfaceFontPath = path
     InterfaceFont = None
     return
@@ -98,79 +95,76 @@ def setInterfaceFont(path):
 
 def getSignFont():
     global SignFont
-    global SignFontPath
-    if SignFont == None:
+    if (SignFont == None):
         if SignFontPath == None:
             InterfaceFont = TextNode.getDefaultFont()
             SignFont = TextNode.getDefaultFont()
         else:
-            SignFont = loader.loadFont(SignFontPath, lineHeight=1.0)
+            SignFont = loader.loadFont(SignFontPath, lineHeight = 1.0)
     return SignFont
 
 
 def setSignFont(path):
     global SignFontPath
     SignFontPath = path
-
-
+    
+    
 def getFancyFont():
-    global FancyFontPath
     global FancyFont
-    if FancyFont == None:
+    if (FancyFont == None):
         if FancyFontPath == None:
             InterfaceFont = TextNode.getDefaultFont()
             FancyFont = TextNode.getDefaultFont()
         else:
-            FancyFont = loader.loadFont(FancyFontPath, lineHeight=1.0)
+            FancyFont = loader.loadFont(FancyFontPath, lineHeight = 1.0)
     return FancyFont
 
 
 def setFancyFont(path):
     global FancyFontPath
     FancyFontPath = path
-
-
+    
+    
 def getNametagFont(index):
-    global NametagFontPaths
     global NametagFonts
-    if index not in NametagFonts or NametagFonts[index] == None:
-        if index not in NametagFontPaths or NametagFontPaths[index] == None:
+    if ((not NametagFonts.has_key(index) )or NametagFonts[index] == None):
+        if (not NametagFontPaths.has_key(index) ) or (NametagFontPaths[index] == None):
             InterfaceFont = TextNode.getDefaultFont()
             NametagFonts[index] = TextNode.getDefaultFont()
         else:
-            NametagFonts[index] = loader.loadFont(NametagFontPaths[index], lineHeight=1.0)
+            NametagFonts[index] = loader.loadFont(NametagFontPaths[index], lineHeight = 1.0)
     return NametagFonts[index]
 
-
 def setNametagFont(index, path):
-    NametagFontPaths[index] = path
-
+    global NametagFontPaths
+    NametagFontPaths[index] = path    
+    
+    
 
 def getDialogClass():
     global DialogClass
+    
     if DialogClass == None:
         from otp.otpgui.OTPDialog import OTPDialog
         DialogClass = OTPDialog
     return DialogClass
 
-
 def getGlobalDialogClass():
     global GlobalDialogClass
+    
     if DialogClass == None:
         from otp.otpgui.OTPDialog import GlobalDialog
         GlobalDialogClass = GlobalDialog
     return GlobalDialogClass
 
-
 def setDialogClasses(dialogClass, globalDialogClass):
     global DialogClass
-    global GlobalDialogClass
     DialogClass = dialogClass
+    global GlobalDialogClass
     GlobalDialogClass = globalDialogClass
 
 
 def getDefaultProductPrefix():
-    global ProductPrefix
     return ProductPrefix
 
 
@@ -188,11 +182,10 @@ REVERSE_INDEX = 3
 STRAFE_LEFT_INDEX = 4
 STRAFE_RIGHT_INDEX = 5
 ToonStandableGround = 0.707
-ToonSpeedFactor = 1.25
-ToonForwardSpeed = 16.0 * ToonSpeedFactor
+ToonForwardSpeed = 16.0
 ToonJumpForce = 24.0
-ToonReverseSpeed = 8.0 * ToonSpeedFactor
-ToonRotateSpeed = 80.0 * ToonSpeedFactor
+ToonReverseSpeed = 8.0
+ToonRotateSpeed = 80.0
 ToonForwardSlowSpeed = 6.0
 ToonJumpSlowForce = 4.0
 ToonReverseSlowSpeed = 2.5
@@ -200,8 +193,8 @@ ToonRotateSlowSpeed = 33.0
 MickeySpeed = 5.0
 MinnieSpeed = 3.2
 DonaldSpeed = 3.68
-GoofySpeed = 5.2
-PlutoSpeed = 5.5
+GoofySpeed  = 5.2
+PlutoSpeed  = 5.5
 ThinkPosHotkey = 'shift-f1'
 PlaceMarkerHotkey = 'f2'
 FriendsListHotkey = 'f7'
@@ -213,19 +206,17 @@ QuestsHotkeyOn = 'end'
 QuestsHotkeyOff = 'end-up'
 InventoryHotkeyOn = 'home'
 InventoryHotkeyOff = 'home-up'
-MapHotkeyOn = 'delete'
-MapHotkeyOff = 'delete-up'
 DetectGarbageHotkey = 'shift-f11'
 PrintCamPosHotkey = 'f12'
 GlobalDialogColor = (1,
- 1,
- 0.75,
+ 1, 
+ 0.75, 
  1)
 DefaultBackgroundColor = (0.3,
  0.3,
  0.3,
  1)
-toonBodyScales = {'mouse': 0.6,
+toonBodyScales = {'mouse': 0.60,
  'cat': 0.73,
  'duck': 0.66,
  'rabbit': 0.74,
@@ -256,38 +247,38 @@ torsoHeightDict = {'s': 1.5,
  'md': 1.75,
  'ld': 2.25}
 headHeightDict = {'dls': 0.75,
- 'dss': 0.5,
- 'dsl': 0.5,
+ 'dss': 0.50,
+ 'dsl': 0.50,
  'dll': 0.75,
  'cls': 0.75,
- 'css': 0.5,
- 'csl': 0.5,
+ 'css': 0.50,
+ 'csl': 0.50,
  'cll': 0.75,
  'hls': 0.75,
- 'hss': 0.5,
- 'hsl': 0.5,
+ 'hss': 0.50,
+ 'hsl': 0.50,
  'hll': 0.75,
  'mls': 0.75,
- 'mss': 0.5,
+ 'mss': 0.50,
  'rls': 0.75,
- 'rss': 0.5,
- 'rsl': 0.5,
+ 'rss': 0.50,
+ 'rsl': 0.50,
  'rll': 0.75,
  'fls': 0.75,
- 'fss': 0.5,
- 'fsl': 0.5,
+ 'fss': 0.50,
+ 'fsl': 0.50,
  'fll': 0.75,
  'pls': 0.75,
- 'pss': 0.5,
- 'psl': 0.5,
+ 'pss': 0.50,
+ 'psl': 0.50,
  'pll': 0.75,
  'bls': 0.75,
- 'bss': 0.5,
- 'bsl': 0.5,
+ 'bss': 0.50,
+ 'bsl': 0.50,
  'bll': 0.75,
  'sls': 0.75,
- 'sss': 0.5,
- 'ssl': 0.5,
+ 'sss': 0.50,
+ 'ssl': 0.50,
  'sll': 0.75}
 RandomButton = 'Randomize'
 TypeANameButton = 'Type Name'
@@ -306,7 +297,7 @@ PleaseTypeName = 'Please type your name:'
 AllNewNames = 'All new names\nmust be approved\nby the Toon Council.'
 NameShopNameRejected = 'The name you\nsubmitted has\nbeen rejected.'
 NameShopNameAccepted = 'Congratulations!\nThe name you\nsubmitted has\nbeen accepted!'
-NoPunctuation = "You can't use punctuation marks in your name!"
+NoPunctuation = 'You can't use punctuation marks in your name!'
 PeriodOnlyAfterLetter = 'You can use a period in your name, but only after a letter.'
 ApostropheOnlyAfterLetter = 'You can use an apostrophe in your name, but only after a letter.'
 NoNumbersInTheMiddle = 'Numeric digits may not appear in the middle of a word.'
@@ -346,9 +337,9 @@ PlayerFriendNewSecretEvent = 'playerFriendNewSecretEvent'
 PlayerFriendRejectNewSecretEvent = 'playerFriendRejectNewSecretEvent'
 PlayerFriendRejectUseSecretEvent = 'playerFriendRejectUseSecretEvent'
 WhisperIncomingEvent = 'whisperIncomingEvent'
-ChatFeedback_PassedBlacklist = 32
-ChatFeedback_Whitelist = 64
-ChatFeedback_OpenChat = 128
+ChatFeedback_PassedBlacklist = 0x20
+ChatFeedback_Whitelist = 0x40
+ChatFeedback_OpenChat = 0x80
 AccessUnknown = 0
 AccessVelvetRope = 1
 AccessFull = 2
@@ -356,23 +347,3 @@ AccessInvalid = 3
 AvatarPendingCreate = -1
 AvatarSlotUnavailable = -2
 AvatarSlotAvailable = -3
-
-AccessLevelName2Int = {
- 'RESTRICTED': -100,
- 'NO_ACCESS': 0,
- 'MODERATOR': 100,
- 'DEVELOPER': 200,
- 'ADMIN': 300,
- 'SYSTEM_ADMIN': 400,
-}
-
-AccessLevelInt2Name = {v: k for k, v in AccessLevelName2Int.items()}
-
-AccessLevelDebug2Name = {
-    'RESTRICTED': 'Banned',
-    'NO_ACCESS': 'Player',
-    'MODERATOR': 'Mod',
-    'DEVELOPER': 'Developer',
-    'ADMIN': 'Admin',
-    'SYSTEM_ADMIN': 'Sysadmin',
-}

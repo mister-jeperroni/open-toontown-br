@@ -1,6 +1,5 @@
-from panda3d.core import *
+from pandac.PandaModules import *
 from direct.directnotify.DirectNotifyGlobal import *
-from direct.showbase import DConfig
 from direct.showbase.MessengerGlobal import *
 from direct.showbase.BulletinBoardGlobal import *
 from direct.task.TaskManagerGlobal import *
@@ -21,14 +20,10 @@ class AIBase:
     notify = directNotify.newCategory('AIBase')
 
     def __init__(self):
-        self.config = DConfig
+        self.config = getConfigShowbase()
         __builtins__['__dev__'] = self.config.GetBool('want-dev', 0)
-        __builtins__['__astron__'] = self.config.GetBool('astron-support', 1)
-        __builtins__['__execWarnings__'] = self.config.GetBool('want-exec-warnings', 0)
-        logStackDump = (self.config.GetBool('log-stack-dump', (not __debug__)) or self.config.GetBool('ai-log-stack-dump', (not __debug__)))
-        uploadStackDump = self.config.GetBool('upload-stack-dump', 0)
-        if logStackDump or uploadStackDump:
-            ExceptionVarDump.install(logStackDump, uploadStackDump)
+        if self.config.GetBool('want-variable-dump', 0)
+            ExceptionVarDump.install()
         if self.config.GetBool('use-vfs', 1):
             vfs = VirtualFileSystem.getGlobalPtr()
         else:
