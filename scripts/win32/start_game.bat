@@ -7,5 +7,5 @@ set /P PPYTHON_PATH=<PPYTHON_PATH
 
 set LOGIN_TOKEN=dev
 
-%PPYTHON_PATH% -m dumped.toontown.launcher.StartToontownLauncher
+%PPYTHON_PATH% -m src.toontown.launcher.StartToontownLauncher
 pause
