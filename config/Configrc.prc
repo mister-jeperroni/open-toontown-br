@@ -11,6 +11,9 @@ icon-filename toontown.ico
 cull-bin shadow 15 fixed
 cull-bin ground 14 unsorted
 cull-bin gui-popup 60 unsorted
+default-model-extension .bam
+plugin-path .
+
 # downloader settings
 decompressor-buffer-size 32768
 extractor-buffer-size 32768
@@ -20,6 +23,7 @@ downloader-timeout-retries 4
 downloader-disk-write-frequency 4
 downloader-byte-rate 125000
 downloader-frequency 0.1
+want-render2dp 1
 
 # texture settings
 textures-power-2 down
@@ -30,18 +34,24 @@ dc-file phase_3/etc/toon.dc
 dc-file phase_3/etc/otp.dc
 aux-display pandadx9
 aux-display pandadx8
-aux-display pandadx7
 aux-display pandagl
+aux-display tinydisplay
 compress-channels #t
+display-lists 0
 text-encoding utf8
 text-never-break-before ,.-:?!;。？！、
-
+early-random-seed 1
+verify-ssl0
 ssl-certificates phase_3/etc/certificates.txt
 ssl-certificates phase_3/etc/gameserver.txt
 expected-ssl-server /O=Disney Enterprises/OU=WDIG/CN=account.qa.toontown.com
 expected-ssl-server /O=Disney Enterprises/OU=WDIG/CN=gameserver.qa.toontown.com
+ssl-cipher-list RC4-MD5
+paranoid-clock 1
+lock-to-one-cpu 1
 collect-tcp 1
 collect-tcp-interval 0.2
+respect-prev-transform 1
 
 # notify settings
 notify-level-collide warning
@@ -49,9 +59,12 @@ notify-level-chan warning
 notify-level-gobj warning
 notify-level-loader warning
 notify-timestamp #t
+decompressor-step-time 0.5
+extractor-step-time 0.5
 
 # Server version
 server-version sv1.4.47.32
+server-version-suffix
 required-login playToken
 server-failover 80 443
 want-fog #t
@@ -61,16 +74,23 @@ on-screen-debug-font phase_3/models/fonts/ImpressBT.ttf
 temp-hpr-fix 1
 ime-aware 1
 ime-hide 1
+vertex-buffers 0
+dx-broken-max-index 1
+dx-management 1
+tt-specific-login 0
+vfs-case-sensitive 0
+inactivity-timeout 180
+early-event-sphere 1
+merge-lod-bundles 0
+clock-mode limited
+clock-frame-rate 120
+prefer-parasite-buffer 0
+want-news-page 0
+news-over-http 0
+news-base-dir phase_3.5/models/news/
+news-index-filename news_index.txt
 
-cursor-filename toonmono.cur
-
-show-frame-rate-meter #t
-
-lod-stress-factor 0.25
-
-load-display pandadx9
-
-fullscreen #f
+audio-library-name p3openal_audio
 
 #
 # audio related options
@@ -78,11 +98,13 @@ fullscreen #f
 
 # load the loaders
 audio-loader mp3
-audio-loader midi
+audio-loader openal_audio
 audio-loader wav
 audio-software-midi #f
 
+# turn sfx on
 audio-sfx-active #t
+# turn music on
 audio-music-active #t
 
 audio-master-sfx-volume 1
@@ -104,3 +126,12 @@ teleport-all 1
 want-magic-words 1
 verify-ssl 0
 models-path resources
+cursor-filename toonmono.cur
+
+show-frame-rate-meter #t
+
+lod-stress-factor 0.25
+
+load-display pandadx9
+
+fullscreen #f
