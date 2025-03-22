@@ -1,10 +1,9 @@
 from otp.chat.ChatInputWhiteListFrame import ChatInputWhiteListFrame
 from toontown.chat.TTWhiteList import TTWhiteList
-from direct.showbase import DirectObject
 from otp.otpbase import OTPGlobals
-import sys
 from direct.gui.DirectGui import *
 from panda3d.core import *
+from panda3d.otp import *
 from otp.otpbase import OTPLocalizer
 from direct.directnotify import DirectNotifyGlobal
 from toontown.toonbase import ToontownGlobals
@@ -38,8 +37,8 @@ class TTChatInputWhiteList(ChatInputWhiteListFrame):
         base.ttwl = self
         self.autoOff = 1
         self.sendBy = 'Data'
-        self.prefilter = 0
-        self.promoteWhiteList = 1
+        self.prefilter = 1
+        self.promoteWhiteList = 0
         self.typeGrabbed = 0
         self.deactivate()
         gui = loader.loadModel('phase_3.5/models/gui/chat_input_gui')
@@ -112,6 +111,7 @@ class TTChatInputWhiteList(ChatInputWhiteListFrame):
 
         elif not self.receiverId:
             base.talkAssistant.sendOpenTalk(text)
+            base.localAvatar.setChatAbsolute(text, CFSpeech | CFTimeout)
         elif self.receiverId and not self.toPlayer:
             base.talkAssistant.sendWhisperTalk(text, self.receiverId)
         elif self.receiverId and self.toPlayer:

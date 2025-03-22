@@ -18,7 +18,7 @@ from direct.distributed.MsgTypes import (
 )
 
 from otp.otpbase import OTPGlobals
-
+from otp.login.JWTAccountDB import JWTAccountDB
 from toontown.makeatoon.NameGenerator import NameGenerator
 from toontown.toon.ToonDNA import ToonDNA
 from toontown.toonbase import TTLocalizer
@@ -792,6 +792,18 @@ class LoadAvatarOperation(AvatarOperation):
         self.loginManager.air.send(datagram)
 
         self.loginManager.air.setOwner(self.avId, channel)
+        
+        friendsList = [friendId for friendId, _ in self.avatar['setFriendsList'][0]]
+        friendsManager = self.loginManager.air.toontownFriendsManager
+        friendsManager.comingOnline(self.avId, friendsList)
+
+        cleanupDatagram = friendsManager.dclass.aiFormatUpdate('goingOffline', friendsManager.doId, friendsManager.doId, self.loginManager.air.ourChannel, [self.avId])
+        datagram = PyDatagram()
+        datagram.addServerHeader(channel, self.loginManager.air.ourChannel, CLIENTAGENT_ADD_POST_REMOVE)
+        datagram.addUint16(cleanupDatagram.getLength())
+        datagram.appendData(cleanupDatagram.getMessage())
+        self.loginManager.air.send(datagram)
+
 
         self._handleDone()
 
@@ -808,6 +820,8 @@ class UnloadAvatarOperation(GameOperation):
 
     def __handleUnloadAvatar(self):
         channel = self.loginManager.GetAccountConnectionChannel(self.sender)
+        
+        self.loginManager.air.toontownFriendsManager.goingOffline(self.avId)
 
         datagram = PyDatagram()
         datagram.addServerHeader(channel, self.loginManager.air.ourChannel, CLIENTAGENT_CLEAR_POST_REMOVES)
@@ -845,6 +859,8 @@ class AstronLoginManagerUD(DistributedObjectGlobalUD):
         self.accountDb = None
         self.sender2loginOperation = {}
         self.account2operation = {}
+        self.authMethod = config.GetString('auth-method', 'JWT')
+        self.notify.info('Using %s for authentication.' % self.authMethod)
 
     def announceGenerate(self):
         DistributedObjectGlobalUD.announceGenerate(self)
@@ -854,7 +870,10 @@ class AstronLoginManagerUD(DistributedObjectGlobalUD):
 
         # Instantiate the account database backend.
         # TODO: In the future, add more database interfaces & make this configurable.
-        self.accountDb = DeveloperAccountDB(self)
+        if self.authMethod == 'JWT':
+            self.accountDb = JWTAccountDB(self)
+        else:
+            self.accountDb = DeveloperAccountDB(self)
 
     def closeConnection(self, connectionId, reason='', forOperations=False, isAccount=False):
         if forOperations:

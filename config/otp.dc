@@ -319,6 +319,7 @@ dclass FriendManager : DistributedObject {
   requestSecretResponse(int8, string);
   submitSecret(string(0-256)) airecv clsend;
   submitSecretResponse(int8, int32);
+  removeFriend(uint32, uint32) airecv clsend;
 };
 
 struct FriendInfo {

@@ -637,9 +637,11 @@ class TalkAssistant(DirectObject.DirectObject):
         error = None
         receiver = base.cr.doId2do.get(receiverAvId)
         if receiver:
-            receiver.sendUpdate('setTalkWhisper', [0,
+            fromAv = base.localAvatar.doId
+            avatarName = base.localAvatar.getName()
+            receiver.sendUpdate('setTalkWhisper', [fromAv,
              0,
-             '',
+             avatarName,
              message,
              [],
              0])

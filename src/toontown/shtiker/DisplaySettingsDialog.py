@@ -1,5 +1,6 @@
 from direct.gui.DirectGui import *
 from panda3d.core import *
+from panda3d.otp import *
 from direct.task.Task import Task
 from direct.fsm import StateData
 from direct.directnotify import DirectNotifyGlobal

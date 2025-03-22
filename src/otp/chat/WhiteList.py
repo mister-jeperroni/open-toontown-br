@@ -16,6 +16,8 @@ class WhiteList:
         return text
 
     def isWord(self, text):
+        ## Allowing all words to be sent, while we dont have multiple languages white list
+        return True
         text = self.cleanText(text)
         i = bisect_left(self.words, text)
         if i == self.numWords:
@@ -23,6 +25,8 @@ class WhiteList:
         return self.words[i] == text
 
     def isPrefix(self, text):
+        ## Yes, we are allowing all prefixes to be sent (for now)
+        return True
         text = self.cleanText(text)
         i = bisect_left(self.words, text)
         if i == self.numWords:
